@@ -1,0 +1,892 @@
+20181210 08:52:03 Acceso correcto usuario info
+20181210 08:52:03 Obtención correcta areas usuario:1
+20181210 08:52:04 Avance correcto proceso 0
+20181210 08:52:12 Obten usuarios correcto usuario 1
+20181210 08:52:12 Obtención correcta areas usuario:1
+20181210 08:52:12 Obten PERFILES correcto usuario 1
+20181210 08:56:23 Acceso correcto usuario info
+20181210 08:56:23 Obtención correcta areas usuario:1
+20181210 08:56:23 Avance correcto proceso 0
+20181210 08:56:29 Obten usuarios correcto usuario 1
+20181210 08:56:29 Obtención correcta areas usuario:1
+20181210 08:56:29 Obten PERFILES correcto usuario 1
+20181210 08:58:16 Obten usuarios correcto usuario 1
+20181210 08:58:16 Obtención correcta areas usuario:1
+20181210 08:58:16 Obten PERFILES correcto usuario 1
+20181210 09:04:55 Acceso correcto usuario info
+20181210 09:04:55 Obtención correcta areas usuario:1
+20181210 09:04:55 Avance correcto proceso 0
+20181210 09:05:12 Obten usuarios correcto usuario 1
+20181210 09:05:12 Obtención correcta areas usuario:1
+20181210 09:05:12 Obten PERFILES correcto usuario 1
+20181210 09:06:17 Creación de Usuario Correcta nuevo
+20181210 09:06:17 Obten usuarios correcto usuario 1
+20181210 09:06:17 Obtención correcta areas usuario:1
+20181210 09:06:17 Obten PERFILES correcto usuario 1
+20181210 09:06:42 Creación de Usuario Correcta nuevo
+20181210 09:06:42 Obten usuarios correcto usuario 1
+20181210 09:06:42 Obtención correcta areas usuario:1
+20181210 09:06:42 Obten PERFILES correcto usuario 1
+20181210 09:06:48 Obten usuarios correcto usuario 1
+20181210 09:06:48 Obtención correcta areas usuario:1
+20181210 09:06:48 Obten PERFILES correcto usuario 1
+20181210 10:09:25 Acceso correcto usuario info
+20181210 10:09:25 Obtención correcta areas usuario:1
+20181210 10:09:26 Avance correcto proceso 0
+20181210 10:09:33 Obtención correcta areas usuario:1
+20181210 10:09:37 Consulta correcta aplicacion 0
+20181210 10:09:53 Obtención correcta aplicaciones usuario:1 area 1
+20181210 10:09:56 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181210 10:10:01 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:10:03 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:10:07 Obtención correcta areas usuario:1
+20181210 10:10:07 Consulta correcta aplicacion 0
+20181210 10:10:13 Consulta correcta apliación: BD 1
+20181210 10:10:42 Obtención correcta areas usuario:1
+20181210 10:10:42 Consulta correcta aplicacion 0
+20181210 10:10:42 Consulta correcta apliación: BD 1
+20181210 10:10:51 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:10:53 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:10:56 Obtención correcta areas usuario:1
+20181210 10:10:56 Consulta correcta aplicacion 0
+20181210 10:11:04 Consulta correcta apliación: BD 1
+20181210 10:12:20 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:12:21 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:12:25 Obtención correcta areas usuario:1
+20181210 10:12:25 Consulta correcta aplicacion 0
+20181210 10:12:25 Consulta correcta apliación: BD 1
+20181210 10:14:03 Obtención correcta areas usuario:1
+20181210 10:14:03 Consulta correcta aplicacion 0
+20181210 10:14:23 Obtención correcta aplicaciones usuario:1 area 1
+20181210 10:14:24 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181210 10:14:25 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:14:26 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:14:29 Obtención correcta areas usuario:1
+20181210 10:14:29 Consulta correcta aplicacion 0
+20181210 10:14:29 Consulta correcta apliación: BD 1
+20181210 10:19:29 Acceso correcto usuario info
+20181210 10:19:29 Obtención correcta areas usuario:1
+20181210 10:19:29 Avance correcto proceso 0
+20181210 10:19:33 Obtención correcta areas usuario:1
+20181210 10:19:33 Consulta correcta aplicacion 0
+20181210 10:19:39 Obtención correcta aplicaciones usuario:1 area 1
+20181210 10:19:40 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181210 10:19:41 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:19:42 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:19:43 Obtención correcta areas usuario:1
+20181210 10:19:43 Consulta correcta aplicacion 0
+20181210 10:19:44 Consulta correcta apliación: BD 1
+20181210 10:21:10 Obtención correcta areas usuario:1
+20181210 10:21:10 Consulta correcta aplicacion 0
+20181210 10:21:18 Obtención correcta aplicaciones usuario:1 area 1
+20181210 10:21:19 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181210 10:21:23 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:21:24 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:21:26 Obtención correcta areas usuario:1
+20181210 10:21:26 Consulta correcta aplicacion 0
+20181210 10:21:26 Consulta correcta apliación: BD 1
+20181210 10:23:49 Obtención correcta areas usuario:1
+20181210 10:23:49 Consulta correcta aplicacion 0
+20181210 10:24:13 Obtención correcta areas usuario:1
+20181210 10:24:13 Consulta correcta aplicacion 0
+20181210 10:24:20 Acceso correcto usuario info
+20181210 10:24:20 Obtención correcta areas usuario:1
+20181210 10:24:20 Avance correcto proceso 0
+20181210 10:24:25 Obtención correcta areas usuario:1
+20181210 10:24:25 Consulta correcta aplicacion 0
+20181210 10:24:32 Obtención correcta aplicaciones usuario:1 area 1
+20181210 10:24:33 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181210 10:24:34 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:24:35 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:24:36 Obtención correcta areas usuario:1
+20181210 10:24:36 Consulta correcta aplicacion 0
+20181210 10:24:36 Consulta correcta apliación: BD 1
+20181210 10:25:43 Obtención correcta areas usuario:1
+20181210 10:25:43 Consulta correcta aplicacion 0
+20181210 10:25:50 Obtención correcta aplicaciones usuario:1 area 1
+20181210 10:25:52 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181210 10:25:53 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:25:56 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:25:56 Obtención correcta areas usuario:1
+20181210 10:25:56 Consulta correcta aplicacion 0
+20181210 10:25:56 Consulta correcta apliación: BD 1
+20181210 10:26:07 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181210 10:26:08 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181210 10:26:09 Obtención correcta areas usuario:1
+20181210 10:26:09 Consulta correcta aplicacion 0
+20181210 10:26:09 Consulta correcta apliación: BD 1
+20181210 10:26:32 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181210 10:26:35 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181210 10:26:38 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181210 10:26:45 Obtención incorrecta ObtenFiltros Tipo:WS Tipohijo Aplicacion 2
+20181210 10:26:46 Obtención correcta ObtenFiltros Tipo:WS Tipohijo Aplicacion 1
+20181210 10:26:52 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181210 10:26:54 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181210 10:27:06 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181210 10:27:09 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181210 10:27:10 Obtención correcta areas usuario:1
+20181210 10:27:10 Consulta correcta aplicacion 0
+20181210 10:27:10 Consulta correcta apliación: WS 1
+20181210 10:27:44 Obtención incorrecta ObtenFiltros Tipo:CM Tipohijo Aplicacion 2
+20181210 10:27:46 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181210 10:27:48 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 1
+20181210 10:27:51 Obtención correcta ObtenFiltros Tipo:CM Lenguajeapp Aplicacion 1
+20181210 10:27:52 Obtención correcta areas usuario:1
+20181210 10:27:52 Consulta correcta aplicacion 0
+20181210 10:27:52 Consulta correcta apliación: CM 1
+20181210 10:27:56 Obtención correcta ObtenFiltros Tipo:CM Lenguajeapp Aplicacion 1
+20181210 10:27:57 Obtención correcta areas usuario:1
+20181210 10:27:57 Consulta correcta aplicacion 0
+20181210 10:27:57 Consulta incorrecta aplicación: CM 1
+20181210 10:44:06 Acceso correcto usuario info
+20181210 10:44:06 Obtención correcta areas usuario:1
+20181210 10:44:06 Avance correcto proceso 0
+20181210 10:44:10 Obtención correcta areas usuario:1
+20181210 10:44:10 Consulta incorrecta aplicacion 0
+20181210 11:01:54 Acceso correcto usuario info
+20181210 11:01:54 Obtención correcta areas usuario:1
+20181210 11:01:54 Avance correcto proceso 0
+20181210 11:02:00 Obtención correcta areas usuario:1
+20181210 11:02:00 Consulta correcta aplicacion 0
+20181210 11:02:04 Obten usuarios correcto usuario 1
+20181210 11:02:04 Obtención correcta areas usuario:1
+20181210 11:02:04 Obten PERFILES correcto usuario 1
+20181210 11:02:27 Obten usuarios correcto usuario 1
+20181210 11:02:27 Obtención correcta areas usuario:1
+20181210 11:02:27 Obten PERFILES correcto usuario 1
+20181210 11:02:38 Creación de Usuario Correcta correo
+20181210 11:04:57 Acceso correcto usuario info
+20181210 11:04:57 Obtención correcta areas usuario:1
+20181210 11:04:57 Avance correcto proceso 0
+20181210 11:05:02 Obten usuarios correcto usuario 1
+20181210 11:05:02 Obtención correcta areas usuario:1
+20181210 11:05:02 Obten PERFILES correcto usuario 1
+20181210 11:05:18 Obten usuarios correcto usuario 1
+20181210 11:05:18 Obtención correcta areas usuario:1
+20181210 11:05:18 Obten PERFILES correcto usuario 1
+20181210 11:05:26 Creación de Usuario Correcta nuevo1
+20181210 11:08:46 Acceso correcto usuario info
+20181210 11:08:46 Obtención correcta areas usuario:1
+20181210 11:08:46 Avance correcto proceso 0
+20181210 11:08:52 Obten usuarios correcto usuario 1
+20181210 11:08:52 Obtención correcta areas usuario:1
+20181210 11:08:52 Obten PERFILES correcto usuario 1
+20181210 11:09:23 Obten usuarios correcto usuario 1
+20181210 11:09:23 Obtención correcta areas usuario:1
+20181210 11:09:23 Obten PERFILES correcto usuario 1
+20181210 11:09:41 Creación de Usuario Correcta nuevo1
+20181210 11:13:32 Acceso correcto usuario info
+20181210 11:13:32 Obtención correcta areas usuario:1
+20181210 11:13:32 Avance correcto proceso 0
+20181210 11:13:43 Obten usuarios correcto usuario 1
+20181210 11:13:43 Obtención correcta areas usuario:1
+20181210 11:13:43 Obten PERFILES correcto usuario 1
+20181210 11:14:16 Obten usuarios correcto usuario 1
+20181210 11:14:16 Obtención correcta areas usuario:1
+20181210 11:14:16 Obten PERFILES correcto usuario 1
+20181210 11:14:48 Creación de Usuario Correcta nuevo2
+20181210 11:18:14 Acceso correcto usuario info
+20181210 11:18:14 Obtención correcta areas usuario:1
+20181210 11:18:14 Avance correcto proceso 0
+20181210 11:18:21 Obten usuarios correcto usuario 1
+20181210 11:18:21 Obtención correcta areas usuario:1
+20181210 11:18:21 Obten PERFILES correcto usuario 1
+20181210 11:19:48 Obten usuarios correcto usuario 1
+20181210 11:19:48 Obtención correcta areas usuario:1
+20181210 11:19:48 Obten PERFILES correcto usuario 1
+20181210 11:21:20 Obten usuarios correcto usuario 1
+20181210 11:21:20 Obtención correcta areas usuario:1
+20181210 11:21:20 Obten PERFILES correcto usuario 1
+20181210 11:22:44 Acceso correcto usuario info
+20181210 11:22:44 Obtención correcta areas usuario:1
+20181210 11:22:44 Avance correcto proceso 0
+20181210 11:22:53 Obten usuarios correcto usuario 1
+20181210 11:22:53 Obtención correcta areas usuario:1
+20181210 11:22:53 Obten PERFILES correcto usuario 1
+20181210 11:23:19 Creación de Usuario Correcta nuevo3
+20181210 11:23:21 Obten usuarios correcto usuario 1
+20181210 11:23:21 Obtención correcta areas usuario:1
+20181210 11:23:21 Obten PERFILES correcto usuario 1
+20181210 11:24:47 Obten usuarios correcto usuario 1
+20181210 11:24:47 Obtención correcta areas usuario:1
+20181210 11:24:47 Obten PERFILES correcto usuario 1
+20181210 11:25:04 Creación de Usuario Correcta nuevo4
+20181210 11:25:06 Obten usuarios correcto usuario 1
+20181210 11:25:06 Obtención correcta areas usuario:1
+20181210 11:25:06 Obten PERFILES correcto usuario 1
+20181210 11:26:15 Acceso correcto usuario info
+20181210 11:26:15 Obtención correcta areas usuario:1
+20181210 11:26:15 Avance correcto proceso 0
+20181210 11:26:20 Obten usuarios correcto usuario 1
+20181210 11:26:20 Obtención correcta areas usuario:1
+20181210 11:26:20 Obten PERFILES correcto usuario 1
+20181210 11:26:46 Creación de Usuario Correcta nuevo5
+20181210 11:26:47 Obten usuarios correcto usuario 1
+20181210 11:26:47 Obtención correcta areas usuario:1
+20181210 11:26:47 Obten PERFILES correcto usuario 1
+20181210 11:48:53 Acceso correcto usuario info
+20181210 11:48:53 Obtención correcta areas usuario:1
+20181210 11:48:53 Avance correcto proceso 0
+20181210 11:49:51 Obtención correcta areas usuario:1
+20181210 11:49:51 Consulta correcta aplicacion 0
+20181210 11:50:57 Obtención correcta areas usuario:1
+20181210 11:51:24 Obtención correcta areas usuario:1
+20181210 11:51:32 Obtención correcta aplicaciones usuario:1 area 1
+20181210 11:51:34 Obtención correcta objetosdb usuario:1 app 1
+20181210 11:51:35 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181210 11:51:36 Obtención correcta objetosdb usuario:1 app 1
+20181210 11:52:02 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181210 11:52:03 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181210 11:52:08 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181210 11:52:34 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181210 11:52:36 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181210 11:52:45 Obtención correcta objetosdb usuario:1 app 1
+20181210 11:52:46 Obtención correcta objetosdb usuario:1 app 1
+20181210 11:52:46 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181210 11:52:48 Obtención correcta objetosdb usuario:1 app 1
+20181210 12:01:51 Acceso correcto usuario info
+20181210 12:01:51 Obtención correcta areas usuario:1
+20181210 12:01:51 Avance correcto proceso 0
+20181210 12:01:57 Obten usuarios correcto usuario 1
+20181210 12:01:57 Obtención correcta areas usuario:1
+20181210 12:01:57 Obten PERFILES correcto usuario 1
+20181210 12:29:05 Acceso correcto usuario info
+20181210 12:29:05 Obtención correcta areas usuario:1
+20181210 12:29:05 Avance correcto proceso 0
+20181210 12:29:13 Acceso correcto usuario info
+20181210 12:29:13 Obtención correcta areas usuario:1
+20181210 12:29:13 Avance correcto proceso 0
+20181210 12:29:23 Obten usuarios correcto usuario 1
+20181210 12:29:23 Obtención correcta areas usuario:1
+20181210 12:29:23 Obten PERFILES correcto usuario 1
+20181210 12:31:46 Obtención correcta areas usuario:1
+20181210 12:31:46 Avance correcto proceso 0
+20181210 12:31:50 Obten usuarios correcto usuario 1
+20181210 12:31:50 Obtención correcta areas usuario:1
+20181210 12:31:50 Obten PERFILES correcto usuario 1
+20181210 12:32:01 Obtención correcta areas usuario:1
+20181210 12:32:01 Avance correcto proceso 0
+20181210 12:32:25 Acceso correcto usuario info
+20181210 12:32:25 Obtención correcta areas usuario:1
+20181210 12:32:25 Avance correcto proceso 0
+20181210 12:32:32 Obten usuarios correcto usuario 1
+20181210 12:32:32 Obtención correcta areas usuario:1
+20181210 12:32:32 Obten PERFILES correcto usuario 1
+20181210 12:33:02 Obten usuarios correcto usuario 1
+20181210 12:33:02 Obtención correcta areas usuario:1
+20181210 12:33:02 Obten PERFILES correcto usuario 1
+20181210 12:53:09 Acceso correcto usuario info
+20181210 12:53:10 Obtención correcta areas usuario:1
+20181210 12:53:10 Avance correcto proceso 0
+20181210 12:53:17 Obten usuarios correcto usuario 1
+20181210 12:53:17 Obtención correcta areas usuario:1
+20181210 12:53:17 Obten PERFILES correcto usuario 1
+20181210 12:53:23 Obten usuarios correcto usuario 1
+20181210 12:53:23 Obtención correcta areas usuario:1
+20181210 12:53:23 Obten PERFILES correcto usuario 1
+20181210 12:53:23 Consulta de Usuario Correcta 30
+20181210 12:53:25 Obten usuarios correcto usuario 1
+20181210 12:53:25 Obtención correcta areas usuario:1
+20181210 12:53:25 Obten PERFILES correcto usuario 1
+20181210 12:53:25 Consulta de Usuario Correcta 30
+20181210 12:53:26 Obten usuarios correcto usuario 1
+20181210 12:53:26 Obtención correcta areas usuario:1
+20181210 12:53:26 Obten PERFILES correcto usuario 1
+20181210 12:53:26 Consulta de Usuario Correcta 30
+20181210 12:53:26 Obten usuarios correcto usuario 1
+20181210 12:53:26 Obtención correcta areas usuario:1
+20181210 12:53:26 Obten PERFILES correcto usuario 1
+20181210 12:53:26 Consulta de Usuario Correcta 30
+20181210 12:53:26 Obten usuarios correcto usuario 1
+20181210 12:53:26 Obtención correcta areas usuario:1
+20181210 12:53:26 Obten PERFILES correcto usuario 1
+20181210 12:53:26 Consulta de Usuario Correcta 30
+20181210 12:53:26 Obten usuarios correcto usuario 1
+20181210 12:53:26 Obtención correcta areas usuario:1
+20181210 12:53:26 Obten PERFILES correcto usuario 1
+20181210 12:53:26 Consulta de Usuario Correcta 30
+20181210 12:53:27 Obten usuarios correcto usuario 1
+20181210 12:53:27 Obtención correcta areas usuario:1
+20181210 12:53:27 Obten PERFILES correcto usuario 1
+20181210 12:53:27 Consulta de Usuario Correcta 30
+20181210 12:53:27 Obten usuarios correcto usuario 1
+20181210 12:53:27 Obtención correcta areas usuario:1
+20181210 12:53:27 Obten PERFILES correcto usuario 1
+20181210 12:53:27 Consulta de Usuario Correcta 30
+20181210 12:53:27 Obten usuarios correcto usuario 1
+20181210 12:53:27 Obtención correcta areas usuario:1
+20181210 12:53:27 Obten PERFILES correcto usuario 1
+20181210 12:53:27 Consulta de Usuario Correcta 30
+20181210 12:53:27 Obten usuarios correcto usuario 1
+20181210 12:53:27 Obtención correcta areas usuario:1
+20181210 12:53:27 Obten PERFILES correcto usuario 1
+20181210 12:53:27 Consulta de Usuario Correcta 30
+20181210 12:53:28 Obten usuarios correcto usuario 1
+20181210 12:53:28 Obtención correcta areas usuario:1
+20181210 12:53:28 Obten PERFILES correcto usuario 1
+20181210 12:53:28 Consulta de Usuario Correcta 30
+20181210 12:53:28 Obten usuarios correcto usuario 1
+20181210 12:53:28 Obtención correcta areas usuario:1
+20181210 12:53:28 Obten PERFILES correcto usuario 1
+20181210 12:53:28 Consulta de Usuario Correcta 30
+20181210 12:53:28 Obten usuarios correcto usuario 1
+20181210 12:53:28 Obtención correcta areas usuario:1
+20181210 12:53:28 Obten PERFILES correcto usuario 1
+20181210 12:53:28 Consulta de Usuario Correcta 30
+20181210 12:53:28 Obten usuarios correcto usuario 1
+20181210 12:53:28 Obtención correcta areas usuario:1
+20181210 12:53:28 Obten PERFILES correcto usuario 1
+20181210 12:53:28 Consulta de Usuario Correcta 30
+20181210 12:53:29 Obten usuarios correcto usuario 1
+20181210 12:53:29 Obtención correcta areas usuario:1
+20181210 12:53:29 Obten PERFILES correcto usuario 1
+20181210 12:53:29 Consulta de Usuario Correcta 30
+20181210 12:53:29 Obten usuarios correcto usuario 1
+20181210 12:53:29 Obtención correcta areas usuario:1
+20181210 12:53:29 Obten PERFILES correcto usuario 1
+20181210 12:53:29 Consulta de Usuario Correcta 30
+20181210 12:54:36 Obten usuarios correcto usuario 1
+20181210 12:54:37 Obtención correcta areas usuario:1
+20181210 12:54:41 Obten PERFILES correcto usuario 1
+20181210 12:54:54 Consulta de Usuario Correcta 30
+20181210 12:55:54 Obten usuarios correcto usuario 1
+20181210 12:55:54 Obtención correcta areas usuario:1
+20181210 12:55:54 Obten PERFILES correcto usuario 1
+20181210 12:55:54 Consulta de Usuario Correcta 30
+20181210 12:56:01 Obten usuarios correcto usuario 1
+20181210 12:56:01 Obtención correcta areas usuario:1
+20181210 12:56:01 Obten PERFILES correcto usuario 1
+20181210 12:56:01 Consulta de Usuario Correcta 30
+20181210 13:07:42 Acceso correcto usuario info
+20181210 13:07:42 Obtención correcta areas usuario:1
+20181210 13:07:42 Avance correcto proceso 0
+20181210 13:07:48 Obten usuarios correcto usuario 1
+20181210 13:07:48 Obtención correcta areas usuario:1
+20181210 13:07:48 Obten PERFILES correcto usuario 1
+20181210 13:08:01 Obten usuarios correcto usuario 1
+20181210 13:08:04 Obtención correcta areas usuario:1
+20181210 13:08:08 Obten PERFILES correcto usuario 1
+20181210 13:08:22 Consulta de Usuario Correcta 30
+20181210 13:11:52 Obten usuarios correcto usuario 1
+20181210 13:11:52 Obtención correcta areas usuario:1
+20181210 13:11:52 Obten PERFILES correcto usuario 1
+20181210 13:11:52 Consulta de Usuario Correcta 30
+20181210 13:14:10 Obten usuarios correcto usuario 1
+20181210 13:14:10 Obtención correcta areas usuario:1
+20181210 13:14:10 Obten PERFILES correcto usuario 1
+20181210 13:14:10 Consulta de Usuario Correcta 30
+20181210 13:14:55 Obten usuarios correcto usuario 1
+20181210 13:14:55 Obtención correcta areas usuario:1
+20181210 13:14:55 Obten PERFILES correcto usuario 1
+20181210 13:15:03 Obten usuarios correcto usuario 1
+20181210 13:15:03 Obtención correcta areas usuario:1
+20181210 13:15:03 Obten PERFILES correcto usuario 1
+20181210 13:15:03 Consulta de Usuario Correcta 30
+20181210 13:15:52 Acceso correcto usuario info
+20181210 13:15:52 Obtención correcta areas usuario:1
+20181210 13:15:52 Avance correcto proceso 0
+20181210 13:15:58 Obten usuarios correcto usuario 1
+20181210 13:15:58 Obtención correcta areas usuario:1
+20181210 13:15:58 Obten PERFILES correcto usuario 1
+20181210 13:16:08 Obten usuarios correcto usuario 1
+20181210 13:16:08 Obtención correcta areas usuario:1
+20181210 13:16:08 Obten PERFILES correcto usuario 1
+20181210 13:16:08 Consulta de Usuario Correcta 30
+20181210 13:16:52 Obten usuarios correcto usuario 1
+20181210 13:16:52 Obtención correcta areas usuario:1
+20181210 13:16:52 Obten PERFILES correcto usuario 1
+20181210 13:16:52 Consulta de Usuario Correcta 30
+20181210 13:17:10 Obten usuarios correcto usuario 1
+20181210 13:17:10 Obtención correcta areas usuario:1
+20181210 13:17:10 Obten PERFILES correcto usuario 1
+20181210 13:17:10 Consulta de Usuario Correcta 30
+20181210 13:20:21 Obten usuarios correcto usuario 1
+20181210 13:20:21 Obtención correcta areas usuario:1
+20181210 13:20:21 Obten PERFILES correcto usuario 1
+20181210 13:20:25 Obten usuarios correcto usuario 1
+20181210 13:20:25 Obtención correcta areas usuario:1
+20181210 13:20:25 Obten PERFILES correcto usuario 1
+20181210 13:20:25 Consulta de Usuario Correcta 30
+20181210 13:20:36 Obten usuarios correcto usuario 1
+20181210 13:20:36 Obtención correcta areas usuario:1
+20181210 13:20:36 Obten PERFILES correcto usuario 1
+20181210 13:20:43 Obten usuarios correcto usuario 1
+20181210 13:20:43 Obtención correcta areas usuario:1
+20181210 13:20:43 Obten PERFILES correcto usuario 1
+20181210 13:20:43 Consulta de Usuario Correcta 30
+20181210 13:21:33 Acceso correcto usuario info
+20181210 13:21:33 Obtención correcta areas usuario:1
+20181210 13:21:33 Avance correcto proceso 0
+20181210 13:22:20 Obten usuarios correcto usuario 1
+20181210 13:22:20 Obtención correcta areas usuario:1
+20181210 13:22:20 Obten PERFILES correcto usuario 1
+20181210 13:22:36 Obten usuarios correcto usuario 1
+20181210 13:22:36 Obtención correcta areas usuario:1
+20181210 13:22:36 Obten PERFILES correcto usuario 1
+20181210 13:22:36 Consulta de Usuario Correcta 30
+20181210 13:27:41 Acceso correcto usuario info
+20181210 13:27:41 Obtención correcta areas usuario:1
+20181210 13:27:41 Avance correcto proceso 0
+20181210 13:27:48 Obten usuarios correcto usuario 1
+20181210 13:27:48 Obtención correcta areas usuario:1
+20181210 13:27:48 Obten PERFILES correcto usuario 1
+20181210 13:28:03 Obten usuarios correcto usuario 1
+20181210 13:28:03 Obtención correcta areas usuario:1
+20181210 13:28:03 Obten PERFILES correcto usuario 1
+20181210 13:28:03 Consulta de Usuario Correcta 30
+20181210 13:31:25 Acceso correcto usuario info
+20181210 13:31:25 Obtención correcta areas usuario:1
+20181210 13:31:25 Avance correcto proceso 0
+20181210 13:31:29 Obten usuarios correcto usuario 1
+20181210 13:31:29 Obtención correcta areas usuario:1
+20181210 13:31:29 Obten PERFILES correcto usuario 1
+20181210 13:31:43 Obten usuarios correcto usuario 1
+20181210 13:31:43 Obtención correcta areas usuario:1
+20181210 13:31:43 Obten PERFILES correcto usuario 1
+20181210 13:31:43 Consulta de Usuario Correcta 30
+20181210 13:40:13 Acceso correcto usuario info
+20181210 13:40:14 Obtención correcta areas usuario:1
+20181210 13:40:14 Avance correcto proceso 0
+20181210 13:40:18 Obten usuarios correcto usuario 1
+20181210 13:40:18 Obtención correcta areas usuario:1
+20181210 13:40:18 Obten PERFILES correcto usuario 1
+20181210 13:41:53 Acceso correcto usuario info
+20181210 13:41:53 Obtención correcta areas usuario:1
+20181210 13:41:53 Avance correcto proceso 0
+20181210 13:41:59 Obten usuarios correcto usuario 1
+20181210 13:41:59 Obtención correcta areas usuario:1
+20181210 13:41:59 Obten PERFILES correcto usuario 1
+20181210 13:42:12 Obten usuarios correcto usuario 1
+20181210 13:42:13 Obtención correcta areas usuario:1
+20181210 13:42:13 Obten PERFILES correcto usuario 1
+20181210 13:42:18 Consulta de Usuario Correcta 30
+20181210 13:43:01 Obten usuarios correcto usuario 1
+20181210 13:43:01 Obtención correcta areas usuario:1
+20181210 13:43:01 Obten PERFILES correcto usuario 1
+20181210 13:43:05 Obten usuarios correcto usuario 1
+20181210 13:43:05 Obtención correcta areas usuario:1
+20181210 13:43:05 Obten PERFILES correcto usuario 1
+20181210 13:43:07 Consulta de Usuario Correcta 29
+20181210 13:44:56 Obten usuarios correcto usuario 1
+20181210 13:44:56 Obtención correcta areas usuario:1
+20181210 13:44:56 Obten PERFILES correcto usuario 1
+20181210 13:51:12 Acceso correcto usuario info
+20181210 13:51:12 Obtención correcta areas usuario:1
+20181210 13:51:12 Avance correcto proceso 0
+20181210 13:51:18 Obten usuarios correcto usuario 1
+20181210 13:51:18 Obtención correcta areas usuario:1
+20181210 13:51:18 Obten PERFILES correcto usuario 1
+20181210 13:51:30 Obten usuarios correcto usuario 1
+20181210 13:51:30 Obtención correcta areas usuario:1
+20181210 13:51:30 Obten PERFILES correcto usuario 1
+20181210 13:51:32 Consulta de Usuario Correcta 30
+20181210 13:51:38 Obten usuarios correcto usuario 1
+20181210 13:51:39 Obtención correcta areas usuario:1
+20181210 13:51:39 Obten PERFILES correcto usuario 1
+20181210 13:54:11 Acceso correcto usuario info
+20181210 13:54:11 Obtención correcta areas usuario:1
+20181210 13:54:11 Avance correcto proceso 0
+20181210 13:54:18 Obten usuarios correcto usuario 1
+20181210 13:54:18 Obtención correcta areas usuario:1
+20181210 13:54:18 Obten PERFILES correcto usuario 1
+20181210 13:54:29 Obten usuarios correcto usuario 1
+20181210 13:54:29 Obtención correcta areas usuario:1
+20181210 13:54:29 Obten PERFILES correcto usuario 1
+20181210 13:54:29 Consulta de Usuario Correcta 30
+20181210 15:12:33 Acceso correcto usuario info
+20181210 15:12:33 Obtención correcta areas usuario:1
+20181210 15:12:33 Avance correcto proceso 0
+20181210 15:12:38 Obten usuarios correcto usuario 1
+20181210 15:12:38 Obtención correcta areas usuario:1
+20181210 15:12:38 Obten PERFILES correcto usuario 1
+20181210 15:12:44 Obten usuarios correcto usuario 1
+20181210 15:12:44 Obtención correcta areas usuario:1
+20181210 15:12:44 Obten PERFILES correcto usuario 1
+20181210 15:12:45 Consulta de Usuario Correcta 30
+20181210 15:14:11 Acceso correcto usuario info
+20181210 15:14:11 Obtención correcta areas usuario:1
+20181210 15:14:11 Avance correcto proceso 0
+20181210 15:14:15 Obten usuarios correcto usuario 1
+20181210 15:14:15 Obtención correcta areas usuario:1
+20181210 15:14:15 Obten PERFILES correcto usuario 1
+20181210 15:22:17 Acceso correcto usuario info
+20181210 15:22:17 Obtención correcta areas usuario:1
+20181210 15:22:17 Avance correcto proceso 0
+20181210 15:22:23 Obtención correcta areas usuario:1
+20181210 15:22:23 Consulta correcta aplicacion 0
+20181210 15:22:30 Obtención correcta aplicaciones usuario:1 area 1
+20181210 15:22:33 BaseDatos.GetResultStoredSQLReader Error number 9412 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 2732 sp_FiltrosDB 125 1
+20181210 15:22:33 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181210 15:22:33 Obtención correcta areas usuario:1
+20181210 15:22:34 Consulta correcta aplicacion 0
+20181210 15:22:34 Consulta correcta apliación: BD 11
+20181210 15:22:44 Acceso correcto usuario info
+20181210 15:22:44 Obtención correcta areas usuario:1
+20181210 15:22:44 Avance correcto proceso 0
+20181210 15:23:00 Obten usuarios correcto usuario 1
+20181210 15:23:00 Obtención correcta areas usuario:1
+20181210 15:23:00 Obten PERFILES correcto usuario 1
+20181210 15:23:12 Obten usuarios correcto usuario 1
+20181210 15:23:12 Obtención correcta areas usuario:1
+20181210 15:23:12 Obten PERFILES correcto usuario 1
+20181210 15:23:13 Consulta de Usuario Correcta 29
+20181210 15:26:51 Acceso correcto usuario info
+20181210 15:26:51 Obtención correcta areas usuario:1
+20181210 15:26:51 Avance correcto proceso 0
+20181210 15:27:00 Obten usuarios correcto usuario 1
+20181210 15:27:00 Obtención correcta areas usuario:1
+20181210 15:27:00 Obten PERFILES correcto usuario 1
+20181210 15:27:10 Obten usuarios correcto usuario 1
+20181210 15:27:10 Obtención correcta areas usuario:1
+20181210 15:27:10 Obten PERFILES correcto usuario 1
+20181210 15:27:13 Consulta de Usuario Correcta 30
+20181210 15:28:45 Obten usuarios correcto usuario 1
+20181210 15:28:45 Obtención correcta areas usuario:1
+20181210 15:28:45 Obten PERFILES correcto usuario 1
+20181210 15:28:55 Obten usuarios correcto usuario 1
+20181210 15:28:55 Obtención correcta areas usuario:1
+20181210 15:28:55 Obten PERFILES correcto usuario 1
+20181210 15:29:07 Obten usuarios correcto usuario 1
+20181210 15:29:07 Obtención correcta areas usuario:1
+20181210 15:29:07 Obten PERFILES correcto usuario 1
+20181210 15:29:08 Usuario.ObtenUsuario Object reference not set to an instance of an object.
+20181210 15:29:29 Obten usuarios correcto usuario 1
+20181210 15:29:29 Obtención correcta areas usuario:1
+20181210 15:29:29 Obten PERFILES correcto usuario 1
+20181210 15:29:31 Usuario.ObtenUsuario Object reference not set to an instance of an object.
+20181210 15:29:43 Obten usuarios correcto usuario 1
+20181210 15:29:43 Obtención correcta areas usuario:1
+20181210 15:29:43 Obten PERFILES correcto usuario 1
+20181210 15:29:43 Usuario.ObtenUsuario Object reference not set to an instance of an object.
+20181210 15:30:10 Obten usuarios correcto usuario 1
+20181210 15:30:10 Obtención correcta areas usuario:1
+20181210 15:30:10 Obten PERFILES correcto usuario 1
+20181210 15:30:12 Usuario.ObtenUsuario Object reference not set to an instance of an object.
+20181210 15:30:33 Usuario.ObtenUsuario Object reference not set to an instance of an object.
+20181210 15:31:01 Usuario.ObtenUsuario The connection was not closed. The connection's current state is open.
+20181210 15:31:14 Obten usuarios correcto usuario 1
+20181210 15:31:15 Obtención correcta areas usuario:1
+20181210 15:31:17 Obten PERFILES correcto usuario 1
+20181210 15:31:23 Usuario.ObtenUsuario Object reference not set to an instance of an object.
+20181210 15:31:34 Usuario.ObtenUsuario The connection was not closed. The connection's current state is open.
+20181210 15:31:41 Obten usuarios correcto usuario 1
+20181210 15:31:41 Obtención correcta areas usuario:1
+20181210 15:31:41 Obten PERFILES correcto usuario 1
+20181210 15:32:11 Usuario.ObtenUsuario Object reference not set to an instance of an object.
+20181210 15:32:21 Obten usuarios correcto usuario 1
+20181210 15:32:21 Obtención correcta areas usuario:1
+20181210 15:32:21 Obten PERFILES correcto usuario 1
+20181210 15:32:31 Consulta de Usuario Correcta 30
+20181210 15:33:56 Obten usuarios correcto usuario 1
+20181210 15:33:56 Obtención correcta areas usuario:1
+20181210 15:33:56 Obten PERFILES correcto usuario 1
+20181210 15:33:59 Consulta de Usuario Correcta 30
+20181210 15:35:29 Obten usuarios correcto usuario 1
+20181210 15:35:29 Obtención correcta areas usuario:1
+20181210 15:35:29 Obten PERFILES correcto usuario 1
+20181210 15:35:35 Consulta de Usuario Correcta 30
+20181210 15:36:25 Obten usuarios correcto usuario 1
+20181210 15:36:25 Obtención correcta areas usuario:1
+20181210 15:36:25 Obten PERFILES correcto usuario 1
+20181210 15:36:27 Consulta de Usuario Correcta 30
+20181210 15:44:02 Acceso correcto usuario info
+20181210 15:44:02 Obtención correcta areas usuario:1
+20181210 15:44:02 Avance correcto proceso 0
+20181210 15:44:55 Obten usuarios correcto usuario 1
+20181210 15:44:55 Obtención correcta areas usuario:1
+20181210 15:44:55 Obten PERFILES correcto usuario 1
+20181210 15:45:05 Obten usuarios correcto usuario 1
+20181210 15:45:05 Obtención correcta areas usuario:1
+20181210 15:45:05 Obten PERFILES correcto usuario 1
+20181210 15:45:05 Consulta de Usuario Correcta 27
+20181210 15:45:17 Obten usuarios correcto usuario 1
+20181210 15:45:17 Obtención correcta areas usuario:1
+20181210 15:45:17 Obten PERFILES correcto usuario 1
+20181210 15:45:21 Obten usuarios correcto usuario 1
+20181210 15:45:21 Obtención correcta areas usuario:1
+20181210 15:45:21 Obten PERFILES correcto usuario 1
+20181210 15:45:28 Consulta de Usuario Correcta 27
+20181210 15:45:46 Consulta de Usuario Correcta 27
+20181210 15:46:36 Obten usuarios correcto usuario 1
+20181210 15:46:36 Obtención correcta areas usuario:1
+20181210 15:46:36 Obten PERFILES correcto usuario 1
+20181210 15:46:45 Obten usuarios correcto usuario 1
+20181210 15:46:45 Obtención correcta areas usuario:1
+20181210 15:46:45 Obten PERFILES correcto usuario 1
+20181210 15:46:50 Consulta de Usuario Correcta 28
+20181210 15:49:30 Acceso correcto usuario info
+20181210 15:49:30 Obtención correcta areas usuario:1
+20181210 15:49:30 Avance correcto proceso 0
+20181210 15:49:35 Obten usuarios correcto usuario 1
+20181210 15:49:35 Obtención correcta areas usuario:1
+20181210 15:49:35 Obten PERFILES correcto usuario 1
+20181210 15:49:46 Obten usuarios correcto usuario 1
+20181210 15:49:46 Obtención correcta areas usuario:1
+20181210 15:49:46 Obten PERFILES correcto usuario 1
+20181210 15:49:47 Consulta de Usuario Correcta 27
+20181210 15:54:59 Acceso correcto usuario info
+20181210 15:54:59 Obtención correcta areas usuario:1
+20181210 15:54:59 Avance correcto proceso 0
+20181210 15:55:07 Obten usuarios correcto usuario 1
+20181210 15:55:07 Obtención correcta areas usuario:1
+20181210 15:55:07 Obten PERFILES correcto usuario 1
+20181210 15:55:16 Obten usuarios correcto usuario 1
+20181210 15:55:16 Obtención correcta areas usuario:1
+20181210 15:55:16 Obten PERFILES correcto usuario 1
+20181210 15:55:17 Consulta de Usuario Correcta 27
+20181210 15:56:07 Obten usuarios correcto usuario 1
+20181210 15:56:07 Obtención correcta areas usuario:1
+20181210 15:56:07 Obten PERFILES correcto usuario 1
+20181210 15:56:07 Consulta de Usuario Correcta 27
+20181210 16:02:17 Acceso correcto usuario info
+20181210 16:02:17 Obtención correcta areas usuario:1
+20181210 16:02:17 Avance correcto proceso 0
+20181210 16:02:32 Obten usuarios correcto usuario 1
+20181210 16:02:32 Obtención correcta areas usuario:1
+20181210 16:02:32 Obten PERFILES correcto usuario 1
+20181210 16:02:55 Obten usuarios correcto usuario 1
+20181210 16:02:55 Obtención correcta areas usuario:1
+20181210 16:02:55 Obten PERFILES correcto usuario 1
+20181210 16:02:55 Consulta de Usuario Correcta 1
+20181210 16:07:57 Acceso correcto usuario info
+20181210 16:07:57 Obtención correcta areas usuario:1
+20181210 16:07:57 Avance correcto proceso 0
+20181210 16:08:03 Obten usuarios correcto usuario 1
+20181210 16:08:03 Obtención correcta areas usuario:1
+20181210 16:08:03 Obten PERFILES correcto usuario 1
+20181210 16:08:13 Obten usuarios correcto usuario 1
+20181210 16:08:13 Obtención correcta areas usuario:1
+20181210 16:08:13 Obten PERFILES correcto usuario 1
+20181210 16:08:15 Consulta de Usuario Correcta 27
+20181210 16:08:38 Obten usuarios correcto usuario 1
+20181210 16:08:38 Obtención correcta areas usuario:1
+20181210 16:08:38 Obten PERFILES correcto usuario 1
+20181210 16:08:39 Consulta de Usuario Correcta 27
+20181210 16:18:37 Acceso correcto usuario info
+20181210 16:18:37 Obtención correcta areas usuario:1
+20181210 16:18:37 Avance correcto proceso 0
+20181210 16:18:42 Obten usuarios correcto usuario 1
+20181210 16:18:42 Obtención correcta areas usuario:1
+20181210 16:18:42 Obten PERFILES correcto usuario 1
+20181210 16:19:15 Creación de Usuario Correcta nuevo6
+20181210 16:19:19 Obten usuarios correcto usuario 1
+20181210 16:19:19 Obtención correcta areas usuario:1
+20181210 16:19:19 Obten PERFILES correcto usuario 1
+20181210 16:20:06 Obten usuarios correcto usuario 1
+20181210 16:20:06 Obtención correcta areas usuario:1
+20181210 16:20:06 Obten PERFILES correcto usuario 1
+20181210 16:20:30 Creación de Usuario Correcta nuevo7
+20181210 16:20:31 Obten usuarios correcto usuario 1
+20181210 16:20:31 Obtención correcta areas usuario:1
+20181210 16:20:31 Obten PERFILES correcto usuario 1
+20181210 16:27:24 Acceso correcto usuario info
+20181210 16:27:24 Obtención correcta areas usuario:1
+20181210 16:27:24 Avance correcto proceso 0
+20181210 16:27:37 Obten usuarios correcto usuario 1
+20181210 16:27:37 Obtención correcta areas usuario:1
+20181210 16:27:37 Obten PERFILES correcto usuario 1
+20181210 16:28:00 Creación de Usuario Correcta nuevo8
+20181210 16:28:01 Obten usuarios correcto usuario 1
+20181210 16:28:01 Obtención correcta areas usuario:1
+20181210 16:28:01 Obten PERFILES correcto usuario 1
+20181210 16:28:01 Obten usuarios correcto usuario 1
+20181210 16:28:01 Obtención correcta areas usuario:1
+20181210 16:28:01 Obten PERFILES correcto usuario 1
+20181210 16:28:26 Obten usuarios correcto usuario 1
+20181210 16:28:26 Obtención correcta areas usuario:1
+20181210 16:28:26 Obten PERFILES correcto usuario 1
+20181210 16:28:46 Creación de Usuario Correcta nuevo9
+20181210 16:28:47 Obten usuarios correcto usuario 1
+20181210 16:28:47 Obtención correcta areas usuario:1
+20181210 16:28:47 Obten PERFILES correcto usuario 1
+20181210 16:29:35 Acceso correcto usuario info
+20181210 16:29:36 Obtención correcta areas usuario:1
+20181210 16:29:36 Avance correcto proceso 0
+20181210 16:29:40 Obtención correcta areas usuario:1
+20181210 16:29:40 Consulta correcta aplicacion 0
+20181210 16:29:46 Obtención correcta areas usuario:1
+20181210 16:29:51 Obten usuarios correcto usuario 1
+20181210 16:29:51 Obtención correcta areas usuario:1
+20181210 16:29:51 Obten PERFILES correcto usuario 1
+20181210 16:30:20 Creación de Usuario Correcta nuevo10
+20181210 16:30:28 Obten usuarios correcto usuario 1
+20181210 16:30:28 Obtención correcta areas usuario:1
+20181210 16:30:28 Obten PERFILES correcto usuario 1
+20181210 16:31:39 Acceso correcto usuario info
+20181210 16:31:39 Obtención correcta areas usuario:1
+20181210 16:31:39 Avance correcto proceso 0
+20181210 16:31:44 Obten usuarios correcto usuario 1
+20181210 16:31:44 Obtención correcta areas usuario:1
+20181210 16:31:44 Obten PERFILES correcto usuario 1
+20181210 16:32:26 Obten usuarios correcto usuario 1
+20181210 16:32:26 Obtención correcta areas usuario:1
+20181210 16:32:26 Obten PERFILES correcto usuario 1
+20181210 16:32:28 Obten usuarios correcto usuario 1
+20181210 16:32:28 Obtención correcta areas usuario:1
+20181210 16:32:28 Obten PERFILES correcto usuario 1
+20181210 16:32:53 Creación de Usuario Correcta nuevo11
+20181210 16:32:53 Obten usuarios correcto usuario 1
+20181210 16:32:53 Obtención correcta areas usuario:1
+20181210 16:32:53 Obten PERFILES correcto usuario 1
+20181210 16:33:46 Acceso correcto usuario info
+20181210 16:33:46 Obtención correcta areas usuario:1
+20181210 16:33:46 Avance correcto proceso 0
+20181210 16:33:52 Obten usuarios correcto usuario 1
+20181210 16:33:52 Obtención correcta areas usuario:1
+20181210 16:33:52 Obten PERFILES correcto usuario 1
+20181210 16:34:12 Creación de Usuario Correcta nuevo12
+20181210 16:34:13 Obten usuarios correcto usuario 1
+20181210 16:34:13 Obtención correcta areas usuario:1
+20181210 16:34:13 Obten PERFILES correcto usuario 1
+20181210 16:35:53 Obten usuarios correcto usuario 1
+20181210 16:35:53 Obtención correcta areas usuario:1
+20181210 16:35:53 Obten PERFILES correcto usuario 1
+20181210 16:36:08 Creación de Usuario Correcta nuevo13
+20181210 16:36:09 Obten usuarios correcto usuario 1
+20181210 16:36:09 Obtención correcta areas usuario:1
+20181210 16:36:09 Obten PERFILES correcto usuario 1
+20181210 16:36:53 Obten usuarios correcto usuario 1
+20181210 16:36:54 Obtención correcta areas usuario:1
+20181210 16:36:54 Obten PERFILES correcto usuario 1
+20181210 16:37:07 Creación de Usuario Correcta nuevo14
+20181210 16:37:07 Obten usuarios correcto usuario 1
+20181210 16:37:07 Obtención correcta areas usuario:1
+20181210 16:37:07 Obten PERFILES correcto usuario 1
+20181210 16:37:32 Creación de Usuario Correcta nuevo14
+20181210 16:37:32 Obten usuarios correcto usuario 1
+20181210 16:37:32 Obtención correcta areas usuario:1
+20181210 16:37:32 Obten PERFILES correcto usuario 1
+20181210 16:37:37 Obten usuarios correcto usuario 1
+20181210 16:37:37 Obtención correcta areas usuario:1
+20181210 16:37:37 Obten PERFILES correcto usuario 1
+20181210 16:37:37 Obten usuarios correcto usuario 1
+20181210 16:37:37 Obtención correcta areas usuario:1
+20181210 16:37:37 Obten PERFILES correcto usuario 1
+20181210 16:38:58 Creación de Usuario Correcta nuevo15
+20181210 16:38:59 Obten usuarios correcto usuario 1
+20181210 16:38:59 Obtención correcta areas usuario:1
+20181210 16:38:59 Obten PERFILES correcto usuario 1
+20181210 16:39:13 Obten usuarios correcto usuario 1
+20181210 16:39:13 Obtención correcta areas usuario:1
+20181210 16:39:13 Obten PERFILES correcto usuario 1
+20181210 17:03:02 Acceso correcto usuario info
+20181210 17:03:02 Obtención correcta areas usuario:1
+20181210 17:03:02 Avance correcto proceso 0
+20181210 17:03:08 Obten usuarios correcto usuario 1
+20181210 17:03:08 Obtención correcta areas usuario:1
+20181210 17:03:08 Obten PERFILES correcto usuario 1
+20181210 17:04:04 Obten usuarios correcto usuario 1
+20181210 17:04:04 Obtención correcta areas usuario:1
+20181210 17:04:04 Obten PERFILES correcto usuario 1
+20181210 17:04:08 Obten usuarios correcto usuario 1
+20181210 17:04:08 Obtención correcta areas usuario:1
+20181210 17:04:08 Obten PERFILES correcto usuario 1
+20181210 17:04:25 Obten usuarios correcto usuario 1
+20181210 17:04:25 Obtención correcta areas usuario:1
+20181210 17:04:25 Obten PERFILES correcto usuario 1
+20181210 17:04:25 Consulta de Usuario Correcta 29
+20181210 17:08:00 Acceso correcto usuario info
+20181210 17:08:00 Obtención correcta areas usuario:1
+20181210 17:08:00 Avance correcto proceso 0
+20181210 17:08:05 Obten usuarios correcto usuario 1
+20181210 17:08:05 Obtención correcta areas usuario:1
+20181210 17:08:05 Obten PERFILES correcto usuario 1
+20181210 17:08:32 Obten usuarios correcto usuario 1
+20181210 17:08:32 Obtención correcta areas usuario:1
+20181210 17:08:32 Obten PERFILES correcto usuario 1
+20181210 17:08:32 Consulta de Usuario Correcta 29
+20181210 17:09:40 Modificación de Usuario Incorrecta tatiana
+20181210 17:09:45 Obten usuarios correcto usuario 1
+20181210 17:09:45 Obtención correcta areas usuario:1
+20181210 17:09:45 Obten PERFILES correcto usuario 1
+20181210 17:09:54 Obten usuarios correcto usuario 1
+20181210 17:09:54 Obtención correcta areas usuario:1
+20181210 17:09:54 Obten PERFILES correcto usuario 1
+20181210 17:09:55 Consulta de Usuario Correcta 29
+20181210 17:10:00 Obten usuarios correcto usuario 1
+20181210 17:10:00 Obtención correcta areas usuario:1
+20181210 17:10:00 Obten PERFILES correcto usuario 1
+20181210 17:10:00 Consulta de Usuario Correcta 29
+20181210 17:10:05 Obten usuarios correcto usuario 1
+20181210 17:10:05 Obtención correcta areas usuario:1
+20181210 17:10:05 Obten PERFILES correcto usuario 1
+20181210 17:11:46 Obten usuarios correcto usuario 1
+20181210 17:11:46 Obtención correcta areas usuario:1
+20181210 17:11:46 Obten PERFILES correcto usuario 1
+20181210 17:11:50 Consulta de Usuario Correcta 31
+20181210 17:12:30 Modificación de Usuario Correcta CALI
+20181210 17:12:34 Obten usuarios correcto usuario 1
+20181210 17:12:34 Obtención correcta areas usuario:1
+20181210 17:12:34 Obten PERFILES correcto usuario 1
+20181210 17:15:00 Acceso incorrecto usuario info
+20181210 17:15:40 Acceso incorrecto usuario info
+20181210 17:16:55 Acceso incorrecto usuario info
+20181210 17:20:16 Acceso incorrecto usuario cali
+20181210 17:20:42 Acceso incorrecto usuario cali
+20181210 17:20:49 Acceso correcto usuario cali
+20181210 17:20:49 Obtención correcta areas usuario:1
+20181210 17:20:49 Avance correcto proceso 0
+20181210 17:20:56 Obten usuarios correcto usuario 1
+20181210 17:20:56 Obtención correcta areas usuario:1
+20181210 17:20:56 Obten PERFILES correcto usuario 1
+20181210 17:21:06 Obten usuarios correcto usuario 1
+20181210 17:21:06 Obtención correcta areas usuario:1
+20181210 17:21:06 Obten PERFILES correcto usuario 1
+20181210 17:21:06 Consulta de Usuario Correcta 31
+20181210 17:22:14 Modificación de Usuario Correcta TOM
+20181210 17:22:20 Obten usuarios correcto usuario 1
+20181210 17:22:20 Obtención correcta areas usuario:1
+20181210 17:22:20 Obten PERFILES correcto usuario 1
+20181210 17:24:03 Acceso correcto usuario tom
+20181210 17:24:03 Obtención correcta areas usuario:1
+20181210 17:24:03 Avance correcto proceso 0
+20181210 17:24:09 Obten usuarios correcto usuario 1
+20181210 17:24:09 Obtención correcta areas usuario:1
+20181210 17:24:09 Obten PERFILES correcto usuario 1
+20181210 17:24:15 Obten usuarios correcto usuario 1
+20181210 17:24:15 Obtención correcta areas usuario:1
+20181210 17:24:15 Obten PERFILES correcto usuario 1
+20181210 17:24:15 Consulta de Usuario Correcta 41
+20181210 17:24:35 Obten usuarios correcto usuario 1
+20181210 17:24:35 Obtención correcta areas usuario:1
+20181210 17:24:35 Obten PERFILES correcto usuario 1
+20181210 17:24:50 Modificación de Usuario Correcta tomate
+20181210 17:25:15 Obten usuarios correcto usuario 1
+20181210 17:25:15 Obtención correcta areas usuario:1
+20181210 17:25:15 Obten PERFILES correcto usuario 1
+20181210 17:25:18 Modificación de Usuario Correcta tomate
+20181210 17:25:42 Obten usuarios correcto usuario 1
+20181210 17:25:42 Obtención correcta areas usuario:1
+20181210 17:25:42 Obten PERFILES correcto usuario 1
+20181210 17:25:45 Modificación de Usuario Correcta tomate
+20181210 17:27:33 Acceso correcto usuario tom
+20181210 17:27:33 Obtención correcta areas usuario:1
+20181210 17:27:33 Avance correcto proceso 0
+20181210 17:27:41 Obten usuarios correcto usuario 1
+20181210 17:27:41 Obtención correcta areas usuario:1
+20181210 17:27:41 Obten PERFILES correcto usuario 1
+20181210 17:27:50 Obten usuarios correcto usuario 1
+20181210 17:27:50 Obtención correcta areas usuario:1
+20181210 17:27:50 Obten PERFILES correcto usuario 1
+20181210 17:27:51 Consulta de Usuario Correcta 41
+20181210 17:28:02 Modificación de Usuario Correcta nuevo15
+20181210 17:28:07 Obten usuarios correcto usuario 1
+20181210 17:28:09 Obtención correcta areas usuario:1
+20181210 17:28:13 Obten PERFILES correcto usuario 1
+20181210 17:47:07 Acceso incorrecto usuario info
+20181210 17:47:15 Acceso correcto usuario tom
+20181210 17:47:15 Obtención correcta areas usuario:1
+20181210 17:47:15 Avance correcto proceso 0
+20181210 17:47:20 Obten usuarios correcto usuario 1
+20181210 17:47:20 Obtención correcta areas usuario:1
+20181210 17:47:20 Obten PERFILES correcto usuario 1
+20181210 17:48:22 Acceso correcto usuario tom
+20181210 17:48:22 Obtención correcta areas usuario:1
+20181210 17:48:22 Avance correcto proceso 0
+20181210 17:48:29 Obten usuarios correcto usuario 1
+20181210 17:48:29 Obtención correcta areas usuario:1
+20181210 17:48:29 Obten PERFILES correcto usuario 1
+20181210 18:23:37 Acceso incorrecto usuario info
+20181210 18:23:48 Acceso correcto usuario tom
+20181210 18:23:48 Obtención correcta areas usuario:1
+20181210 18:23:48 Avance correcto proceso 0

@@ -1,0 +1,107 @@
+20181118 00:09:05 Obtención correcta areas usuario:1
+20181118 00:09:06 ObtenProcesoAvance ObtenProcesoAvance Object reference not set to an instance of an object.
+20181118 00:10:08 Acceso correcto usuario veneno
+20181118 00:10:09 Obtención correcta areas usuario:1
+20181118 00:10:09 Avance correcto proceso 0
+20181118 00:10:37 Obtención correcta areas usuario:1
+20181118 00:12:33 Obtención correcta aplicaciones usuario:1 area 1
+20181118 00:12:33 Obtención correcta aplicaciones usuario:1 area 1
+20181118 00:29:53 Acceso correcto usuario veneno
+20181118 00:29:53 Obtención correcta areas usuario:1
+20181118 00:29:53 Avance correcto proceso 0
+20181118 00:29:57 Obtención correcta areas usuario:1
+20181118 00:34:03 Acceso correcto usuario veneno
+20181118 00:34:03 Obtención correcta areas usuario:1
+20181118 00:34:03 Avance correcto proceso 0
+20181118 00:34:06 Obtención correcta areas usuario:1
+20181118 00:41:14 Acceso correcto usuario veneno
+20181118 00:41:14 Obtención correcta areas usuario:1
+20181118 00:41:14 Avance correcto proceso 0
+20181118 00:41:17 Obtención correcta areas usuario:1
+20181118 00:43:13 Acceso correcto usuario veneno
+20181118 00:43:13 Obtención correcta areas usuario:1
+20181118 00:43:13 Avance correcto proceso 0
+20181118 00:43:16 Obtención correcta areas usuario:1
+20181118 00:45:29 Acceso correcto usuario veneno
+20181118 00:45:29 Obtención correcta areas usuario:1
+20181118 00:45:29 Avance correcto proceso 0
+20181118 00:45:32 Obtención correcta areas usuario:1
+20181118 00:54:25 Acceso correcto usuario veneno
+20181118 00:54:25 Obtención correcta areas usuario:1
+20181118 00:54:25 Avance correcto proceso 0
+20181118 00:54:28 Obtención correcta areas usuario:1
+20181118 01:02:40 Acceso correcto usuario veneno
+20181118 01:02:40 Obtención correcta areas usuario:1
+20181118 01:02:40 Avance correcto proceso 0
+20181118 01:02:44 Obtención correcta areas usuario:1
+20181118 01:03:10 Acceso correcto usuario veneno
+20181118 01:03:10 Obtención correcta areas usuario:1
+20181118 01:03:10 Avance correcto proceso 0
+20181118 01:03:14 Obtención correcta areas usuario:1
+20181118 01:04:58 Acceso correcto usuario veneno
+20181118 01:04:58 Obtención correcta areas usuario:1
+20181118 01:04:58 Avance correcto proceso 0
+20181118 01:05:01 Obtención correcta areas usuario:1
+20181118 01:06:59 Acceso correcto usuario veneno
+20181118 01:06:59 Obtención correcta areas usuario:1
+20181118 01:06:59 Avance correcto proceso 0
+20181118 01:07:02 Obtención correcta areas usuario:1
+20181118 01:12:57 Acceso correcto usuario veneno
+20181118 01:12:57 Obtención correcta areas usuario:1
+20181118 01:12:57 Avance correcto proceso 0
+20181118 01:13:01 Obtención correcta areas usuario:1
+20181118 01:14:45 Acceso correcto usuario veneno
+20181118 01:14:45 Obtención correcta areas usuario:1
+20181118 01:14:45 Avance correcto proceso 0
+20181118 01:14:48 Obtención correcta areas usuario:1
+20181118 01:21:51 Acceso correcto usuario veneno
+20181118 01:21:51 Obtención correcta areas usuario:1
+20181118 01:21:51 Avance correcto proceso 0
+20181118 01:21:56 Obtención correcta areas usuario:1
+20181118 11:33:00 Acceso correcto usuario veneno
+20181118 11:33:00 Obtención correcta areas usuario:1
+20181118 11:33:00 Avance correcto proceso 0
+20181118 11:33:10 Obtención correcta aplicaciones usuario:1 area 1
+20181118 11:34:11 actualizaStatus.UploadComplete Input string was not in a correct format.
+20181118 11:34:11 Obtención correcta areas usuario:1
+20181118 11:34:11 Avance correcto proceso 0
+20181118 11:34:20 Obtención correcta areas usuario:1
+20181118 11:34:21 Avance correcto proceso 0
+20181118 11:34:21 Obtención correcta areas usuario:1
+20181118 11:34:21 Avance correcto proceso 0
+20181118 11:34:44 Obtención correcta areas usuario:1
+20181118 11:35:28 Obtención correcta aplicaciones usuario:1 area 1
+20181118 11:35:28 Obtención correcta aplicaciones usuario:1 area 1
+20181118 11:37:33 Obtención correcta areas usuario:1
+20181118 11:37:33 Avance correcto proceso 0
+20181118 11:41:02 Obtención correcta areas usuario:1
+20181118 12:02:49 Acceso correcto usuario veneno
+20181118 12:02:49 Obtención correcta areas usuario:1
+20181118 12:02:49 Avance correcto proceso 0
+20181118 12:03:14 Obtención correcta aplicaciones usuario:1 area 1
+20181118 12:03:31 actualizaStatus.UploadComplete Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+20181118 12:03:31 Obtención correcta areas usuario:1
+20181118 12:03:31 Avance correcto proceso 0
+20181118 12:03:40 Obtención correcta areas usuario:1
+20181118 12:03:40 Avance correcto proceso 0
+20181118 12:03:49 Obtención correcta areas usuario:1
+20181118 12:03:49 Avance correcto proceso 0
+20181118 12:03:59 Obtención correcta areas usuario:1
+20181118 12:03:59 Avance correcto proceso 0
+20181118 12:04:09 Obtención correcta areas usuario:1
+20181118 12:04:09 Avance correcto proceso 0
+20181118 12:04:20 Obtención correcta areas usuario:1
+20181118 12:04:20 Avance correcto proceso 0
+20181118 12:04:30 Obtención correcta areas usuario:1
+20181118 12:04:30 Avance correcto proceso 0
+20181118 12:04:39 Obtención correcta areas usuario:1
+20181118 12:04:40 Avance correcto proceso 0
+20181118 12:04:49 Obtención correcta areas usuario:1
+20181118 12:04:50 Avance correcto proceso 0
+20181118 12:04:59 Obtención correcta areas usuario:1
+20181118 12:04:59 Avance correcto proceso 0
+20181118 12:05:09 Obtención correcta areas usuario:1
+20181118 12:05:09 Avance correcto proceso 0
+20181118 12:05:20 Obtención correcta areas usuario:1
+20181118 12:05:20 Avance correcto proceso 0
+20181118 12:05:27 Obtención correcta areas usuario:1

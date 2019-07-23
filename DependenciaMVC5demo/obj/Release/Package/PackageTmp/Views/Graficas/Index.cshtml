@@ -1,0 +1,63 @@
+﻿@model DependenciaMVC5demo.Models.GraficasModel
+@{
+    ViewBag.Title = "Graficas";
+}
+<div class="combos">
+    <table class="campos" align="center">
+        <tr>
+            <td align="right">@Html.LabelFor(m => m.AreaID, "Selecciona Area", new { @class = "lblcombos" })</td>
+            <td align="center">
+                <div class="select">
+                    @Html.DropDownListFor(m => m.AreasList, new SelectList(Model.AreasList, "Ivalue", "Text"))
+                </div>
+            </td>
+            <td align="right">@Html.LabelFor(m => m.AplicacionID, "Selecciona Aplicación", new { @class = "lblcombos" })</td>
+            <td align="center">
+                <div class="select">
+                    @Html.DropDownListFor(m => m.AplicacionesList, new SelectList(Model.AplicacionesList, "Ivalue", "Text"))
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<br />
+<br />
+<div id="grid">
+    @{
+        Html.RenderPartial("GraficaAplicacion");
+    }    
+</div>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script id="sp2">
+   $(document).ready(function () {
+        $("#AreasList").change(function () {
+            var a = $("#AreasList Option:Selected").val();
+            var url = '@Url.Content("~/")' + "Analisis/ActualizaApps";
+            var ddlsource = "#AreasList Option:Selected";
+            $.getJSON(url, { areaid: $(ddlsource).val() }, function (data) {
+            var items = '';
+            $("#AplicacionesList").empty;
+            $.each(data, function (i, row) {
+            items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+            });
+            $("#AplicacionesList").html(items);
+        }).fail(function (jqxhr, textStatus, error) {
+            var err = textStatus + ", " + error;
+            console.log("Request Failed: " + err);
+        });
+       });
+       $("#AplicacionesList").change(function () {
+           var appid1 = $("#AplicacionesList Option:Selected").val();           
+           $.ajax({
+               type: "GET",
+               url: "/Graficas/GraficaAplicacion",
+               data: { appid: appid1 },
+               success: function (viewHTML) {
+                   $("#grid").html(viewHTML);
+                   $("#titgrafica").text("Aplicación: " + $("#AplicacionesList Option:Selected").text());
+               },
+               error: function (errorData) { console.log("Request Failed: " + errorData); }
+           });           
+       });
+   });
+</script>

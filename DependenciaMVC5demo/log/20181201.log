@@ -1,0 +1,657 @@
+20181201 00:02:08 Obtención correcta areas usuario:1
+20181201 00:02:09 Avance correcto proceso 0
+20181201 00:02:18 Obtención correcta areas usuario:1
+20181201 00:02:20 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:02:24 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:02:24 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:02:25 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 00:02:38 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:02:39 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:02:50 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:03:12 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:03:13 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 00:03:13 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:03:14 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:03:14 Obtención correcta RelacionesTablas usuario:1 app 3
+20181201 00:04:39 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:04:40 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:04:40 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 00:04:41 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:04:41 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:04:48 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:04:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:04:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:04:52 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:04:53 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:04:55 Obtención incorrecta aplicaciones usuario:1 app 1
+20181201 00:04:56 Obtención incorrecta aplicaciones usuario:1 app 1
+20181201 00:04:58 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:04:58 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:04:59 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:05:01 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:05:01 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:05:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:05:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:05:50 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:06:21 Acceso correcto usuario info
+20181201 00:06:21 Obtención correcta areas usuario:1
+20181201 00:06:21 Avance correcto proceso 0
+20181201 00:06:26 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:06:41 Obtención correcta areas usuario:1
+20181201 00:06:59 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:07:01 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:02 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:03 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:07:24 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:24 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:07:25 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:28 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:28 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:29 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:07:30 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:31 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:07:52 Obtención correcta areas usuario:1
+20181201 00:07:58 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:08:00 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:08:01 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:08:01 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:08:03 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:08:03 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:08:04 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:08:12 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:08:12 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:08:35 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:08:36 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:08:36 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:10 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:11 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:12 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:10:12 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:12 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:12 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:10:13 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:14 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:10:14 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:15 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:16 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:10:17 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:17 Obtención correcta RelacionesTablas usuario:1 app 1
+20181201 00:10:19 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:10:41 Obtención correcta relaciondetalle usuario:1 app 414
+20181201 00:10:56 Obtención correcta relaciondetalle usuario:1 app 15
+20181201 00:11:07 Obtención correcta relaciondetalle usuario:1 app 62
+20181201 00:11:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:11:49 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:11:50 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:13:58 Obtención correcta areas usuario:1
+20181201 00:14:01 Obtención correcta areas usuario:1
+20181201 00:14:01 Avance correcto proceso 0
+20181201 00:14:11 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:14:23 actualizaStatus.UploadComplete Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+20181201 00:14:23 Obtención correcta areas usuario:1
+20181201 00:14:23 Avance correcto proceso 0
+20181201 00:14:32 Obtención correcta areas usuario:1
+20181201 00:14:32 Avance correcto proceso 0
+20181201 00:14:42 Obtención correcta areas usuario:1
+20181201 00:14:42 Avance correcto proceso 0
+20181201 00:14:47 Obtención correcta areas usuario:1
+20181201 00:15:11 Acceso correcto usuario info
+20181201 00:15:11 Obtención correcta areas usuario:1
+20181201 00:15:12 Avance correcto proceso 0
+20181201 00:15:14 Obtención correcta areas usuario:1
+20181201 00:15:17 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:15:22 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:15:23 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 00:15:24 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:16:07 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 00:16:07 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 00:16:10 Obtención correcta aplicaciones usuario:1 area 0
+20181201 00:16:14 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:16:17 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:16:17 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:16:18 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:16:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:16:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:16:24 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:16:28 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:16:29 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 00:16:29 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:16:32 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 00:16:32 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 00:16:42 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 00:16:42 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:16:42 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:16:47 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:16:48 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:16:50 Obtención correcta objetosdb usuario:1 app 3
+20181201 00:47:45 Acceso correcto usuario info
+20181201 00:47:45 Obtención correcta areas usuario:1
+20181201 00:47:45 Avance correcto proceso 0
+20181201 00:47:49 Obtención correcta areas usuario:1
+20181201 00:48:11 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:48:13 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:48:13 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:48:14 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:48:18 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:48:18 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:50:22 Acceso correcto usuario info
+20181201 00:50:22 Obtención correcta areas usuario:1
+20181201 00:50:22 Avance correcto proceso 0
+20181201 00:50:26 Obtención correcta areas usuario:1
+20181201 00:50:55 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:51:02 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:51:03 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:51:03 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:51:06 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:51:06 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:51:30 Obtención correcta areas usuario:1
+20181201 00:52:01 Acceso correcto usuario info
+20181201 00:52:01 Obtención correcta areas usuario:1
+20181201 00:52:01 Avance correcto proceso 0
+20181201 00:52:05 Obtención correcta areas usuario:1
+20181201 00:52:09 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:52:12 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:52:13 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:52:13 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:52:15 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:52:15 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:56:30 Acceso correcto usuario info
+20181201 00:56:30 Obtención correcta areas usuario:1
+20181201 00:56:30 Avance correcto proceso 0
+20181201 00:56:45 Acceso correcto usuario info
+20181201 00:56:45 Obtención correcta areas usuario:1
+20181201 00:56:45 Avance correcto proceso 0
+20181201 00:56:48 Obtención correcta areas usuario:1
+20181201 00:56:52 Obtención correcta aplicaciones usuario:1 area 1
+20181201 00:56:57 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:56:57 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:56:58 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:56:59 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:56:59 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:57:11 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:57:11 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:57:12 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:57:12 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:57:13 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:58:07 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:58:07 Obtención correcta objetosdb usuario:1 app 1
+20181201 00:58:08 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 00:58:12 Obtención correcta objetosdb usuario:1 app 1
+20181201 01:07:00 Acceso correcto usuario info
+20181201 01:07:00 Obtención correcta areas usuario:1
+20181201 01:07:00 Avance correcto proceso 0
+20181201 01:07:16 Obtención correcta areas usuario:1
+20181201 01:07:48 Obtención correcta aplicaciones usuario:1 area 1
+20181201 01:07:53 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:07:54 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:07:54 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:09:06 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:38 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:38 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:39 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:39 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:40 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:40 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:42 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:42 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:43 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:43 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:43 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:43 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:50 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:50 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:51 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:52 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:52 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:53 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:54 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:54 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:55 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:56 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:56 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:57 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:58 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:10:58 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 01:10:59 Obtención correcta objetosdb usuario:1 app 3
+20181201 01:16:43 Acceso correcto usuario info
+20181201 01:16:43 Obtención correcta areas usuario:1
+20181201 01:16:43 Avance correcto proceso 0
+20181201 09:04:58 Acceso correcto usuario info
+20181201 09:04:58 Obtención correcta areas usuario:1
+20181201 09:04:58 Avance correcto proceso 0
+20181201 09:05:05 Obtención correcta areas usuario:1
+20181201 09:05:17 Obtención correcta aplicaciones usuario:1 area 1
+20181201 09:05:22 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:05:23 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:05:23 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:05:25 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 09:05:26 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 09:32:58 Acceso correcto usuario info
+20181201 09:32:58 Obtención correcta areas usuario:1
+20181201 09:32:58 Avance correcto proceso 0
+20181201 09:33:01 Obtención correcta areas usuario:1
+20181201 09:33:05 Obtención correcta aplicaciones usuario:1 area 1
+20181201 09:33:08 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:08 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:09 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:33:11 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:12 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:24 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 09:33:27 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:27 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:28 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:33:39 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:40 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:33:44 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:33:45 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:33:46 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:33:48 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:33:48 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:34:43 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:34:43 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:34:45 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:34:46 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:34:47 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:35:08 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:35:08 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:35:09 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:35:13 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:35:13 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:37:15 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:37:15 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:37:16 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:37:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:37:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:40:31 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:40:32 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:40:32 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:40:37 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:40:38 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:40:47 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:40:48 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:40:48 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:42:33 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:42:33 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:42:34 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:42:50 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:42:50 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:42:50 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:42:55 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:42:55 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:42:55 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:44:01 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:44:02 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:44:03 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:44:05 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:44:05 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:44:06 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:49:44 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:49:45 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:49:45 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:50:16 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:50:17 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:50:18 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:50:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:50:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:50:21 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:50:28 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 09:50:28 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:50:28 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:50:30 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:50:31 Obtención correcta objetosdb usuario:1 app 3
+20181201 09:51:18 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:51:19 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:51:19 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 09:51:35 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:51:36 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:52:34 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:52:35 Obtención correcta objetosdb usuario:1 app 1
+20181201 09:52:35 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 13:11:00 Acceso correcto usuario info
+20181201 13:11:00 Obtención correcta areas usuario:1
+20181201 13:11:00 Avance correcto proceso 0
+20181201 13:11:05 Obtención correcta areas usuario:1
+20181201 13:11:16 Obtención correcta aplicaciones usuario:1 area 1
+20181201 13:11:18 Obtención correcta objetosdb usuario:1 app 1
+20181201 13:11:19 Obtención correcta objetosdb usuario:1 app 1
+20181201 13:11:20 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 13:11:22 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 13:13:13 Obtención correcta objetosdb usuario:1 app 1
+20181201 13:13:14 Obtención correcta objetosdb usuario:1 app 1
+20181201 13:13:14 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 13:13:14 Obtención correcta objetosdb usuario:1 app 1
+20181201 13:13:15 Obtención correcta objetosdb usuario:1 app 1
+20181201 13:13:21 Obtención correcta objetosdb usuario:1 app 3
+20181201 13:13:21 Obtención correcta objetosdb usuario:1 app 3
+20181201 13:13:22 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 13:13:24 Obtención correcta objetosdb usuario:1 app 3
+20181201 13:13:24 Obtención correcta objetosdb usuario:1 app 3
+20181201 13:13:30 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 13:13:30 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:00:16 Acceso correcto usuario info
+20181201 14:00:16 Obtención correcta areas usuario:1
+20181201 14:00:16 Avance correcto proceso 0
+20181201 14:00:20 Obtención correcta areas usuario:1
+20181201 14:00:25 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:00:26 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:00:27 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:00:27 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:00:31 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:03:47 Acceso correcto usuario info
+20181201 14:03:47 Obtención correcta areas usuario:1
+20181201 14:03:47 Avance correcto proceso 0
+20181201 14:03:50 Obtención correcta areas usuario:1
+20181201 14:03:55 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:03:56 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:03:57 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:03:58 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:04:13 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:06:38 Acceso correcto usuario info
+20181201 14:06:38 Obtención correcta areas usuario:1
+20181201 14:06:38 Avance correcto proceso 0
+20181201 14:06:42 Obtención correcta areas usuario:1
+20181201 14:06:48 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:08:40 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:08:41 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:08:42 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:08:43 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:08:43 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:09:19 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:09:26 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:09:26 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:09:27 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:09:28 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:11:13 Acceso correcto usuario info
+20181201 14:11:13 Obtención correcta areas usuario:1
+20181201 14:11:14 Avance correcto proceso 0
+20181201 14:11:16 Obtención correcta areas usuario:1
+20181201 14:11:29 Obtención correcta areas usuario:1
+20181201 14:11:34 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:11:36 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:11:37 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:11:38 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:11:44 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:13:32 Acceso correcto usuario info
+20181201 14:13:32 Obtención correcta areas usuario:1
+20181201 14:13:32 Avance correcto proceso 0
+20181201 14:13:44 Obtención correcta areas usuario:1
+20181201 14:13:52 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:13:53 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:13:54 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:13:55 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:13:56 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:14:01 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:14:16 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:16:18 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:16:18 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:20:12 Acceso correcto usuario info
+20181201 14:20:12 Obtención correcta areas usuario:1
+20181201 14:20:12 Avance correcto proceso 0
+20181201 14:21:03 Obtención correcta areas usuario:1
+20181201 14:21:08 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:21:10 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:21:10 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:21:11 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:21:12 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:21:13 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:39:41 Acceso correcto usuario info
+20181201 14:39:41 Obtención correcta areas usuario:1
+20181201 14:39:41 Avance correcto proceso 0
+20181201 14:39:46 Obtención correcta areas usuario:1
+20181201 14:39:50 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:39:52 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:39:53 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:39:54 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:39:56 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:39:56 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:39:56 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:39:56 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:40:22 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:40:40 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:40:41 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:40:42 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:40:45 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:47:37 Acceso correcto usuario info
+20181201 14:47:37 Obtención correcta areas usuario:1
+20181201 14:47:37 Avance correcto proceso 0
+20181201 14:47:41 Obtención correcta areas usuario:1
+20181201 14:47:45 Obtención correcta aplicaciones usuario:1 area 1
+20181201 14:47:47 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:47:48 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:47:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:47:51 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:47:52 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:47:58 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:48:01 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:48:04 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:48:08 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:48:21 Obtención incorrecta ObtenTransversalidad usuario:1 app 1
+20181201 14:48:22 Obtención incorrecta ObtenTransversalidad usuario:1 app 1
+20181201 14:48:27 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:48:28 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:49:24 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:49:24 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:49:25 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:49:49 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:49:49 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:51:22 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:51:22 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:51:22 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:51:25 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:51:26 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:51:31 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 14:51:31 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:51:32 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:51:34 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:51:35 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:51:45 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 14:51:47 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 14:51:48 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 14:51:51 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 14:51:56 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:51:56 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 14:51:57 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:52:09 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:09 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:25 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:26 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:28 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:28 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:28 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:28 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:31 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:52:32 Obtención correcta objetosdb usuario:1 app 1
+20181201 14:52:32 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 14:52:34 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:52:34 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 14:52:41 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 14:52:42 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:52:42 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:52:46 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:46 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:52:57 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:53:33 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 14:53:33 Obtención incorrecta aplicaciones usuario:1 app 3
+20181201 14:53:37 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:53:38 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:53:45 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:54:08 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:54:09 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:54:16 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:54:16 Obtención correcta objetosdb usuario:1 app 3
+20181201 14:54:17 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 14:54:23 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 14:54:24 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 15:01:15 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 15:01:16 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 15:01:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:01:21 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:01:21 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 15:01:23 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:01:23 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:01:34 Obtención correcta objetosdb usuario:1 app 23
+20181201 15:01:34 Obtención correcta ObtenIndicaores usuario:1 app 23
+20181201 15:02:09 Acceso correcto usuario info
+20181201 15:02:09 Obtención correcta areas usuario:1
+20181201 15:02:09 Avance correcto proceso 0
+20181201 15:02:13 Obtención correcta areas usuario:1
+20181201 15:02:16 Obtención correcta aplicaciones usuario:1 area 1
+20181201 15:02:19 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:02:20 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 15:02:20 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:02:23 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:02:23 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:02:30 Obtención correcta objetosdb usuario:1 app 3
+20181201 15:02:30 Obtención correcta ObtenIndicaores usuario:1 app 3
+20181201 15:02:31 Obtención correcta objetosdb usuario:1 app 3
+20181201 15:02:34 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 15:02:34 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 15:02:41 Obtención correcta ObtenTransversalidad usuario:1 app 3
+20181201 15:02:59 Obtención correcta areas usuario:1
+20181201 15:03:12 Obtención correcta aplicaciones usuario:1 area 1
+20181201 15:03:15 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:03:15 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 15:03:16 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:03:17 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:03:18 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:03:19 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:21:00 Obtención correcta areas usuario:1
+20181201 15:21:15 Obtención correcta areas usuario:1
+20181201 15:21:15 Consulta correcta usuario 1
+20181201 15:21:26 Obtención correcta areas usuario:1
+20181201 15:21:26 Obtención correcta areas usuario:1
+20181201 15:21:26 Consulta correcta usuario 1
+20181201 15:21:29 Obtención correcta aplicaciones usuario:1 area 1
+20181201 15:21:29 Obtención correcta aplicaciones usuario:1 area 1
+20181201 15:22:03 Acceso correcto usuario info
+20181201 15:22:04 Obtención correcta areas usuario:1
+20181201 15:22:04 Avance correcto proceso 0
+20181201 15:22:07 Obtención correcta areas usuario:1
+20181201 15:22:08 Obtención correcta areas usuario:1
+20181201 15:22:08 Consulta correcta usuario 1
+20181201 15:22:54 Acceso correcto usuario info
+20181201 15:22:54 Obtención correcta areas usuario:1
+20181201 15:22:54 Avance correcto proceso 0
+20181201 15:22:58 Obtención correcta areas usuario:1
+20181201 15:27:02 Acceso correcto usuario info
+20181201 15:27:02 Obtención correcta areas usuario:1
+20181201 15:27:02 Avance correcto proceso 0
+20181201 15:27:13 Acceso correcto usuario info
+20181201 15:27:13 Obtención correcta areas usuario:1
+20181201 15:27:13 Avance correcto proceso 0
+20181201 15:27:17 Obtención correcta areas usuario:1
+20181201 15:30:35 Acceso correcto usuario info
+20181201 15:30:35 Obtención correcta areas usuario:1
+20181201 15:30:35 Avance correcto proceso 0
+20181201 15:30:38 Obtención correcta areas usuario:1
+20181201 15:30:48 Obtención correcta areas usuario:1
+20181201 15:30:55 Obtención correcta areas usuario:1
+20181201 15:30:57 Obtención correcta areas usuario:1
+20181201 15:30:59 Obtención correcta areas usuario:1
+20181201 15:36:37 Acceso correcto usuario info
+20181201 15:36:37 Obtención correcta areas usuario:1
+20181201 15:36:37 Avance correcto proceso 0
+20181201 15:36:40 Obtención correcta areas usuario:1
+20181201 15:36:46 Obtención correcta areas usuario:1
+20181201 15:36:46 Consulta correcta usuario 1
+20181201 15:41:24 Obtención correcta aplicaciones usuario:1 area 1
+20181201 15:41:33 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:41:34 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:41:34 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 15:41:37 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:41:38 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 15:59:07 Acceso correcto usuario info
+20181201 15:59:07 Obtención correcta areas usuario:1
+20181201 15:59:07 Avance correcto proceso 0
+20181201 15:59:17 Obtención correcta areas usuario:1
+20181201 15:59:23 Obtención correcta aplicaciones usuario:1 area 1
+20181201 15:59:25 Obtención correcta objetosdb usuario:1 app 1
+20181201 15:59:26 Aplicacion.ObtenIndicaores Specified cast is not valid.
+20181201 16:01:16 Acceso correcto usuario info
+20181201 16:01:16 Obtención correcta areas usuario:1
+20181201 16:01:16 Avance correcto proceso 0
+20181201 16:01:21 Obtención correcta areas usuario:1
+20181201 16:01:27 Obtención correcta aplicaciones usuario:1 area 1
+20181201 16:01:29 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:01:30 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:03:12 Aplicacion.ObtenIndicaores Specified cast is not valid.
+20181201 16:04:39 Acceso correcto usuario info
+20181201 16:04:39 Obtención correcta areas usuario:1
+20181201 16:04:39 Avance correcto proceso 0
+20181201 16:04:43 Obtención correcta areas usuario:1
+20181201 16:04:48 Obtención correcta aplicaciones usuario:1 area 1
+20181201 16:04:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:09:58 Acceso correcto usuario info
+20181201 16:09:58 Obtención correcta areas usuario:1
+20181201 16:09:58 Avance correcto proceso 0
+20181201 16:10:02 Obtención correcta areas usuario:1
+20181201 16:10:07 Obtención correcta aplicaciones usuario:1 area 1
+20181201 16:10:08 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:21:35 Acceso correcto usuario info
+20181201 16:21:35 Obtención correcta areas usuario:1
+20181201 16:21:35 Avance correcto proceso 0
+20181201 16:21:40 Obtención correcta areas usuario:1
+20181201 16:21:43 Obtención correcta aplicaciones usuario:1 area 1
+20181201 16:21:48 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:21:48 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 16:21:49 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:26:41 Acceso correcto usuario info
+20181201 16:26:42 Obtención correcta areas usuario:1
+20181201 16:26:42 Avance correcto proceso 0
+20181201 16:26:45 Obtención correcta areas usuario:1
+20181201 16:44:42 Acceso correcto usuario info
+20181201 16:44:42 Obtención correcta areas usuario:1
+20181201 16:44:42 Avance correcto proceso 0
+20181201 16:44:47 Obtención correcta areas usuario:1
+20181201 16:44:52 Obtención correcta aplicaciones usuario:1 area 1
+20181201 16:44:55 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:44:55 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 16:44:56 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:46:59 Acceso correcto usuario info
+20181201 16:46:59 Obtención correcta areas usuario:1
+20181201 16:46:59 Avance correcto proceso 0
+20181201 16:47:05 Obtención correcta areas usuario:1
+20181201 16:48:51 Acceso correcto usuario info
+20181201 16:48:51 Obtención correcta areas usuario:1
+20181201 16:48:51 Avance correcto proceso 0
+20181201 16:48:54 Obtención correcta areas usuario:1
+20181201 16:48:58 Obtención correcta aplicaciones usuario:1 area 1
+20181201 16:49:01 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:49:01 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 16:49:02 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:57:58 Acceso correcto usuario info
+20181201 16:57:59 Obtención correcta areas usuario:1
+20181201 16:57:59 Avance correcto proceso 0
+20181201 16:58:02 Obtención correcta areas usuario:1
+20181201 16:58:08 Obtención correcta aplicaciones usuario:1 area 1
+20181201 16:58:10 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:58:11 Obtención correcta objetosdb usuario:1 app 1
+20181201 16:58:11 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 17:01:18 Acceso correcto usuario info
+20181201 17:01:18 Obtención correcta areas usuario:1
+20181201 17:01:18 Avance correcto proceso 0
+20181201 17:01:21 Obtención correcta areas usuario:1
+20181201 17:03:35 Acceso correcto usuario info
+20181201 17:03:35 Obtención correcta areas usuario:1
+20181201 17:03:35 Avance correcto proceso 0
+20181201 17:03:38 Obtención correcta areas usuario:1
+20181201 17:03:42 Obtención correcta areas usuario:1
+20181201 17:03:51 Acceso correcto usuario info
+20181201 17:03:51 Obtención correcta areas usuario:1
+20181201 17:03:51 Avance correcto proceso 0
+20181201 17:03:54 Obtención correcta areas usuario:1
+20181201 17:04:15 Obtención correcta aplicaciones usuario:1 area 1
+20181201 17:04:17 Obtención correcta objetosdb usuario:1 app 1
+20181201 17:04:18 Obtención correcta objetosdb usuario:1 app 1
+20181201 17:04:18 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 17:05:39 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 17:05:39 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 17:05:46 Obtención correcta ObtenTransversalidad usuario:1 app 1
+20181201 17:05:52 Obtención correcta objetosdb usuario:1 app 1
+20181201 17:05:53 Obtención correcta objetosdb usuario:1 app 1
+20181201 17:05:53 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 17:05:54 Obtención correcta objetosdb usuario:1 app 1
+20181201 17:05:55 Obtención correcta objetosdb usuario:1 app 1
+20181201 17:05:58 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181201 17:05:58 Obtención correcta objetosdb usuario:1 app 1
+20181201 17:05:59 Obtención correcta objetosdb usuario:1 app 1

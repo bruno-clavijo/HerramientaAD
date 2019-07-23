@@ -1,0 +1,63 @@
+﻿@model DependenciaMVC5demo.Models.PerfilesModel
+
+@{
+    ViewBag.Title = "Perfiles";
+}
+
+<div class="combos">
+    <table>
+        <tr>
+            <td style="color:#fff;"><h4>  Perfiles</h4></td>
+        </tr>
+    </table>
+</div>
+<br />
+<br />
+<br />
+
+@using (Html.BeginForm("Guardar", "Perfiles", new { Tipo = ViewBag.Operacion }))
+{
+<table align="center" border="0">
+    <tr>
+        <td colspan="1"><label>Nombre del Perfil </label></td>
+        <td align="left" colspan="2">@Html.TextBoxFor(m => m.Perfil, new { @class = "textboxlargo" })</td>
+        <td colspan="2" align="center"><label>Estatus </label></td>
+        <td colspan="2">
+            <div class="select">
+                @Html.DropDownListFor(m => m.EstatusID, new SelectList(Model.ListaEstatus, "Ivalue", "Text"), "--Seleccione--")
+                @Html.HiddenFor(m => m.EstatusID, new { id = "EstatusID" })
+            </div>
+        </td>
+    </tr>
+    <tr><td colspan="8"><hr /></td></tr>
+    <tr>
+        <td align="right"><label>Analísis </label></td>
+        <td align="left">@Html.CheckBoxFor(m => m.OpcionAnalisis, new { @class = "check" })</td>
+        <td align="right"><label>Dependencias </label></td>
+        <td align="left">@Html.CheckBoxFor(m => m.OpcionDependencias, new { @class = "check" })</td>
+        <td align="right"><label>Detalle Técnico </label></td>
+        <td align="left">@Html.CheckBoxFor(m => m.OpcionDetalle, new { @class = "check" })</td>
+        <td align="right"><label>Gráficas </label></td>
+        <td align="left">@Html.CheckBoxFor(m => m.OpcionGraficas, new { @class = "check" })</td>
+    </tr>
+    <tr><td colspan="8"><hr /></td></tr>
+    <tr>
+        <td align="right"><label>Usuarios </label></td>
+        <td align="left">@Html.CheckBoxFor(m => m.OpcionUsuarios, new { @class = "check" })</td>
+        <td align="right"><label>Perfiles </label></td>
+        <td align="left">@Html.CheckBoxFor(m => m.OpcionPerfiles, new { @class = "check" })</td>
+        <td align="right"><label>Aplicaciones </label></td>
+        <td align="left">@Html.CheckBoxFor(m => m.OpcionAplicaciones, new { @class = "check" })</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr><td colspan="8"><hr /></td></tr>
+    <tr class="alineacion">
+        <td>@Html.TextBoxFor(m => m.Identificador, new { style = "visibility:hidden", @class = "textboxmediano" })</td>
+    </tr>
+    <tr>
+        <td colspan="4" align="center"><input type="submit" class="botonazul" id="btnGuardar" value="GUARDAR" /></td>
+        <td colspan="4" align="center"><input type="button" class="botonazul" id="btnCancelar" onclick="@("window.location.href='" + @Url.Action("Index", "Perfiles") + "'");" value="CANCELAR" /></td>
+    </tr>
+</table>
+}

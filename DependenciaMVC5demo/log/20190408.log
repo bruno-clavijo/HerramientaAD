@@ -1,0 +1,149 @@
+20190408 09:15:16 Acceso correcto usuario banobras
+20190408 09:15:16 Obtención correcta areas usuario:1
+20190408 09:15:16 Avance correcto proceso 0
+20190408 09:24:54 Obtención correcta areas usuario:1
+20190408 09:24:54 Avance correcto proceso 0
+20190408 09:25:55 Acceso correcto usuario banobras
+20190408 09:25:55 Obtención correcta areas usuario:1
+20190408 09:25:55 Avance correcto proceso 0
+20190408 09:26:40 Obtención correcta areas usuario:1
+20190408 09:26:40 ObtenProcesoAvance ObtenProcesoAvance Object reference not set to an instance of an object.
+20190408 09:26:59 Acceso correcto usuario banobras
+20190408 09:26:59 Obtención correcta areas usuario:1
+20190408 09:26:59 Avance correcto proceso 0
+20190408 09:27:06 Obtención correcta aplicaciones usuario:1 area 1
+20190408 09:28:33 actualizaStatus.UploadComplete Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+20190408 09:28:33 Obtención correcta areas usuario:1
+20190408 09:28:33 Avance correcto proceso 0
+20190408 09:28:37 Obtención correcta areas usuario:1
+20190408 09:28:38 Avance correcto proceso 0
+20190408 09:28:48 Obtención correcta areas usuario:1
+20190408 09:28:48 Avance correcto proceso 0
+20190408 09:28:58 Obtención correcta areas usuario:1
+20190408 09:28:58 Avance correcto proceso 0
+20190408 09:29:05 Obtención correcta areas usuario:1
+20190408 09:29:05 Avance correcto proceso 0
+20190408 09:30:30 Obtención correcta areas usuario:1
+20190408 09:30:30 Avance correcto proceso 0
+20190408 09:31:58 Obtención correcta areas usuario:1
+20190408 09:31:58 Avance correcto proceso 0
+20190408 09:32:03 Obtención correcta areas usuario:1
+20190408 09:32:03 Avance correcto proceso 0
+20190408 09:32:48 Obtención correcta areas usuario:1
+20190408 09:32:48 Avance correcto proceso 0
+20190408 09:38:41 Obtención correcta areas usuario:1
+20190408 09:39:29 Obtención correcta areas usuario:1
+20190408 09:39:29 Consulta correcta aplicacion 0
+20190408 09:39:40 Obtención correcta aplicaciones usuario:1 area 1
+20190408 09:39:42 Obtención correcta ObtenFiltros Tipo:WS Tipohijo Aplicacion 49
+20190408 09:39:45 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 49
+20190408 09:39:55 Obtención correcta areas usuario:1
+20190408 09:39:55 Consulta correcta aplicacion 0
+20190408 09:39:55 Consulta correcta apliación: WS 49
+20190408 09:40:22 Obtención correcta aplicaciones usuario:1 area 1
+20190408 09:40:23 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 49
+20190408 09:40:25 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 49
+20190408 09:40:29 Obtención correcta areas usuario:1
+20190408 09:40:29 Consulta correcta aplicacion 0
+20190408 09:40:29 Consulta correcta apliación: CM 49
+20190408 09:40:38 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 49
+20190408 09:40:39 Obtención correcta areas usuario:1
+20190408 09:40:39 Consulta correcta aplicacion 0
+20190408 09:40:39 Consulta correcta apliación: CM 49
+20190408 09:41:14 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 49
+20190408 09:41:15 Obtención correcta areas usuario:1
+20190408 09:41:15 Consulta correcta aplicacion 0
+20190408 09:41:16 Consulta correcta apliación: CM 49
+20190408 09:41:39 Obtención correcta areas usuario:1
+20190408 09:41:53 Obtención correcta aplicaciones usuario:1 area 1
+20190408 09:41:55 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:41:56 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:41:57 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:41:58 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:41:58 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:41:59 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:42:04 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:04 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:24 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:26 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:26 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:42:27 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:28 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:43 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:42:43 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:42:45 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:45 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:42:45 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:43:09 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:43:10 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:45:32 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:45:32 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:45:33 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:45:33 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:45:34 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:46:47 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:46:49 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:46:49 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:46:50 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:46:50 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:46:51 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:46:51 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:46:52 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:46:52 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:46:52 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:03 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:03 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:04 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:47:06 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:06 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:11 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:47:12 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:12 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:14 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:47:14 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:47:15 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:15 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:16 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 09:47:16 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:47:17 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 09:47:17 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:18 Obtención correcta objetosdb usuario:1 app 49
+20190408 09:47:18 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 13:34:12 Acceso correcto usuario banobras
+20190408 13:34:12 Obtención correcta areas usuario:1
+20190408 13:34:26 Obtención correcta aplicaciones usuario:1 area 1
+20190408 13:34:28 Obtención correcta objetosdb usuario:1 app 49
+20190408 13:34:28 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 13:34:28 Obtención correcta objetosdb usuario:1 app 49
+20190408 13:34:29 Obtención incorrecta aplicaciones usuario:1 app 49
+20190408 13:34:29 Obtención correcta objetosdb usuario:1 app 49
+20190408 13:34:30 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190408 13:34:35 Obtención correcta objetosdb usuario:1 app 49
+20190408 13:34:35 Obtención correcta objetosdb usuario:1 app 49
+20190408 15:00:42 Acceso correcto usuario banobras
+20190408 15:00:42 Obtención correcta areas usuario:1
+20190408 15:06:13 Acceso correcto usuario banobras
+20190408 15:06:13 Obtención correcta areas usuario:1
+20190408 15:08:57 Acceso correcto usuario banobras
+20190408 15:08:57 Obtención correcta areas usuario:1
+20190408 15:09:19 Acceso incorrecto usuario fgfgf
+20190408 15:09:19 Edita Usuarios correcta Usuario fgfgf
+20190408 15:09:20 Acceso correcto usuario fgfgf
+20190408 15:09:20 Obtención correcta areas usuario:1
+20190408 15:09:44 Acceso correcto usuario fgfgf
+20190408 15:10:01 Obtención correcta areas usuario:1
+20190408 15:12:33 Acceso correcto usuario fgfgf
+20190408 15:12:38 Acceso incorrecto usuario fgfgf
+20190408 15:12:38 Edita Usuarios correcta Usuario fgfgf
+20190408 15:12:38 Acceso incorrecto usuario fgfgf
+20190408 15:12:58 Acceso incorrecto usuario fgfgf
+20190408 15:12:58 Edita Usuarios correcta Usuario fgfgf
+20190408 15:12:58 Acceso incorrecto usuario fgfgf
+20190408 15:15:39 Acceso correcto usuario fgfgf
+20190408 15:17:24 Acceso correcto usuario fgfgf
+20190408 15:17:41 Acceso incorrecto usuario fgfgf
+20190408 15:19:17 Acceso incorrecto usuario fgfgf
+20190408 15:20:00 Acceso incorrecto usuario fgfgf
+20190408 15:20:22 Acceso incorrecto usuario fgfgf
+20190408 15:20:54 Acceso correcto usuario banobras
+20190408 15:20:55 Obtención correcta areas usuario:1

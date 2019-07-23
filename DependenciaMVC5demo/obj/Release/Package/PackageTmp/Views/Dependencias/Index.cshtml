@@ -1,0 +1,814 @@
+﻿@model DependenciaMVC5demo.Models.Dependencias
+
+@{
+    ViewBag.Title = "Dependencias";
+}
+<div class="combos">
+    <table class="campos" align="center">
+        <tr>
+            <td>@Html.LabelFor(m => m.AreaID, "Selecciona Area", new { @class = "lblcombos" })</td>
+            <td>
+                <div class="select">
+                    @Html.DropDownListFor(m => m.AreasList, new SelectList(Model.AreasList, "Ivalue", "Text", new { onchange = "CallChangefunc();" }))
+                </div>
+            </td>
+            <td>@Html.LabelFor(m => m.AplicacionID, "Selecciona Aplicación", new { @class = "lblcombos" })</td>
+            <td>
+                <div class="select">
+                    @Html.DropDownListFor(m => m.AplicacionesList, new SelectList(Model.AplicacionesList, "Ivalue", "Text"))
+                </div>
+            </td>
+            <td><input type="button" class="boton curvas" id="btnobjdb" onclick="selDBWSCM(1)" value="OBJETOS DB" /></td>
+            <td><input type="button" class="boton curvas" id="btnws" onclick="selDBWSCM(3)" value="WEBSERVICES" /></td>
+            <td><input type="button" class="boton curvas" id="btncfm" onclick="selDBWSCM(2)" value="CFyM" /></td>
+        </tr>
+    </table>
+</div>
+<div id="VideoDiv">
+    <div id="progressbar_container" style="width: 100%; height: 30px; position: relative; background-color: grey; display: none">
+        <div id="progressbar" style="width: 0%; height: 100%; position: absolute; background-color: green"></div>
+        <span id="progressbar_label" style="position: absolute; left: 35%; top: 20%">Uploading...</span>
+    </div>
+</div>
+<center><h2 id="idtitulo"></h2></center>
+<div id="divnave">
+    <label id="lblnavegacion"></label>
+</div>
+@*<div id="divnave2">
+    <input onclick="simple()" type="radio" name="gender" checked="checked" value="male"> simple
+    <input onclick="cubo()" type="radio" name="gender" value="female"> cubo
+</div>*@
+<div id="divconfig">
+    <table id="tblconfig">
+        <tr>
+            <td>
+                <label>Diagrama:</label>
+            </td>
+            <td>
+                <label>No.Máx.Elementos</label>
+                <select id="maxe">
+                    <option selected>25</option>
+                    <option>50</option>
+                    <option>100</option>
+                </select>
+            </td>
+            <td>
+                <button id="mine" onclick="DiagRest()"><<</button>
+                <input type="text" readonly id="actual" value="1" />
+                <button id="aume" onclick="DiagSum()">>></button>
+            </td>
+            <td>
+                <label>Total Elementos</label>
+                <input id="totale" readonly type="text" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="divtrabajo">
+    <div id="divtree">
+        @{
+            Html.RenderPartial("Detalle");
+        }
+    </div>
+    <div id="divdiagrama">
+        <div id="diagramaid" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div id="divcubo">
+        @{
+            Html.RenderPartial("Cubo");
+        }
+    </div>
+    <div id="divflotante">
+        <label id="lblaux"></label>
+    </div>
+</div>
+<div id="idpiedep" class="piedep">
+    <table>
+        <tr>
+            <td class="space"></td>
+            <td><input type="button" class="botonpie" id="btncompleto" onclick="Completo()" value="DETALLE COMPLETO" /></td>
+            <td class="space"></td>
+            <td class="botonpie">@Html.ActionLink("IMPRIMIR", "ImprimirPantalla", "Dependencias", new { app = TempData["appid"].ToString() }, new { @class = "botonpie" })</td>
+        </tr>
+    </table>
+</div>
+<div id="divSelGrafica" onclick="muestraDiagrama()">
+    <label id="lblauxgrafi">Gráfica</label>
+</div>
+<div id="divgrafica">
+    <div style="overflow-y: scroll;">
+        <table cellspacing="0" style="width: 100%; border-collapse: collapse;" border="1">
+            <tr>
+                <td><input type="button" class="botonpie" id="cierragrafica" onclick="cierragrafica()" value="CERRAR" /></td>
+            </tr>
+            <tr class="alineacion">
+                <td><img id="imgrafica"  alt="SimpleChart" /></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="~/Estilos/dependencias.css">
+<link rel="stylesheet" type="text/css" href="~/Estilos/treeview.css">
+<link rel="stylesheet" type="text/css" href="~/Estilos/giro.css">
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/Concurrent.Thread.js"></script>
+<script id="sp2">
+        var opcion = "";
+        function CuboCara(cara,idtipo,appid) {
+         var maxe1 = "#maxe Option:Selected";
+            console.log($(maxe1).text());
+            var contiene = false;
+                var url1 = '@Url.Content("~/")' + "Dependencias/GeneraDiagramaTransversal";
+                $.getJSON(url1, { appid: appid, maxe: parseInt($(maxe1).text()), tipoid: idtipo, indicador: cara }, function (data) {
+                    $("#diagramaid").empty;
+                    $("#diagramaid").html(data);
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado2');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    if (data.length > 0) {
+                        ObtenTotaleElementos();
+                        possvg();
+                        ActNavegacion(opcion + "Transversal>>");
+                    } else {
+                        $("#lblmensaje").text("No se estan compartiendo elementos entre las aplicaciones procesadas.");
+                        document.getElementById("divmensaje").style.display = "block";
+                    }
+                }).fail(function (jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
+                });
+            ActualizaDetalleTransversal(appid, idtipo, cara);
+
+    }
+    function Completo() {
+        location.href = '@Url.Action("Index","Analisis")';
+    }
+
+
+        function ActualizaDetalleTransversal(appid, idtipo, indicador) {
+            $.ajax({
+                type: "GET",
+                url: "/Dependencias/ActualizaDetalleTransversal",
+                data: { appid: appid, idtipo: idtipo, indicador: indicador },
+                success: function (viewHTML) {
+                    $("#divtree").html(viewHTML);
+                    var cols = document.querySelectorAll('#treeview1 .alineacion');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols = document.querySelectorAll('#treeview1 .alineacion2');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                },
+                error: function (errorData) { console.log("Request Failed: " + errorData); }
+            });
+            if ($("#hhideL").text() == 'mostrar')
+                ocultaL();
+        }
+
+
+        function oculta() {
+            console.log($("#hhide").text());
+            console.log($("#hhide").val());
+                if ($("#hhide").text() == 'ocultar') {
+                    $("#divcubo").width("40px");
+                    $("#div3dc").width("4px");
+                    document.getElementById("divcubo").style.left = "1306px";
+                    document.getElementById("cubo").style.display = "none";
+                    $("#hhide").text('mostrar');
+                    $("#indicadores").text('');
+                } else {
+                    $("#divcubo").width("400px");
+                    $("#div3dc").width("300px");
+                    document.getElementById("divcubo").style.left = "1000px";
+                    document.getElementById("cubo").style.display = "block";
+                    $("#hhide").text('ocultar');
+                    $("#indicadores").text('INDICADORES');
+                }
+        }
+
+        function DiagSum() {
+            var actual = parseInt($("#actual").val());
+            var maxe1 = parseInt($("#maxe Option:Selected").text())
+            PaginaDIagrama(actual, (actual + 1), maxe1);
+        }
+
+        function DiagRest() {
+            var actual1 = parseInt($("#actual").val());
+            var maxe1 = parseInt($("#maxe Option:Selected").text())
+            if (actual1 > 1) {
+                PaginaDIagrama(actual1, (actual1 - 1), maxe1);
+            }
+        }
+
+        function MuestraRelacion(e, relacion) {
+            ActNavegacion(opcion + "DiagramaBD>>");
+            var top = e.pageY + 'px';
+            var left = (e.pageX + 10) + 'px'
+            console.log(top + left + relacion);
+            $('#lblaux').text(relacion);
+            document.getElementById("divflotante").style.left = left;
+            document.getElementById("divflotante").style.top = top;
+            document.getElementById("divflotante").style.display = "block";
+        }
+
+        function EscondeRelacion() {
+            document.getElementById("divflotante").style.display = "none";
+        }
+
+
+    function PaginaDIagrama(actual1,para1,maxe1){
+        var url1 = '@Url.Content("~/")' + "Dependencias/PaginaDiagrama";
+            console.log(actual1 + "-" + para1);
+            $.getJSON(url1, { actual: actual1, maxe: maxe1,para:para1 }, function (data) {
+                    $("#diagramaid").empty;
+                    $("#diagramaid").html(data);
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols = document.querySelectorAll('#diagramaid .cuadrado2');
+                [].forEach.call(cols, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols1 = document.querySelectorAll('#diagramaid .padre2');
+                [].forEach.call(cols1, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols1 = document.querySelectorAll('#diagramaid .abuelo2');
+                [].forEach.call(cols1, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                $("#actual").val(para1);
+                ObtenTotaleElementos(); possvg();
+                }).fail(function (jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
+            });
+        }
+        function DiagramaDB(appid1,nameapp1) {
+            var url1 = '@Url.Content("~/")' + "Dependencias/GeneraDiagramaBD";
+            $.getJSON(url1, { appid: appid1, nomapp: nameapp1}, function (data) {
+                $("#diagramaid").empty;
+                $("#diagramaid").html(data);
+                var cols = document.querySelectorAll('#diagramaid .cuadrado');
+                [].forEach.call(cols, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols1 = document.querySelectorAll('#diagramaid .padre');
+                [].forEach.call(cols1, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols1 = document.querySelectorAll('#diagramaid .abuelo');
+                [].forEach.call(cols1, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols = document.querySelectorAll('#diagramaid .cuadrado2');
+                [].forEach.call(cols, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols1 = document.querySelectorAll('#diagramaid .padre2');
+                [].forEach.call(cols1, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                });
+                var cols1 = document.querySelectorAll('#diagramaid .abuelo2');
+                [].forEach.call(cols1, function (col) {
+                    col.addEventListener('dragstart', handleDragStart, false);
+                    col.addEventListener('dragend', handleDragEnd, false);
+                }); possvg();
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+             });
+            ActualizaDetalle(appid1, "DiagramaDB");
+        }
+
+        function OtroDiagrama(name) {
+            var ddlsource = "#AplicacionesList Option:Selected";
+            if (name == "Diagrama BD") {
+                DiagramaDB($(ddlsource).val(), $(ddlsource).text());
+            } else {
+                var maxe1 = "#maxe Option:Selected";
+                var txtsel = $("#AplicacionesList Option:Selected").text();
+                $("#idtitulo").text(txtsel);
+                var url1 = '@Url.Content("~/")' + "Dependencias/GeneraDiagramaDetalle";
+                $.getJSON(url1, { appid: $(ddlsource).val(), nombre: name, maxe: parseInt($(maxe1).text()) }, function (data) {
+                    $("#diagramaid").empty;
+                    $("#diagramaid").html(data);
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado2');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    ObtenTotaleElementos(); possvg();
+                }).fail(function (jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
+                });
+                ActualizaDetalle($(ddlsource).val(), name);
+            }
+
+        }
+
+        function validacampos() {
+            if ($("#AreasList Option:Selected").text() == "--select--") {
+                $("#lblmensaje").text("Es necesario seleccionar el Area.");
+                document.getElementById("divmensaje").style.display = "block";
+                return true;
+            }
+            if ($("#AplicacionesList Option:Selected").text() == "--select--") {
+                $("#lblmensaje").text("Es necesario seleccionar la Aplicación.");
+                document.getElementById("divmensaje").style.display = "block";
+                return true;
+            }
+            return false;
+        }
+
+        function cierragrafica() {
+            document.getElementById("divgrafica").style.display = "none";
+        }
+
+    function muestraDiagrama() {                    
+            var appid = $("#AplicacionesList Option:Selected").val();
+            var link = '@Url.Content("~/Dependencias/GraficaDBTotal")';   
+            link += ('?appid=' + appid);
+            $("#divgrafica").empty;
+            $("#divgrafica").html('<div style="overflow-y: scroll;"><table cellspacing = "0" style = "width: 100%; border-collapse: collapse;" border = "1" ><tr><td><input type="button" class="botonpie" id="cierragrafica" onclick="cierragrafica()" value="CERRAR" /></td></tr><tr class="alineacion"><td><img id="imgrafica" src="' + link + '" alt="Gráfica" /></td></tr></table></div>');            
+            document.getElementById("divgrafica").style.display = "block";
+            document.getElementById("divgrafica").style.left = "350px";
+            document.getElementById("divgrafica").style.top = "100px";
+        }
+
+        function ocultaL() {
+            if ($("#hhideL").text() == 'ocultar') {
+                $("#divtree").width("40px");
+                document.getElementById("hhideL").style.left = "0px";
+                document.getElementById("treeview1").style.display = "none";
+                $("#hhideL").text('mostrar');
+
+            } else {
+                $("#divtree").width("400px");
+                document.getElementById("hhideL").style.left = "360px";
+                document.getElementById("treeview1").style.display = "block";
+                $("#hhideL").text('ocultar');
+            }
+        }
+            function openNav() {
+                document.getElementById("sidebar-menu").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("sidebar-menu").style.width = "0";
+            }
+            function allowDrop(event) {
+                event.preventDefault();
+            }
+            var dt = ""; var xd = 0; var yd = 0;
+            function drop(event) {
+                event.preventDefault();
+                console.log("Entro");
+                var data = event.dataTransfer.getData("Text");
+                console.log(data);
+                //event.target.appendChild(document.getElementById(data));
+                //console.log("Si Drop: " + data + " " + event.pageX + " " + event.pageY);
+                dt = data; xd = event.pageX; yd = event.pageY;
+            }
+
+            function handleDragStart(e) {
+                console.log("Si funciona: " + event.target.id);
+                event.dataTransfer.setData("Text", event.target.id);
+            }
+
+            function ObtieneNuevoDiagrama() {
+                var url = '@Url.Content("~/")' + "Dependencias/ActualizaDiagrama";
+                var maxe1 = "#maxe Option:Selected";
+                $.getJSON(url, { xn: xd, yn: yd, id: dt, maxe: parseInt($(maxe1).text())}, function (data) {
+                    $("#diagramaid").empty;
+                    $("#diagramaid").html(data);
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado2');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    ObtenTotaleElementos(); possvg();
+                }).fail(function (jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
+                });
+    }
+
+    function ObtenTotaleElementos() {
+        var url1 = '@Url.Content("~/")' + "Dependencias/ObtenTotalElementos";
+        $.getJSON(url1, { }, function (data) {
+            $("#totale").val(data);
+        }).fail(function (jqxhr, textStatus, error) {
+            var err = textStatus + ", " + error;
+            console.log("Request Failed: " + err);
+        });
+    }
+
+    function ActualizaCUbo(idtipo1, appid1) {
+        $.ajax({
+            type: "GET",
+            url: "/Dependencias/ActualizaCubo",
+            data: { idtipo: idtipo1, appid: appid1 },
+            success: function (viewHTML) {
+                $("#divcubo").html(viewHTML);
+            },
+            error: function (errorData) { console.log("Request Failed: " + errorData); }
+        });
+        if ($("#hhide").text() == 'mostrar')
+            oculta();
+    }
+
+        function selDBWSCM(tipo) {
+            if (validacampos()) {
+                return;
+            }
+            var appid = $("#AplicacionesList Option:Selected").val();
+            GeneraDiagrama(tipo);
+            ActualizaCUbo(tipo, appid);
+            var namedef = "";
+            switch (tipo) {
+                case 1:
+                    ActNavegacion("ObjetosDB>>Indicadores>>");
+                    opcion = "ObjetosDB>>";
+                    namedef = "Tablas";
+                    break;
+                case 2:
+                    ActNavegacion("Clases y Funciones>>Indicadores>>");
+                    opcion = "Clases y Funciones>>";
+                    namedef = "Clase";
+                    break;
+                case 3:
+                    ActNavegacion("Servicios Web>>Indicadores>>");
+                    opcion = "Servicios Web>>";
+                    namedef = "Interface";
+                    break;
+            }
+            ActualizaDetalle(appid, namedef);
+    }
+    function ActualizaDetalle( appid1,nombre1) {
+            $.ajax({
+                type: "GET",
+                url: "/Dependencias/ActualizaDetalle",
+                data: { appid: appid1, nombre:nombre1 },
+                success: function (viewHTML) {
+                    $("#divtree").html(viewHTML);
+                    var cols = document.querySelectorAll('#treeview1 .alineacion');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols = document.querySelectorAll('#treeview1 .alineacion2');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                },
+                error: function (errorData) { console.log("Request Failed: " + errorData); }
+            });
+            if ($("#hhideL").text() == 'mostrar')
+                ocultaL();
+        }
+
+        function possvg() {
+            var topd = document.getElementById("divdiagrama").style.top;
+            var topd = document.getElementById("svg1").style.top = topd + 120;
+            console.log("posvg actualizado");
+        }
+
+        function MuestraCodigo(e,info) {
+            if (info.length > 0) {
+                ActNavegacion(opcion + "Dependencias>>")
+                var top = e.pageY + 'px';
+                var left = (e.pageX + 10) + 'px'
+                console.log(top + left + info);
+                $('#lblaux').text("código : " + info);
+                document.getElementById("divflotante").style.left = left;
+                document.getElementById("divflotante").style.top = top;
+                document.getElementById("divflotante").style.display = "block";
+            }
+        }
+
+        function ActNavegacion(data) {
+            $('#lblnavegacion').text(data);
+        }
+     function GeneraDiagrama(idtipo) {
+         var ddlsource = "#AplicacionesList Option:Selected";
+         var maxe1 = "#maxe Option:Selected";
+         console.log($(maxe1).text());
+                var txtsel = $("#AplicacionesList Option:Selected").text();
+                $("#idtitulo").text(txtsel);
+                var url1 = '@Url.Content("~/")' + "Dependencias/GeneraDiagrama";
+         $.getJSON(url1, { appid: $(ddlsource).val(), maxe: parseInt($(maxe1).text()), tipoid: idtipo, nomapp: $(ddlsource).text() }, function (data) {
+                    $("#diagramaid").empty;
+                    $("#diagramaid").html(data);
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols = document.querySelectorAll('#diagramaid .cuadrado2');
+                    [].forEach.call(cols, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .padre2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                    var cols1 = document.querySelectorAll('#diagramaid .abuelo2');
+                    [].forEach.call(cols1, function (col) {
+                        col.addEventListener('dragstart', handleDragStart, false);
+                        col.addEventListener('dragend', handleDragEnd, false);
+                    });
+                     ObtenTotaleElementos();
+                     possvg();
+                }).fail(function (jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
+             });
+         ActNavegacion(opcion + "Indicadores>>");
+        }
+
+        function eventosDetalle() {
+            var cols = document.querySelectorAll('#treeview1 .alineacion');
+            [].forEach.call(cols, function (col) {
+                col.addEventListener('dragstart', handleDragStart, false);
+                col.addEventListener('dragend', handleDragEnd, false);
+            });
+            var cols = document.querySelectorAll('#treeview1 .alineacion2');
+            [].forEach.call(cols, function (col) {
+                col.addEventListener('dragstart', handleDragStart, false);
+                col.addEventListener('dragend', handleDragEnd, false);
+            });
+        }
+            function XplodElemento(data) {
+                dt = data; xd = 0; yd = 0;
+                ObtieneNuevoDiagrama();
+            }
+
+            function handleDragEnd(e) {
+                console.log("termino Drag");
+                ObtieneNuevoDiagrama();
+            }
+        var currentZoom = 1.0;
+     
+        $(document).ready(function () {
+            Concurrent.Thread.create(GiroaAsync);
+            $("#btn_arbol").click(function () {
+                var url1 = '@Url.Content("~/")' + "Dependencias/GeneraArbol";
+                $.getJSON(url1, { idpadre: 0, idapp: 1 }, function (data) {
+                    $("#treeview1").empty;
+                    $("#treeview1").html(data);
+                }).fail(function (jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
+                });
+            });
+
+
+
+            $("#AplicacionesList").change(function () {
+                if (validacampos()) {
+                    return;
+                }
+                selDBWSCM(1);
+            });
+
+
+            $("#AreasList").change(function () {
+                var a = $("#AreasList Option:Selected").val();
+                var url = '@Url.Content("~/")' + "Dependencias/ActualizaApps";
+                var ddlsource = "#AreasList Option:Selected";
+                $.getJSON(url, { areaid: $(ddlsource).val() }, function (data) {
+                    var items = '';
+                    $("#AplicacionesList").empty;
+                    $.each(data, function (i, row) {
+                        items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+                    });
+                    $("#AplicacionesList").html(items);
+                }).fail(function (jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.log("Request Failed: " + err);
+                });
+                var trajo = false;
+            });
+        });
+
+
+            var progressBarStart = function () {
+                $("#progressbar_container").show();
+            }
+
+            var progressBarUpdate = function (percentage) {
+                $('#progressbar_label').html(percentage + "%");
+                $("#progressbar").width(percentage + "%");
+            }
+
+            var progressBarComplete = function () {
+                $("#progressbar_container").fadeOut(500);
+            }
+
+            var file;
+
+            $('#fileInput').change(function (e) {
+                file = e.target.files[0];
+            });
+
+            var uploadCompleted = function () {
+                var formData = new FormData();
+                formData.append('fileName', file.name);
+                formData.append('completed', true);
+
+                var xhr2 = new XMLHttpRequest();
+                xhr2.onload = function () {
+                    progressBarUpdate(100);
+                    progressBarComplete();
+                }
+                var a = $("#AplicacionesList Option:Selected").val();
+                xhr2.open("POST", "/Dependencias/UploadComplete?fileName=" + file.name + "&complete=" + 1 + "&appid=" + a , true);
+                xhr2.send(formData);
+            }
+
+            var multiUpload = function (count, counter, blob, completed, start, end, bytesPerChunk) {
+                counter = counter + 1;
+                if (counter <= count) {
+                    var chunk = blob.slice(start, end);
+                    var xhr = new XMLHttpRequest();
+                    xhr.onload = function () {
+                        start = end;
+                        end = start + bytesPerChunk;
+                        if (count == counter) {
+                            uploadCompleted();
+                        } else {
+                            var percentage = (counter / count) * 100;
+                            progressBarUpdate(percentage);
+                            multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+                        }
+                    }
+                    xhr.open("POST", "/Dependencias/MultiUpload?id=" + counter.toString() + "&fileName=" + file.name, true);
+                    xhr.send(chunk);
+                }
+        }
+
+        function simple() {
+            document.getElementById("div3dc").style.display = "none";
+            document.getElementById("divIndica").style.display = "block";
+        }
+        function cubo() {
+            document.getElementById("div3dc").style.display = "block";
+            document.getElementById("divIndica").style.display = "none";
+        }
+
+            function GiroaAsync() {
+                var e;
+                while (true) {
+                    e = new Date().getTime() + (12000);
+                    while (new Date().getTime() <= e) { }
+                    var actual = document.getElementById("cubo").style.animationName;
+                    if (actual == "girax")
+                        document.getElementById("cubo").style.animationName = "giray";
+                    else
+                        document.getElementById("cubo").style.animationName = "girax";
+                }
+            }
+
+        $("#btnUpload").click(function () {
+                if (validacampos()) {
+                    return;
+                }
+                if (file == null) {
+                    $("#lblmensaje").text("Es necesario seleccionar el archivo de código.");
+                    document.getElementById("divmensaje").style.display = "block";
+                    return;
+                }
+                var blob = file;
+                var bytesPerChunk = 1048576;
+                var size = blob.size;
+
+                var start = 0;
+                var end = bytesPerChunk;
+                var completed = 0;
+                var count = size % bytesPerChunk == 0 ? size / bytesPerChunk : Math.floor(size / bytesPerChunk) + 1;
+                var counter = 0;
+                progressBarStart();
+                multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+            });
+</script>
+

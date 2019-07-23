@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws.autentica.infonavit.mx.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="autenticaService" targetNamespace="http://ws.autentica.infonavit.mx.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="AutenticaService_schema1.xsd" namespace="http://ws.autentica.infonavit.mx.org/" />
+    </xsd:schema>
+  </types>
+  <message name="loginResponse">
+    <part name="parameters" element="tns:loginResponse" />
+  </message>
+  <message name="login">
+    <part name="parameters" element="tns:login" />
+  </message>
+  <portType name="AutenticaWS">
+    <operation name="login">
+      <input wsam:Action="http://ws.autentica.infonavit.mx.org/AutenticaWS/loginRequest" message="tns:login" />
+      <output wsam:Action="http://ws.autentica.infonavit.mx.org/AutenticaWS/loginResponse" message="tns:loginResponse" />
+    </operation>
+  </portType>
+  <binding name="autenticaPortBinding" type="tns:AutenticaWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="login">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="autenticaService">
+    <port name="autenticaPort" binding="tns:autenticaPortBinding">
+      <soap:address location="https://10.90.8.208:9487/AutenticaLdap/autenticaService" />
+    </port>
+  </service>
+</definitions>

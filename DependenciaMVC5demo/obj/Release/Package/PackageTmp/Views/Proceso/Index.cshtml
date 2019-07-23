@@ -1,0 +1,224 @@
+﻿@model DependenciaMVC5demo.Models.ProcesoModel
+
+@{
+    ViewBag.Title = "Proceso";
+}
+<div class="combos">
+    <table class="campos" align="center">
+        <tr>
+            <td align="right">@Html.LabelFor(m => m.AreaID, "Selecciona Area", new { @class = "lblcombos" })</td>
+            <td align="center">
+                <div class="select">
+                    @Html.DropDownListFor(m => m.AreasList, new SelectList(Model.AreasList, "Ivalue", "Text", new { onchange = "CallChangefunc();" }))
+                </div>
+            </td>
+            <td align="right">@Html.LabelFor(m => m.AplicacionID, "Selecciona Aplicación", new { @class = "lblcombos" })</td>
+            <td align="center">
+                <div class="select">
+                    @Html.DropDownListFor(m => m.AplicacionesList, new SelectList(Model.AplicacionesList, "Ivalue", "Text"))
+                </div>
+            </td>
+            <td align="right"><label class="lblcombos">Código fuente</label></td>
+            <td colspan="2" align="center"><input type="file" id="fileInput" class="file" /></td>
+            <td><input type="button" class="boton curvas" id="btnUpload" value="PROCESAR" /></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</div>
+<br />
+<div id="VideoDiv"><center>
+    <div id="progressbar_container" style="width: 100%;top:45px; height: 30px; position: relative; background-color: grey; display: none">
+        <div id="progressbar" style="width: 0%; height: 100%; position: absolute; background-color: green"></div>
+        <span id="progressbar_label" style="position: absolute; left: 35%; top: 20%">Cargando...</span>
+    </div></center>    
+</div>
+<br />
+<div id="HGrid">
+    <h5>Avance de procesos realizados</h5>
+    <table cellspacing="0" id="Tabla0" style="width: 100%; border-collapse: collapse;">
+        <tr class="GridViewScrollHeader">
+            <th class="CampoNormal">Aplicacion</th>
+            <th class="CampoPizarra">Carga</th>
+            <th class="CampoMediana">Descomprimir</th>
+            <th class="CampoPizarra">Parseo</th>
+            <th class="CampoPizarra">GenInfo</th>
+            <th class="CampoMediana">Estatus</th>
+            <th class="CampoFechaHora">FechaHora</th>
+            <th class="CampoMediana">Detalle</th>
+            <th class="CampoDescarga">Archivo BD</th>
+            <th>Eliminar</th>
+        </tr>
+    </table>
+</div>
+<div id="Grid">
+    @{
+        Html.RenderPartial("Consulta");
+    }
+</div>
+<div id="idpiedep" class="piedep">
+
+</div>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/Concurrent.Thread.js"></script>
+<script id="sp1">
+
+</script>
+<script id="sp2">
+    function consultaAsync() {
+        var e;
+        while (true) {
+            e = new Date().getTime() + (10000);
+            console.log("Procesando");
+            while (new Date().getTime() <= e) { }
+            $.ajax({
+                type: "GET",
+                url: "/Proceso/ActualizaConsulta",
+                data: {},
+                success: function (viewHTML) {
+                    $("#Grid").html(viewHTML);
+                },
+                error: function (errorData) { console.log("Request Failed: " + errorData); }
+            });
+        }
+    }
+
+    function openNav() {
+        document.getElementById("sidebar-menu").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("sidebar-menu").style.width = "0";
+    }
+
+    var progressBarStart = function () {
+        $("#progressbar_container").show();
+    }
+
+    var progressBarUpdate = function (percentage) {
+        $('#progressbar_label').html(percentage + "%");
+        $("#progressbar").width(percentage + "%");
+    }
+
+    var progressBarComplete = function () {
+        $("#progressbar_container").fadeOut(500);
+    }
+
+    var file;
+
+    $('#fileInput').change(function (e) {
+        file = e.target.files[0];
+    });
+
+    var uploadCompleted = function () {
+        var formData = new FormData();
+        formData.append('fileName', file.name);
+        formData.append('completed', true);
+
+        var xhr2 = new XMLHttpRequest();
+        xhr2.onload = function () {
+            progressBarUpdate(100);
+            progressBarComplete();
+        }
+        var app = $("#AplicacionesList Option:Selected").val();
+        xhr2.open("POST", "/Proceso/UploadComplete?fileName=" + file.name + "&complete=" + 1 + "&appid=" + app, true);
+        xhr2.send(formData);
+        $("#lblmensaje").text("Esta tarea llevara varios minutos, puede ver los avances de su proceso en la pizarra.");
+        document.getElementById("divmensaje").style.display = "block";
+        consulta(app);
+    }
+
+    function show_divinfo(e,div, tdiv) {
+        var top = e.pageY + 'px';
+        var left = (e.pageX + 10) + 'px'        
+        document.getElementById(div).style.top = top;
+        document.getElementById(div).style.left = left;
+        document.getElementById(div).style.display = "block";
+    }
+
+    function hide_divinfo(div) {
+        document.getElementById(div).style.display = "none";
+    }
+
+    var multiUpload = function (count, counter, blob, completed, start, end, bytesPerChunk) {
+        counter = counter + 1;
+        if (counter <= count) {
+            var chunk = blob.slice(start, end);
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                start = end;
+                end = start + bytesPerChunk;
+                if (count == counter) {
+                    uploadCompleted();
+                } else {
+                    var percentage = (counter / count) * 100;
+                    progressBarUpdate(percentage);
+                    multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+                }
+            }
+            xhr.open("POST", "/Proceso/MultiUpload?id=" + counter.toString() + "&fileName=" + file.name, true);
+            xhr.send(chunk);
+        }
+    }
+
+    $("#btnUpload").click(function () {       
+        if ($("#AreasList Option:Selected").text() == "--select--") {
+            $("#lblmensaje").text("Es necesario seleccionar el Area.");
+            document.getElementById("divmensaje").style.display = "block";
+            return;
+        }
+        if ($("#AplicacionesList Option:Selected").text() == "--select--") {
+            $("#lblmensaje").text("Es necesario seleccionar la Aplicación.");
+            document.getElementById("divmensaje").style.display = "block";
+            return;
+        }
+        if (file == null) {
+            $("#lblmensaje").text("Es necesario seleccionar el archivo de código.");
+            document.getElementById("divmensaje").style.display = "block";
+            return;
+        }
+        var blob = file;
+        var bytesPerChunk = 1048576;
+        var size = blob.size;        
+        var start = 0;
+        var end = bytesPerChunk;
+        var completed = 0;
+        var count = size % bytesPerChunk == 0 ? sizte / byesPerChunk : Math.floor(size / bytesPerChunk) + 1;
+        var counter = 0;       
+        progressBarStart();        
+        multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+    });
+
+    $(document).ready(function () {
+        $("#AreasList").change(function () {
+            var a = $("#AreasList Option:Selected").val();
+            var url = '@Url.Content("~/")' + "Proceso/ActualizaApps";
+            var ddlsource = "#AreasList Option:Selected";
+            $.getJSON(url, { areaid: $(ddlsource).val() }, function (data) {
+                var items = '';
+                $("#AplicacionesList").empty;
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+                });
+                $("#AplicacionesList").html(items);
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        });
+    });
+
+    function consulta(proc) {
+        $.ajax({
+            type: "GET",
+            url: "/Proceso/ActualizaConsulta",
+            data: { },
+            success: function (viewHTML) {
+                $("#Grid").html(viewHTML);
+            },
+            error: function (errorData) { console.log("Request Failed: " + errorData); }
+        });
+        Concurrent.Thread.create(consultaAsync);
+    }
+    </script>

@@ -1,0 +1,27 @@
+﻿@model DependenciaMVC5demo.Models.Dependencias
+<h6 onclick="ocultaL()" id="hhideL">ocultar</h6>
+<center>    
+        <div class="css-treeview" id="treeview1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <table id="Tabla1" style="width: 400px; border-collapse: collapse;" cellpadding="0" cellspacing="0">
+                <tr class="GridViewScrollHeader">
+                    <th class="CampoUso">Uso</th>
+                    <th class="tddetalle">Objeto -> Dependencias</th>
+                    <th class="CampoTipo">Tipo de Objeto</th>
+                </tr>
+                @{
+                    string idn;
+                    string max = "alineacion2 GridViewScrollItem";
+                    foreach (System.Xml.XmlNode proc in Model.XobjetosDB.DocumentElement.SelectSingleNode("ObjetosDB").SelectNodes("row"))
+                    {
+                        idn = @proc.Attributes["ObjetoID"].Value.ToString() + "-" + @proc.Attributes["Objeto"].Value.ToString() + "-xplod";
+                        <tr class="@max">
+                            <td class="CampoUso">@proc.Attributes["uso"].Value.ToString()</td>
+                            <td class="tddetalle" ondblclick="XplodElemento('@idn')" draggable="true" id="@idn">@proc.Attributes["Objeto"].Value.ToString()</td>
+                            <td class="CampoTipo">@proc.Attributes["tipo"].Value.ToString()</td>
+                        </tr>
+                        max = "alineacion GridViewScrollItem";
+                    }
+                }
+            </table>
+        </div>    
+</center>

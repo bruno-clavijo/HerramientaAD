@@ -1,0 +1,383 @@
+20181207 08:49:07 Acceso correcto usuario info
+20181207 08:49:07 Obtención correcta areas usuario:1
+20181207 08:49:07 Avance correcto proceso 0
+20181207 08:49:12 Obtención correcta areas usuario:1
+20181207 08:49:12 Consulta correcta usuario 1
+20181207 08:49:59 Obtención correcta areas usuario:1
+20181207 08:49:59 Consulta correcta usuario 1
+20181207 08:50:35 Obtención correcta areas usuario:1
+20181207 08:50:35 Consulta correcta usuario 1
+20181207 08:58:39 Obtención correcta areas usuario:1
+20181207 08:58:39 Consulta correcta usuario 1
+20181207 09:00:13 Acceso correcto usuario info
+20181207 09:00:13 Obtención correcta areas usuario:1
+20181207 09:00:13 Avance correcto proceso 0
+20181207 09:00:17 Obtención correcta areas usuario:1
+20181207 09:00:25 Obtención correcta areas usuario:1
+20181207 09:00:25 Consulta correcta usuario 1
+20181207 09:01:05 Obtención correcta areas usuario:1
+20181207 09:01:05 Consulta correcta usuario 1
+20181207 09:08:29 Acceso correcto usuario info
+20181207 09:08:29 Obtención correcta areas usuario:1
+20181207 09:08:29 Avance correcto proceso 0
+20181207 09:08:35 Obtención correcta areas usuario:1
+20181207 09:08:35 Consulta correcta usuario 1
+20181207 09:09:29 Obtención correcta areas usuario:1
+20181207 09:09:29 Consulta correcta usuario 1
+20181207 09:13:41 Acceso correcto usuario info
+20181207 09:13:41 Obtención correcta areas usuario:1
+20181207 09:13:41 Avance correcto proceso 0
+20181207 09:13:59 Obtención correcta areas usuario:1
+20181207 09:14:00 Consulta correcta usuario 1
+20181207 09:14:12 Obtención correcta areas usuario:1
+20181207 09:14:12 Consulta correcta usuario 1
+20181207 09:18:36 Obtención correcta areas usuario:1
+20181207 09:19:13 Consulta correcta usuario 1
+20181207 09:26:56 Acceso correcto usuario info
+20181207 09:26:56 Obtención correcta areas usuario:1
+20181207 09:26:56 Avance correcto proceso 0
+20181207 09:27:01 Obtención correcta areas usuario:1
+20181207 09:27:08 Consulta correcta usuario 1
+20181207 09:27:16 Obtención correcta aplicaciones usuario:1 area 1
+20181207 09:27:25 Obtención correcta areas usuario:1
+20181207 09:27:32 Consulta correcta usuario 1
+20181207 09:27:54 Obtención correcta aplicaciones usuario:1 area 1
+20181207 09:28:13 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 09:29:35 Obtención correcta areas usuario:1
+20181207 09:29:37 Consulta correcta usuario 1
+20181207 09:30:09 Obtención correcta aplicaciones usuario:1 area 1
+20181207 09:30:12 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 09:30:39 Obtención correcta areas usuario:1
+20181207 09:32:05 Consulta correcta usuario 1
+20181207 09:33:20 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181207 09:33:39 Obtención correcta ObtenFiltroArchivosBD usuario:1 area 1
+20181207 09:33:54 Obtención correcta ObtenFiltroNumLineaBD usuario:1 area 1
+20181207 09:36:14 Obtención correcta areas usuario:1
+20181207 09:36:16 Consulta correcta usuario 1
+20181207 09:36:23 Obtención correcta aplicaciones usuario:1 area 1
+20181207 09:36:28 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 09:50:57 Obten usuarios correcto usuario 1
+20181207 09:50:57 Obtención correcta areas usuario:1
+20181207 09:50:57 Obten PERFILES correcto usuario 1
+20181207 09:51:07 Obten usuarios correcto usuario 1
+20181207 09:51:07 Obtención correcta areas usuario:1
+20181207 09:51:07 Obten PERFILES correcto usuario 1
+20181207 09:52:19 Acceso correcto usuario info
+20181207 09:52:19 Obtención correcta areas usuario:1
+20181207 09:52:19 Avance correcto proceso 0
+20181207 09:53:41 Obtención correcta areas usuario:1
+20181207 09:53:53 Obten usuarios correcto usuario 1
+20181207 09:53:53 Obtención correcta areas usuario:1
+20181207 09:53:53 Obten PERFILES correcto usuario 1
+20181207 09:55:25 Acceso correcto usuario info
+20181207 09:55:25 Obtención correcta areas usuario:1
+20181207 09:55:25 Avance correcto proceso 0
+20181207 09:55:48 Acceso correcto usuario info
+20181207 09:55:48 Obtención correcta areas usuario:1
+20181207 09:55:48 Avance correcto proceso 0
+20181207 09:55:51 Obtención correcta areas usuario:1
+20181207 10:06:56 Obtención correcta areas usuario:1
+20181207 10:06:57 Consulta correcta usuario 1
+20181207 10:07:20 Obtención correcta aplicaciones usuario:1 area 1
+20181207 10:07:22 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 10:07:23 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181207 10:07:24 Obtención correcta ObtenFiltroArchivosBD usuario:1 area 1
+20181207 10:07:26 Obtención correcta ObtenFiltroNumLineaBD usuario:1 area 1
+20181207 10:07:44 Obtención correcta areas usuario:1
+20181207 10:07:59 Consulta correcta usuario 1
+20181207 10:10:24 Obtención correcta areas usuario:1
+20181207 10:10:31 Consulta correcta usuario 1
+20181207 10:24:03 Acceso correcto usuario info
+20181207 10:24:03 Obtención correcta areas usuario:1
+20181207 10:24:03 Avance correcto proceso 0
+20181207 10:24:10 Obtención correcta areas usuario:1
+20181207 10:26:03 Obtención correcta areas usuario:1
+20181207 10:26:03 Avance correcto proceso 0
+20181207 10:26:07 Obtención correcta areas usuario:1
+20181207 10:27:14 Acceso correcto usuario info
+20181207 10:27:14 Obtención correcta areas usuario:1
+20181207 10:27:14 Avance correcto proceso 0
+20181207 10:27:24 Obtención correcta areas usuario:1
+20181207 10:27:35 Consulta correcta usuario 1
+20181207 10:28:32 Obtención correcta aplicaciones usuario:1 area 1
+20181207 10:28:33 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 10:28:56 Obtención correcta areas usuario:1
+20181207 10:28:58 Consulta correcta usuario 1
+20181207 10:37:24 Acceso correcto usuario info
+20181207 10:37:24 Obtención correcta areas usuario:1
+20181207 10:37:24 Avance correcto proceso 0
+20181207 10:37:34 Obtención correcta areas usuario:1
+20181207 10:37:36 Consulta incorrecta usuario 1
+20181207 11:04:28 Acceso correcto usuario info
+20181207 11:04:28 Obtención correcta areas usuario:1
+20181207 11:04:28 Avance correcto proceso 0
+20181207 11:04:33 Obtención correcta areas usuario:1
+20181207 11:06:06 Consulta incorrecta usuario 1
+20181207 11:09:11 Obtención correcta areas usuario:1
+20181207 11:09:11 Avance correcto proceso 0
+20181207 11:09:15 Obtención correcta areas usuario:1
+20181207 11:09:17 Consulta incorrecta usuario 1
+20181207 11:09:35 Obtención correcta areas usuario:1
+20181207 11:09:35 Avance correcto proceso 0
+20181207 11:09:40 Obtención correcta areas usuario:1
+20181207 11:09:44 Consulta incorrecta usuario 1
+20181207 11:27:56 Acceso correcto usuario info
+20181207 11:27:56 Obtención correcta areas usuario:1
+20181207 11:27:56 Avance correcto proceso 0
+20181207 11:28:01 Obtención correcta areas usuario:1
+20181207 11:28:04 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:28:04 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181207 11:28:19 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:28:19 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181207 11:28:36 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:28:57 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181207 11:29:05 Obtención correcta areas usuario:1
+20181207 11:29:05 Avance correcto proceso 0
+20181207 11:29:08 Obtención correcta areas usuario:1
+20181207 11:29:14 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:29:14 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181207 11:29:26 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:30:24 Acceso correcto usuario info
+20181207 11:30:24 Obtención correcta areas usuario:1
+20181207 11:30:24 Avance correcto proceso 0
+20181207 11:30:29 Obtención correcta areas usuario:1
+20181207 11:30:38 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:30:38 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181207 11:31:16 Obtención correcta areas usuario:1
+20181207 11:31:16 Avance correcto proceso 0
+20181207 11:31:19 Obtención correcta areas usuario:1
+20181207 11:31:23 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:31:23 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181207 11:31:30 Obtención correcta areas usuario:1
+20181207 11:31:30 Avance correcto proceso 0
+20181207 11:31:33 Obtención correcta areas usuario:1
+20181207 11:32:05 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@BaseDatosID', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181207 11:32:34 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181207 11:32:38 Obtención correcta areas usuario:1
+20181207 11:32:38 Avance correcto proceso 0
+20181207 11:33:16 Acceso correcto usuario info
+20181207 11:33:16 Obtención correcta areas usuario:1
+20181207 11:33:16 Avance correcto proceso 0
+20181207 11:33:19 Obtención correcta areas usuario:1
+20181207 11:33:32 Consulta correcta usuario 1
+20181207 11:33:42 Obtención correcta aplicaciones usuario:1 area 1
+20181207 11:33:43 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 11:34:31 Obtención correcta areas usuario:1
+20181207 11:34:37 Consulta correcta usuario 1
+20181207 11:45:19 Acceso correcto usuario info
+20181207 11:45:19 Obtención correcta areas usuario:1
+20181207 11:45:19 Avance correcto proceso 0
+20181207 11:45:25 Obtención correcta areas usuario:1
+20181207 11:45:35 Consulta correcta usuario 1
+20181207 11:45:41 Obtención correcta aplicaciones usuario:1 area 1
+20181207 11:45:42 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 11:45:45 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181207 11:47:32 Obtención correcta areas usuario:1
+20181207 11:47:38 Consulta correcta usuario 1
+20181207 11:47:54 Obtención correcta aplicaciones usuario:1 area 1
+20181207 11:47:56 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 11:48:10 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181207 11:48:28 Obtención correcta areas usuario:1
+20181207 11:48:37 Consulta correcta usuario 1
+20181207 11:49:04 Consulta correcta usuario 1
+20181207 11:49:21 Consulta correcta usuario 1
+20181207 11:49:35 Obtención correcta areas usuario:1
+20181207 11:49:37 Consulta correcta usuario 1
+20181207 11:49:37 Consulta correcta usuario 1
+20181207 11:50:00 Obtención correcta areas usuario:1
+20181207 11:50:05 Consulta correcta usuario 1
+20181207 11:50:14 Obtención correcta aplicaciones usuario:1 area 1
+20181207 11:50:17 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 11:50:21 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181207 12:34:16 Acceso correcto usuario info
+20181207 12:34:16 Obtención correcta areas usuario:1
+20181207 12:34:16 Avance correcto proceso 0
+20181207 12:34:31 Obtención correcta areas usuario:1
+20181207 12:34:56 Consulta correcta usuario 1
+20181207 12:36:01 Obtención correcta areas usuario:1
+20181207 12:36:09 Consulta correcta usuario 1
+20181207 12:36:42 Obtención correcta aplicaciones usuario:1 area 1
+20181207 12:36:44 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 12:36:46 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181207 12:37:32 Obtención correcta areas usuario:1
+20181207 12:37:34 Consulta correcta usuario 1
+20181207 12:41:43 Obtención correcta areas usuario:1
+20181207 12:41:47 Consulta correcta usuario 1
+20181207 12:45:48 Obtención correcta areas usuario:1
+20181207 12:45:50 Consulta correcta usuario 1
+20181207 12:46:31 Obtención correcta areas usuario:1
+20181207 12:46:33 Consulta correcta usuario 1
+20181207 12:50:07 Acceso correcto usuario info
+20181207 12:50:07 Obtención correcta areas usuario:1
+20181207 12:50:07 Avance correcto proceso 0
+20181207 12:50:12 Obtención correcta areas usuario:1
+20181207 12:50:14 Consulta correcta usuario 1
+20181207 12:50:30 Obtención correcta aplicaciones usuario:1 area 1
+20181207 12:50:31 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181207 12:52:05 Obtención correcta areas usuario:1
+20181207 12:52:07 Consulta correcta usuario 1
+20181207 12:59:24 Obtención correcta areas usuario:1
+20181207 12:59:28 Consulta correcta usuario 1
+20181207 13:02:48 Obtención correcta areas usuario:1
+20181207 13:02:51 Consulta correcta usuario 1
+20181207 13:03:52 Acceso correcto usuario info
+20181207 13:03:52 Obtención correcta areas usuario:1
+20181207 13:03:52 Avance correcto proceso 0
+20181207 13:03:57 Obtención correcta areas usuario:1
+20181207 13:03:59 Consulta correcta usuario 1
+20181207 13:05:19 Obtención correcta areas usuario:1
+20181207 13:05:22 Consulta correcta usuario 1
+20181207 13:08:52 Acceso correcto usuario info
+20181207 13:08:52 Obtención correcta areas usuario:1
+20181207 13:08:52 Avance correcto proceso 0
+20181207 13:08:55 Obtención correcta areas usuario:1
+20181207 13:08:57 Consulta correcta usuario 1
+20181207 13:10:58 Obtención correcta areas usuario:1
+20181207 13:11:04 Consulta correcta usuario 1
+20181207 13:27:06 Obtención correcta areas usuario:1
+20181207 13:27:08 Consulta correcta usuario 1
+20181207 15:20:50 Acceso correcto usuario info
+20181207 15:20:50 Obtención correcta areas usuario:1
+20181207 15:20:50 Avance correcto proceso 0
+20181207 15:20:55 Obtención correcta areas usuario:1
+20181207 15:20:57 Consulta correcta usuario 1
+20181207 15:21:29 Obtención correcta aplicaciones usuario:1 area 1
+20181207 15:22:16 Obtención correcta aplicaciones usuario:1 area 1
+20181207 15:22:35 Obtención correcta areas usuario:1
+20181207 15:22:37 Consulta correcta usuario 1
+20181207 15:22:45 Obtención correcta aplicaciones usuario:1 area 1
+20181207 15:22:51 Obtención correcta ObtenBasesDatos usuario:1 area 16
+20181207 15:46:24 Acceso correcto usuario info
+20181207 15:46:24 Obtención correcta areas usuario:1
+20181207 15:46:24 Avance correcto proceso 0
+20181207 15:46:33 Obtención correcta areas usuario:1
+20181207 15:46:36 Consulta correcta usuario 1
+20181207 15:46:53 Obtención correcta aplicaciones usuario:1 area 1
+20181207 15:46:55 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 15:47:02 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 15:47:04 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 15:47:06 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 15:47:33 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 15:47:37 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 15:47:39 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 15:48:01 Obtención correcta areas usuario:1
+20181207 15:48:03 Consulta correcta usuario 1
+20181207 15:48:03 Consulta correcta usuario 1
+20181207 15:54:47 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 15:54:52 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 15:56:25 Obtención correcta areas usuario:1
+20181207 15:56:27 Consulta correcta usuario 1
+20181207 15:56:35 Obtención correcta aplicaciones usuario:1 area 1
+20181207 15:56:37 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 15:56:38 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 15:56:39 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 15:58:23 Obtención correcta areas usuario:1
+20181207 15:58:29 Consulta correcta usuario 1
+20181207 15:58:34 Obtención correcta aplicaciones usuario:1 area 1
+20181207 15:58:35 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 15:58:36 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 15:58:37 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 15:58:39 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 15:59:16 Obtención correcta areas usuario:1
+20181207 15:59:19 Consulta correcta usuario 1
+20181207 15:59:29 Obtención correcta aplicaciones usuario:1 area 1
+20181207 15:59:30 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 15:59:31 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 15:59:32 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 15:59:34 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 16:01:05 Obtención correcta areas usuario:1
+20181207 16:01:10 Consulta correcta usuario 1
+20181207 16:01:18 Obtención correcta aplicaciones usuario:1 area 1
+20181207 16:01:19 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:01:20 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:01:21 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:01:23 Obtención correcta areas usuario:1
+20181207 16:01:36 Consulta correcta usuario 1
+20181207 16:01:37 Obtención correcta areas usuario:1
+20181207 16:01:39 Consulta correcta usuario 1
+20181207 16:01:51 Obtención correcta areas usuario:1
+20181207 16:01:58 Consulta correcta usuario 1
+20181207 16:05:54 Acceso correcto usuario info
+20181207 16:05:54 Obtención correcta areas usuario:1
+20181207 16:05:54 Avance correcto proceso 0
+20181207 16:06:03 Obtención correcta areas usuario:1
+20181207 16:06:06 Consulta correcta usuario 1
+20181207 16:06:12 Obtención correcta aplicaciones usuario:1 area 1
+20181207 16:06:14 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:06:15 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:06:16 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:13:04 Obtención correcta areas usuario:1
+20181207 16:13:07 Consulta correcta usuario 1
+20181207 16:14:13 Acceso correcto usuario info
+20181207 16:14:13 Obtención correcta areas usuario:1
+20181207 16:14:13 Avance correcto proceso 0
+20181207 16:14:17 Obtención correcta areas usuario:1
+20181207 16:14:19 Consulta correcta usuario 1
+20181207 16:14:25 Obtención correcta aplicaciones usuario:1 area 1
+20181207 16:14:27 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:14:32 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:14:33 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:14:36 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 16:14:39 Obtención correcta areas usuario:1
+20181207 16:14:42 Consulta correcta usuario 1
+20181207 16:14:51 Obtención correcta aplicaciones usuario:1 area 1
+20181207 16:14:53 Obtención incorrecta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 2
+20181207 16:14:59 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:15:05 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:15:17 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:15:20 Obtención incorrecta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 2
+20181207 16:15:22 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:15:24 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:15:33 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:15:38 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:17:57 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:17:59 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:18:01 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 16:18:04 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 16:18:08 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 16:23:32 Obtención correcta areas usuario:1
+20181207 16:23:43 Consulta correcta usuario 1
+20181207 16:23:52 Obtención correcta aplicaciones usuario:1 area 1
+20181207 16:23:53 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:23:53 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:23:54 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:23:55 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 16:25:09 Obtención correcta areas usuario:1
+20181207 16:25:11 Consulta correcta usuario 1
+20181207 16:25:38 Obten usuarios correcto usuario 1
+20181207 16:25:38 Obtención correcta areas usuario:1
+20181207 16:25:38 Obten PERFILES correcto usuario 1
+20181207 16:26:25 Obten usuarios correcto usuario 1
+20181207 16:26:25 Obtención correcta areas usuario:1
+20181207 16:26:25 Obten PERFILES correcto usuario 1
+20181207 16:27:38 Obten usuarios correcto usuario 1
+20181207 16:27:38 Obtención correcta areas usuario:1
+20181207 16:27:38 Obten PERFILES correcto usuario 1
+20181207 16:30:28 Obten usuarios correcto usuario 1
+20181207 16:30:28 Obtención correcta areas usuario:1
+20181207 16:30:28 Obten PERFILES correcto usuario 1
+20181207 16:38:26 Obten usuarios correcto usuario 1
+20181207 16:38:26 Obtención correcta areas usuario:1
+20181207 16:38:26 Obten PERFILES correcto usuario 1
+20181207 16:56:36 Acceso correcto usuario info
+20181207 16:56:36 Obtención correcta areas usuario:1
+20181207 16:56:36 Avance correcto proceso 0
+20181207 16:56:43 Obtención correcta areas usuario:1
+20181207 16:56:45 Consulta correcta usuario 1
+20181207 16:56:55 Obtención correcta aplicaciones usuario:1 area 1
+20181207 16:56:56 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:56:58 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:56:59 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:57:00 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 16:57:36 Obtención correcta areas usuario:1
+20181207 16:57:37 Consulta correcta usuario 1
+20181207 16:57:42 Obtención correcta aplicaciones usuario:1 area 1
+20181207 16:57:44 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1
+20181207 16:58:29 Obtención correcta ObtenFiltrosBD Tipo:ObjetosBD Aplicacion 1
+20181207 16:58:58 Obtención correcta ObtenFiltrosBD Tipo:Archivo Aplicacion 1
+20181207 16:59:00 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 17:00:37 Obtención correcta ObtenFiltrosBD Tipo:NumeroLinea Aplicacion 1
+20181207 17:00:56 Obtención correcta areas usuario:1
+20181207 17:00:59 Consulta correcta usuario 1
+20181207 17:01:06 Obtención correcta aplicaciones usuario:1 area 1
+20181207 17:01:08 Obtención correcta ObtenFiltrosBD Tipo:BaseDatos Aplicacion 1

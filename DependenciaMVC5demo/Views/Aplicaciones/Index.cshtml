@@ -1,0 +1,57 @@
+﻿@model DependenciaMVC5demo.Models.AplicacionesModel
+
+@{
+    ViewBag.Title = "Aplicaciones";
+}
+
+<div class="combos">
+    <table>
+        <tr>
+            <td style="color:#fff;"><h4>  Aplicaciones</h4></td>
+        </tr>
+    </table>
+</div>
+<br />
+<br />
+<br />
+
+@using (Html.BeginForm("Aplicaciones", "Aplicaciones", new { AplicacionID = 0, Tipo = "Inserta" }))
+{
+    <table id="Tabla" align="center" style="width:20%; border-collapse: collapse;" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td>
+                <button type="submit" class="botonazul">Nuevo</button>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <table id="Tabla1" align="center" style="width:100%; border-collapse: collapse;" cellpadding="0" cellspacing="0" border="1">
+        <thead>
+            <tr class="GridViewScrollHeader">
+                <th>Aplicacion</th>
+                <th>Descripcion</th>
+                <th>Lenguaje</th>
+                <th>Clave</th>
+                <th>Estatus</th>
+                <th>Eliminar</th>
+                <th>Modificar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (System.Xml.XmlNode xmlNode in Model.AplicacionesXML.DocumentElement.SelectSingleNode("Aplicaciones").SelectNodes("row"))
+                {
+                    <tr class="GridViewScrollItem">
+                        <td>@xmlNode.Attributes["Aplicacion"].Value.ToString()</td>
+                        <td>@xmlNode.Attributes["Descripcion"].Value.ToString()</td>
+                        <td>@xmlNode.Attributes["Lenguaje"].Value.ToString()</td>
+                        <td>@xmlNode.Attributes["ClaveAplicacion"].Value.ToString()</td>
+                        <td>@xmlNode.Attributes["Estatus"].Value.ToString()</td>
+                        <td class="CampoMasCorto">@Html.ActionLink("(-)", "Aplicaciones", "Aplicaciones", new { AplicacionID = xmlNode.Attributes["AplicacionID"].Value.ToString(), Tipo = "Elimina" }, new { @class = "btn-descarga" })</td>
+                        <td class="CampoMasCorto">@Html.ActionLink("Editar", "Aplicaciones", "Aplicaciones", new { AplicacionID = xmlNode.Attributes["AplicacionID"].Value.ToString(), Tipo = "Actualiza" }, new { @class = "btn-descarga" })</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,461 @@
+20181206 08:46:49 Acceso correcto usuario info
+20181206 08:46:50 Obtención correcta areas usuario:1
+20181206 08:46:50 Avance correcto proceso 0
+20181206 08:47:08 BaseDatos.GetResultStoredSQLReader Invalid object name 'AplicaionArea'. 208 Sp_ObtenAplicacion 9 1
+20181206 08:47:08 Aplicacion.ObtenAplicacion Object reference not set to an instance of an object.
+20181206 08:51:50 Acceso correcto usuario info
+20181206 08:51:50 Obtención correcta areas usuario:1
+20181206 08:51:50 Avance correcto proceso 0
+20181206 08:51:59 BaseDatos.GetResultStoredSQLReader Invalid object name 'AplicaionArea'. 208 Sp_ObtenAplicacion 9 1
+20181206 08:51:59 Aplicacion.ObtenAplicacion Object reference not set to an instance of an object.
+20181206 08:53:48 Acceso correcto usuario info
+20181206 08:53:48 Obtención correcta areas usuario:1
+20181206 08:53:48 Avance correcto proceso 0
+20181206 08:53:53 BaseDatos.GetResultStoredSQLReader Invalid object name 'AplicaionArea'. 208 Sp_ObtenAplicacion 9 1
+20181206 08:53:53 Aplicacion.ObtenAplicacion Object reference not set to an instance of an object.
+20181206 08:54:30 BaseDatos.GetResultStoredSQLReader Invalid object name 'AplicaionArea'. 208 Sp_ObtenAplicacion 9 1
+20181206 08:54:30 Aplicacion.ObtenAplicacion Object reference not set to an instance of an object.
+20181206 08:54:31 BaseDatos.GetResultStoredSQLReader Invalid object name 'AplicaionArea'. 208 Sp_ObtenAplicacion 9 1
+20181206 08:54:31 Aplicacion.ObtenAplicacion Object reference not set to an instance of an object.
+20181206 08:54:39 Obtención correcta areas usuario:1
+20181206 08:54:48 BaseDatos.GetResultStoredSQLReader Invalid object name 'AplicaionArea'. 208 Sp_ObtenAplicacion 9 1
+20181206 08:54:49 Aplicacion.ObtenAplicacion Object reference not set to an instance of an object.
+20181206 09:00:55 Acceso correcto usuario info
+20181206 09:00:55 Obtención correcta areas usuario:1
+20181206 09:00:55 Avance correcto proceso 0
+20181206 09:01:00 Obtención correcta aplicaciones usuario:1 area 1
+20181206 09:01:07 Obtención correcta areas usuario:1
+20181206 09:01:07 Consulta correcta usuario 1
+20181206 09:03:34 Acceso correcto usuario info
+20181206 09:03:34 Obtención correcta areas usuario:1
+20181206 09:03:34 Avance correcto proceso 0
+20181206 09:03:41 Obtención correcta areas usuario:1
+20181206 09:03:44 Obtención correcta areas usuario:1
+20181206 09:03:45 Consulta correcta usuario 1
+20181206 09:03:50 Obtención correcta aplicaciones usuario:1 area 1
+20181206 09:03:58 Obtención incorrecta ObtenBasesDatos usuario:1 area 6
+20181206 09:05:49 Obtención correcta areas usuario:1
+20181206 09:05:49 Consulta correcta usuario 1
+20181206 09:25:29 Acceso correcto usuario info
+20181206 09:25:29 Obtención correcta areas usuario:1
+20181206 09:25:29 Avance correcto proceso 0
+20181206 09:25:41 Obtención correcta areas usuario:1
+20181206 09:25:41 Consulta correcta usuario 1
+20181206 09:27:34 Acceso correcto usuario info
+20181206 09:27:34 Obtención correcta areas usuario:1
+20181206 09:27:34 Avance correcto proceso 0
+20181206 09:27:38 Obtención correcta areas usuario:1
+20181206 09:27:39 Consulta correcta usuario 1
+20181206 09:30:35 Obtención correcta areas usuario:1
+20181206 09:30:35 Consulta correcta usuario 1
+20181206 09:32:03 Acceso correcto usuario info
+20181206 09:32:03 Obtención correcta areas usuario:1
+20181206 09:32:03 Avance correcto proceso 0
+20181206 09:32:07 Obtención correcta areas usuario:1
+20181206 09:32:07 Consulta correcta usuario 1
+20181206 09:32:51 LayOut incorrecto del archivo .csv.
+20181206 09:35:34 Acceso correcto usuario info
+20181206 09:35:34 Obtención correcta areas usuario:1
+20181206 09:35:34 Avance correcto proceso 0
+20181206 09:35:38 Obtención correcta areas usuario:1
+20181206 09:35:38 Consulta correcta usuario 1
+20181206 09:40:51 Acceso correcto usuario info
+20181206 09:40:51 Obtención correcta areas usuario:1
+20181206 09:40:51 Avance correcto proceso 0
+20181206 09:40:59 Obtención correcta areas usuario:1
+20181206 09:40:59 Consulta correcta usuario 1
+20181206 09:42:14 Acceso correcto usuario info
+20181206 09:42:14 Obtención correcta areas usuario:1
+20181206 09:42:14 Avance correcto proceso 0
+20181206 09:42:21 Obtención correcta areas usuario:1
+20181206 09:42:21 Consulta correcta usuario 1
+20181206 09:44:39 Acceso correcto usuario info
+20181206 09:44:39 Obtención correcta areas usuario:1
+20181206 09:44:39 Avance correcto proceso 0
+20181206 09:44:48 Obtención correcta areas usuario:1
+20181206 09:44:48 Consulta correcta usuario 1
+20181206 09:54:18 Acceso correcto usuario info
+20181206 09:54:18 Obtención correcta areas usuario:1
+20181206 09:54:18 Avance correcto proceso 0
+20181206 09:54:22 Obtención correcta areas usuario:1
+20181206 09:54:22 Consulta correcta usuario 1
+20181206 09:55:22 Obtención correcta areas usuario:1
+20181206 09:55:22 Consulta correcta usuario 1
+20181206 09:56:54 Obtención correcta areas usuario:1
+20181206 09:56:54 Consulta correcta usuario 1
+20181206 09:56:54 Obtención correcta areas usuario:1
+20181206 09:56:54 Consulta correcta usuario 1
+20181206 09:56:58 Obtención correcta areas usuario:1
+20181206 09:56:58 Consulta correcta usuario 1
+20181206 09:58:24 Obtención correcta areas usuario:1
+20181206 09:58:24 Consulta correcta usuario 1
+20181206 10:01:50 Obtención correcta areas usuario:1
+20181206 10:01:50 Consulta correcta usuario 1
+20181206 10:01:51 Obtención correcta areas usuario:1
+20181206 10:01:51 Consulta correcta usuario 1
+20181206 10:03:49 Obtención correcta areas usuario:1
+20181206 10:03:49 Consulta correcta usuario 1
+20181206 10:14:58 Acceso correcto usuario info
+20181206 10:14:58 Obtención correcta areas usuario:1
+20181206 10:14:58 Avance correcto proceso 0
+20181206 10:15:03 Obtención correcta areas usuario:1
+20181206 10:15:03 Consulta correcta usuario 1
+20181206 10:26:18 Acceso correcto usuario info
+20181206 10:26:18 Obtención correcta areas usuario:1
+20181206 10:26:18 Avance correcto proceso 0
+20181206 10:27:27 Obtención correcta aplicaciones usuario:1 area 1
+20181206 10:27:49 Obtención correcta areas usuario:1
+20181206 10:27:49 Avance correcto proceso 0
+20181206 10:27:51 actualizaStatus.UploadComplete Cannot create a file when that file already exists.
+
+20181206 10:28:10 Obtención correcta areas usuario:1
+20181206 10:28:10 Avance correcto proceso 0
+20181206 10:28:20 Obtención correcta areas usuario:1
+20181206 10:28:20 Avance correcto proceso 0
+20181206 10:31:40 Acceso correcto usuario info
+20181206 10:31:40 Obtención correcta areas usuario:1
+20181206 10:31:40 Avance correcto proceso 0
+20181206 10:31:52 Obtención correcta aplicaciones usuario:1 area 1
+20181206 10:33:02 actualizaStatus.UploadComplete Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+20181206 10:33:03 Obtención correcta areas usuario:1
+20181206 10:33:03 Avance correcto proceso 0
+20181206 10:33:12 Obtención correcta areas usuario:1
+20181206 10:33:12 Avance correcto proceso 0
+20181206 10:33:16 actualizaStatus.UploadComplete Cannot create a file when that file already exists.
+
+20181206 10:33:16 Obtención correcta areas usuario:1
+20181206 10:33:16 Avance correcto proceso 0
+20181206 10:33:22 Obtención correcta areas usuario:1
+20181206 10:33:22 Avance correcto proceso 0
+20181206 10:33:26 Obtención correcta areas usuario:1
+20181206 10:33:26 Avance correcto proceso 0
+20181206 10:34:07 actualizaStatus.UploadComplete Input string was not in a correct format.
+20181206 10:34:07 Obtención correcta areas usuario:1
+20181206 10:34:07 Avance correcto proceso 0
+20181206 10:34:07 Obtención correcta areas usuario:1
+20181206 10:34:07 Avance correcto proceso 0
+20181206 10:34:08 Obtención correcta areas usuario:1
+20181206 10:34:08 Avance correcto proceso 0
+20181206 10:34:16 Obtención correcta areas usuario:1
+20181206 10:34:16 Avance correcto proceso 0
+20181206 10:34:17 Obtención correcta areas usuario:1
+20181206 10:34:17 Avance correcto proceso 0
+20181206 10:34:17 Obtención correcta areas usuario:1
+20181206 10:34:17 Avance correcto proceso 0
+20181206 10:36:08 Obtención correcta areas usuario:1
+20181206 10:36:08 Avance correcto proceso 0
+20181206 10:36:09 Obtención correcta areas usuario:1
+20181206 10:36:09 Avance correcto proceso 0
+20181206 10:36:10 Obtención correcta areas usuario:1
+20181206 10:36:10 Avance correcto proceso 0
+20181206 10:36:23 Obtención correcta areas usuario:1
+20181206 10:36:23 Avance correcto proceso 0
+20181206 10:36:23 Obtención correcta areas usuario:1
+20181206 10:36:23 Avance correcto proceso 0
+20181206 10:36:23 Obtención correcta areas usuario:1
+20181206 10:36:23 Avance correcto proceso 0
+20181206 10:36:26 Obtención correcta areas usuario:1
+20181206 10:36:26 Avance correcto proceso 0
+20181206 10:36:27 Obtención correcta areas usuario:1
+20181206 10:36:27 Avance correcto proceso 0
+20181206 10:36:28 Obtención correcta areas usuario:1
+20181206 10:36:28 Avance correcto proceso 0
+20181206 10:36:33 Obtención correcta areas usuario:1
+20181206 10:36:33 Avance correcto proceso 0
+20181206 10:36:33 Obtención correcta areas usuario:1
+20181206 10:36:33 Avance correcto proceso 0
+20181206 10:36:34 Obtención correcta areas usuario:1
+20181206 10:36:34 Avance correcto proceso 0
+20181206 10:36:48 Obtención correcta areas usuario:1
+20181206 10:36:48 Avance correcto proceso 0
+20181206 10:36:48 Obtención correcta areas usuario:1
+20181206 10:36:48 Avance correcto proceso 0
+20181206 10:36:48 Obtención correcta areas usuario:1
+20181206 10:36:48 Avance correcto proceso 0
+20181206 10:37:10 Obtención correcta areas usuario:1
+20181206 10:37:10 Avance correcto proceso 0
+20181206 10:37:10 Obtención correcta areas usuario:1
+20181206 10:37:10 Avance correcto proceso 0
+20181206 10:37:15 Obtención correcta areas usuario:1
+20181206 10:37:15 Avance correcto proceso 0
+20181206 10:37:27 Obtención correcta areas usuario:1
+20181206 10:37:27 Avance correcto proceso 0
+20181206 10:37:44 Obtención correcta areas usuario:1
+20181206 10:37:44 Avance correcto proceso 0
+20181206 10:37:44 Obtención correcta areas usuario:1
+20181206 10:37:44 Avance correcto proceso 0
+20181206 10:37:44 Obtención correcta areas usuario:1
+20181206 10:37:44 Avance correcto proceso 0
+20181206 10:37:44 Obtención correcta areas usuario:1
+20181206 10:37:44 Avance correcto proceso 0
+20181206 10:37:45 actualizaStatus.UploadComplete Input string was not in a correct format.
+20181206 10:37:45 Obtención correcta areas usuario:1
+20181206 10:37:45 Avance correcto proceso 0
+20181206 10:37:46 Obtención correcta areas usuario:1
+20181206 10:37:46 Avance correcto proceso 0
+20181206 10:37:54 Obtención correcta areas usuario:1
+20181206 10:37:54 Avance correcto proceso 0
+20181206 10:37:54 Obtención correcta areas usuario:1
+20181206 10:37:54 Avance correcto proceso 0
+20181206 10:37:54 Obtención correcta areas usuario:1
+20181206 10:37:54 Avance correcto proceso 0
+20181206 10:37:54 Obtención correcta areas usuario:1
+20181206 10:37:54 Avance correcto proceso 0
+20181206 10:55:12 Acceso correcto usuario info
+20181206 10:55:12 Obtención correcta areas usuario:1
+20181206 10:55:12 Avance correcto proceso 0
+20181206 10:55:18 Obtención correcta aplicaciones usuario:1 area 1
+20181206 11:03:55 Acceso correcto usuario info
+20181206 11:03:55 Obtención correcta areas usuario:1
+20181206 11:03:55 Avance correcto proceso 0
+20181206 11:03:59 Obtención correcta areas usuario:1
+20181206 11:04:00 Consulta incorrecta usuario 1
+20181206 11:28:27 Acceso correcto usuario info
+20181206 11:28:28 Obtención correcta areas usuario:1
+20181206 11:28:28 Avance correcto proceso 0
+20181206 11:28:34 Obtención correcta areas usuario:1
+20181206 11:28:35 Consulta correcta usuario 1
+20181206 11:33:27 Obtención correcta areas usuario:1
+20181206 11:33:27 Consulta correcta usuario 1
+20181206 11:35:48 Obtención correcta areas usuario:1
+20181206 11:35:48 Consulta correcta usuario 1
+20181206 11:39:26 Acceso correcto usuario info
+20181206 11:39:26 Obtención correcta areas usuario:1
+20181206 11:39:26 Avance correcto proceso 0
+20181206 11:39:31 Obtención correcta aplicaciones usuario:1 area 1
+20181206 11:39:35 Obtención correcta areas usuario:1
+20181206 11:39:35 Consulta correcta usuario 1
+20181206 11:48:13 Acceso correcto usuario info
+20181206 11:48:13 Obtención correcta areas usuario:1
+20181206 11:48:13 Avance correcto proceso 0
+20181206 11:48:18 Obtención correcta areas usuario:1
+20181206 11:48:18 Consulta correcta usuario 1
+20181206 11:51:45 Acceso correcto usuario info
+20181206 11:51:45 Obtención correcta areas usuario:1
+20181206 11:51:45 Avance correcto proceso 0
+20181206 11:51:49 Obtención correcta areas usuario:1
+20181206 11:51:49 Consulta correcta usuario 1
+20181206 11:53:02 Acceso correcto usuario info
+20181206 11:53:02 Obtención correcta areas usuario:1
+20181206 11:53:02 Avance correcto proceso 0
+20181206 11:53:07 Obtención correcta areas usuario:1
+20181206 11:53:07 Consulta correcta usuario 1
+20181206 11:54:27 Acceso correcto usuario info
+20181206 11:54:27 Obtención correcta areas usuario:1
+20181206 11:54:27 Avance correcto proceso 0
+20181206 11:54:32 Obtención correcta areas usuario:1
+20181206 11:54:32 Consulta correcta usuario 1
+20181206 11:55:21 Obtención correcta areas usuario:1
+20181206 11:55:21 Consulta correcta usuario 1
+20181206 11:56:38 Obtención correcta areas usuario:1
+20181206 11:56:38 Consulta correcta usuario 1
+20181206 11:56:45 Obtención correcta areas usuario:1
+20181206 11:56:45 Consulta correcta usuario 1
+20181206 11:59:58 Acceso correcto usuario info
+20181206 11:59:58 Obtención correcta areas usuario:1
+20181206 11:59:58 Avance correcto proceso 0
+20181206 12:00:03 Obtención correcta areas usuario:1
+20181206 12:00:03 Consulta correcta usuario 1
+20181206 12:07:04 Acceso correcto usuario info
+20181206 12:07:04 Obtención correcta areas usuario:1
+20181206 12:07:04 Avance correcto proceso 0
+20181206 12:07:12 Obtención correcta areas usuario:1
+20181206 12:07:12 Consulta correcta usuario 1
+20181206 12:14:59 Acceso correcto usuario info
+20181206 12:15:00 Obtención correcta areas usuario:1
+20181206 12:15:00 Avance correcto proceso 0
+20181206 12:15:04 Obtención correcta areas usuario:1
+20181206 12:15:04 Consulta correcta usuario 1
+20181206 12:15:28 Obtención correcta aplicaciones usuario:1 area 1
+20181206 12:15:30 Obtención incorrecta ObtenBasesDatos usuario:1 area 7
+20181206 12:45:54 Acceso correcto usuario info
+20181206 12:45:54 Obtención correcta areas usuario:1
+20181206 12:45:54 Avance correcto proceso 0
+20181206 12:45:59 Obtención correcta areas usuario:1
+20181206 12:45:59 Consulta correcta usuario 1
+20181206 12:47:20 Obtención correcta areas usuario:1
+20181206 12:47:20 Consulta correcta usuario 1
+20181206 12:49:32 Acceso correcto usuario info
+20181206 12:49:32 Obtención correcta areas usuario:1
+20181206 12:49:32 Avance correcto proceso 0
+20181206 12:49:41 Obtención correcta areas usuario:1
+20181206 12:49:41 Consulta correcta usuario 1
+20181206 12:59:37 Acceso correcto usuario info
+20181206 12:59:37 Obtención correcta areas usuario:1
+20181206 12:59:37 Avance correcto proceso 0
+20181206 12:59:42 Obtención correcta areas usuario:1
+20181206 12:59:42 Consulta correcta usuario 1
+20181206 13:03:45 actualizaStatus.UploadComplete Could not find file 'C:\INFONAVIT\Zip\DependenciaMVC05122018\DependenciaMVC5demo\DependenciaMVC5demo\temp\csvBD.csv'.
+20181206 13:04:14 actualizaStatus.UploadComplete Input string was not in a correct format.
+20181206 13:04:51 Acceso correcto usuario info
+20181206 13:04:51 Obtención correcta areas usuario:1
+20181206 13:04:51 Avance correcto proceso 0
+20181206 13:04:55 Obtención correcta areas usuario:1
+20181206 13:04:55 Consulta correcta usuario 1
+20181206 13:06:38 actualizaStatus.UploadComplete Input string was not in a correct format.
+20181206 13:07:11 Acceso correcto usuario info
+20181206 13:07:11 Obtención correcta areas usuario:1
+20181206 13:07:11 Avance correcto proceso 0
+20181206 13:07:16 Obtención correcta areas usuario:1
+20181206 13:07:16 Consulta correcta usuario 1
+20181206 13:09:16 Acceso correcto usuario info
+20181206 13:09:16 Obtención correcta areas usuario:1
+20181206 13:09:16 Avance correcto proceso 0
+20181206 13:09:22 Obtención correcta areas usuario:1
+20181206 13:09:22 Consulta correcta usuario 1
+20181206 13:13:11 Acceso correcto usuario info
+20181206 13:13:11 Obtención correcta areas usuario:1
+20181206 13:13:11 Avance correcto proceso 0
+20181206 13:13:15 Obtención correcta areas usuario:1
+20181206 13:13:15 Consulta correcta usuario 1
+20181206 13:14:48 actualizaStatus.UploadComplete Could not find file 'C:\INFONAVIT\Zip\DependenciaMVC05122018\DependenciaMVC5demo\DependenciaMVC5demo\temp\csvBD.csv'.
+20181206 13:15:45 Obtención correcta areas usuario:1
+20181206 13:15:45 Consulta correcta usuario 1
+20181206 13:18:45 Acceso correcto usuario info
+20181206 13:18:46 Obtención correcta areas usuario:1
+20181206 13:18:46 Avance correcto proceso 0
+20181206 13:18:50 Obtención correcta areas usuario:1
+20181206 13:18:50 Consulta correcta usuario 1
+20181206 13:20:29 actualizaStatus.UploadComplete Could not find file 'C:\INFONAVIT\Zip\DependenciaMVC05122018\DependenciaMVC5demo\DependenciaMVC5demo\temp\csvBD.csv'.
+20181206 13:22:18 actualizaStatus.UploadComplete Could not find file 'C:\INFONAVIT\Zip\DependenciaMVC05122018\DependenciaMVC5demo\DependenciaMVC5demo\temp\csvBD.csv'.
+20181206 13:22:25 actualizaStatus.UploadComplete Could not find file 'C:\INFONAVIT\Zip\DependenciaMVC05122018\DependenciaMVC5demo\DependenciaMVC5demo\temp\csvBD.csv'.
+20181206 13:22:29 actualizaStatus.UploadComplete Could not find file 'C:\INFONAVIT\Zip\DependenciaMVC05122018\DependenciaMVC5demo\DependenciaMVC5demo\temp\csvBD.csv'.
+20181206 13:26:17 Acceso correcto usuario info
+20181206 13:26:17 Obtención correcta areas usuario:1
+20181206 13:26:17 Avance correcto proceso 0
+20181206 13:26:32 Obtención correcta areas usuario:1
+20181206 13:26:32 Consulta correcta usuario 1
+20181206 13:28:14 actualizaStatus.UploadComplete Could not find file 'C:\INFONAVIT\Zip\DependenciaMVC05122018\DependenciaMVC5demo\DependenciaMVC5demo\temp\csvBD.csv'.
+20181206 13:29:12 Acceso correcto usuario info
+20181206 13:29:13 Obtención correcta areas usuario:1
+20181206 13:29:13 Avance correcto proceso 0
+20181206 13:29:19 Obtención correcta areas usuario:1
+20181206 13:29:19 Consulta correcta usuario 1
+20181206 13:30:57 Obtención correcta areas usuario:1
+20181206 13:30:57 Consulta correcta usuario 1
+20181206 15:54:15 Acceso correcto usuario info
+20181206 15:54:15 Obtención correcta areas usuario:1
+20181206 15:54:15 Avance correcto proceso 0
+20181206 15:54:22 Obtención correcta areas usuario:1
+20181206 15:54:22 Consulta correcta usuario 1
+20181206 16:03:02 Acceso correcto usuario info
+20181206 16:03:02 Obtención correcta areas usuario:1
+20181206 16:03:02 Avance correcto proceso 0
+20181206 16:03:09 Obtención correcta areas usuario:1
+20181206 16:03:09 Consulta correcta usuario 1
+20181206 16:04:46 LayOut incorrecto del archivo .csv.
+20181206 16:05:00 LayOut incorrecto del archivo .csv.
+20181206 16:05:58 Obtención correcta areas usuario:1
+20181206 16:05:58 Consulta correcta usuario 1
+20181206 16:09:09 Acceso correcto usuario info
+20181206 16:09:09 Obtención correcta areas usuario:1
+20181206 16:09:09 Avance correcto proceso 0
+20181206 16:09:14 Obtención correcta areas usuario:1
+20181206 16:09:14 Consulta correcta usuario 1
+20181206 16:09:44 Consulta de Proceso correcta
+20181206 16:14:24 Acceso correcto usuario info
+20181206 16:14:24 Obtención correcta areas usuario:1
+20181206 16:14:24 Avance correcto proceso 0
+20181206 16:14:29 Obtención correcta areas usuario:1
+20181206 16:14:29 Consulta correcta usuario 1
+20181206 16:18:13 Acceso correcto usuario info
+20181206 16:18:13 Obtención correcta areas usuario:1
+20181206 16:18:13 Avance correcto proceso 0
+20181206 16:18:19 Obtención correcta areas usuario:1
+20181206 16:18:19 Consulta correcta usuario 1
+20181206 16:28:04 Acceso correcto usuario info
+20181206 16:28:04 Obtención correcta areas usuario:1
+20181206 16:28:04 Avance correcto proceso 0
+20181206 16:28:11 Obtención correcta areas usuario:1
+20181206 16:28:11 Consulta correcta usuario 1
+20181206 16:34:13 Acceso correcto usuario info
+20181206 16:34:13 Obtención correcta areas usuario:1
+20181206 16:34:13 Avance correcto proceso 0
+20181206 16:34:20 Obtención correcta areas usuario:1
+20181206 16:34:20 Consulta correcta usuario 1
+20181206 16:34:40 Consulta de Proceso correcta
+20181206 16:35:12 Consulta de Proceso correcta
+20181206 16:47:34 Acceso correcto usuario info
+20181206 16:47:34 Obtención correcta areas usuario:1
+20181206 16:47:34 Avance correcto proceso 0
+20181206 16:47:57 Obtención correcta areas usuario:1
+20181206 16:47:57 Consulta correcta usuario 1
+20181206 16:48:29 Consulta de Proceso correcta
+20181206 16:51:55 Acceso correcto usuario info
+20181206 16:51:55 Obtención correcta areas usuario:1
+20181206 16:51:55 Avance correcto proceso 0
+20181206 16:51:59 Obtención correcta areas usuario:1
+20181206 16:51:59 Consulta correcta usuario 1
+20181206 16:52:13 Consulta de Proceso correcta
+20181206 16:54:25 Consulta de Proceso correcta
+20181206 16:59:33 LayOut incorrecto del archivo .csv.
+20181206 17:02:13 Obtención correcta areas usuario:1
+20181206 17:02:14 Consulta correcta usuario 1
+20181206 17:02:40 LayOut incorrecto del archivo .csv.
+20181206 17:15:14 LayOut incorrecto del archivo .csv.
+20181206 17:15:59 Obtención correcta areas usuario:1
+20181206 17:15:59 Consulta correcta usuario 1
+20181206 17:16:06 Acceso correcto usuario info
+20181206 17:16:06 Obtención correcta areas usuario:1
+20181206 17:16:06 Avance correcto proceso 0
+20181206 17:16:10 Obtención correcta areas usuario:1
+20181206 17:16:10 Consulta correcta usuario 1
+20181206 17:16:21 LayOut incorrecto del archivo .csv.
+20181206 17:16:49 Obtención correcta areas usuario:1
+20181206 17:16:49 Consulta correcta usuario 1
+20181206 17:17:10 Consulta de Proceso correcta
+20181206 17:18:04 Obtención correcta areas usuario:1
+20181206 17:18:04 Consulta correcta usuario 1
+20181206 17:37:42 Acceso correcto usuario info
+20181206 17:37:42 Obtención correcta areas usuario:1
+20181206 17:37:42 Avance correcto proceso 0
+20181206 17:37:47 Obtención correcta areas usuario:1
+20181206 17:37:47 Consulta correcta usuario 1
+20181206 17:38:06 Obtención correcta aplicaciones usuario:1 area 1
+20181206 17:38:09 Obtención incorrecta ObtenBasesDatos usuario:1 area 11
+20181206 17:38:13 Obtención correcta ObtenBasesDatos usuario:1 area 23
+20181206 21:51:56 Acceso correcto usuario info
+20181206 21:51:56 Obtención correcta areas usuario:1
+20181206 21:51:56 Avance correcto proceso 0
+20181206 21:52:02 Obtención correcta areas usuario:1
+20181206 21:52:02 Consulta correcta usuario 1
+20181206 21:52:10 Obtención correcta aplicaciones usuario:1 area 1
+20181206 21:52:11 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181206 22:01:51 Obtención correcta ObtenBasesDatos usuario:1 area 2
+20181206 22:02:14 Obtención correcta areas usuario:1
+20181206 22:02:14 Consulta correcta usuario 1
+20181206 22:02:23 Obtención correcta aplicaciones usuario:1 area 1
+20181206 22:02:24 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181206 22:16:32 Acceso correcto usuario info
+20181206 22:16:32 Obtención correcta areas usuario:1
+20181206 22:16:32 Avance correcto proceso 0
+20181206 22:16:38 Obtención correcta areas usuario:1
+20181206 22:16:39 Consulta correcta usuario 1
+20181206 22:17:00 Obtención correcta aplicaciones usuario:1 area 1
+20181206 22:17:06 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181206 22:17:13 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181206 22:20:03 Obtención correcta areas usuario:1
+20181206 22:20:03 Consulta correcta usuario 1
+20181206 22:20:50 Obtención correcta aplicaciones usuario:1 area 1
+20181206 22:20:53 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181206 22:20:55 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181206 22:43:51 Acceso correcto usuario info
+20181206 22:43:52 Obtención correcta areas usuario:1
+20181206 22:43:52 Avance correcto proceso 0
+20181206 22:43:59 Obtención correcta areas usuario:1
+20181206 22:44:00 Consulta correcta usuario 1
+20181206 22:44:10 Obtención correcta aplicaciones usuario:1 area 1
+20181206 22:44:12 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181206 22:44:14 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181206 22:44:16 Obtención correcta ObtenFiltroArchivosBD usuario:1 area 1
+20181206 22:56:42 Acceso correcto usuario info
+20181206 22:56:42 Obtención correcta areas usuario:1
+20181206 22:56:42 Avance correcto proceso 0
+20181206 22:56:48 Obtención correcta areas usuario:1
+20181206 22:56:49 Consulta correcta usuario 1
+20181206 22:56:58 Obtención correcta aplicaciones usuario:1 area 1
+20181206 22:57:00 Obtención correcta ObtenBasesDatos usuario:1 area 1
+20181206 22:57:02 Obtención correcta ObtenFiltroObjetosBD usuario:1 area 1
+20181206 22:57:03 Obtención correcta ObtenFiltroArchivosBD usuario:1 area 1
+20181206 22:57:05 Obtención correcta ObtenFiltroNumLineaBD usuario:1 area 1
+20181206 22:57:08 Obtención correcta ObtenFiltroNumLineaBD usuario:1 area 1

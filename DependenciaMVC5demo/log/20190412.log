@@ -1,0 +1,311 @@
+20190412 10:11:40 Acceso correcto usuario banobras
+20190412 10:11:40 Obtención correcta areas usuario:1
+20190412 10:11:40 Avance correcto proceso 0
+20190412 10:11:45 Obtención correcta areas usuario:1
+20190412 10:11:50 Obtención correcta aplicaciones usuario:1 area 2
+20190412 10:11:53 Obtención correcta objetosdb usuario:1 app 50
+20190412 10:11:53 Obtención correcta objetosdb usuario:1 app 50
+20190412 10:11:54 Aplicacion.ObtenIndicaores The 'Indicadores' start tag on line 1 position 7 does not match the end tag of 'xml'. Line 1, position 62.
+20190412 10:12:03 Obtención correcta objetosdb usuario:1 app 50
+20190412 10:12:03 Obtención correcta objetosdb usuario:1 app 50
+20190412 10:59:47 Obtención correcta objetosdb usuario:1 app 50
+20190412 10:59:48 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 11:00:52 Acceso correcto usuario banobras
+20190412 11:00:52 Obtención correcta areas usuario:1
+20190412 11:00:53 Avance correcto proceso 0
+20190412 11:01:00 Obtención correcta areas usuario:1
+20190412 11:01:06 Obtención correcta aplicaciones usuario:1 area 2
+20190412 11:01:08 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:01:09 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:01:09 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 11:03:09 Obtención correcta areas usuario:1
+20190412 11:03:14 Obtención correcta aplicaciones usuario:1 area 2
+20190412 11:03:15 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:03:16 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 11:03:16 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:04:08 Obtención incorrecta aplicaciones usuario:1 app 50
+20190412 11:04:09 Obtención incorrecta aplicaciones usuario:1 app 50
+20190412 11:04:09 Obtención incorrecta ObtenIndicaores usuario:1 app 50
+20190412 11:04:15 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:04:15 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:04:16 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 11:13:10 Acceso correcto usuario banobras
+20190412 11:13:10 Obtención correcta areas usuario:1
+20190412 11:13:10 Avance correcto proceso 0
+20190412 11:13:16 Obtención correcta areas usuario:1
+20190412 11:13:23 Obtención correcta aplicaciones usuario:1 area 2
+20190412 11:13:25 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:13:32 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 11:14:39 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:20:41 Acceso correcto usuario banobras
+20190412 11:20:41 Obtención correcta areas usuario:1
+20190412 11:20:41 Avance correcto proceso 0
+20190412 11:20:46 Obtención correcta areas usuario:1
+20190412 11:20:46 Consulta correcta aplicacion 0
+20190412 11:20:48 Obtención correcta areas usuario:1
+20190412 11:20:50 Obtención correcta areas usuario:1
+20190412 11:20:50 Obtención correcta areas usuario:1
+20190412 11:20:54 Obtención correcta aplicaciones usuario:1 area 2
+20190412 11:20:57 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:20:57 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:21:01 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 11:21:56 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:21:59 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 11:22:19 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:22:28 Obtención incorrecta ObtenTransversalidad usuario:1 app 50
+20190412 11:22:28 Obtención incorrecta ObtenTransversalidad usuario:1 app 50
+20190412 11:22:29 Obtención incorrecta ObtenTransversalidad usuario:1 app 50
+20190412 11:22:29 Obtención incorrecta ObtenTransversalidad usuario:1 app 50
+20190412 11:22:35 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:22:35 Obtención correcta objetosdb usuario:1 app 50
+20190412 11:22:42 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 12:11:48 Acceso correcto usuario banobras
+20190412 12:11:48 Obtención correcta areas usuario:1
+20190412 12:11:48 Avance correcto proceso 0
+20190412 12:11:53 Obtención correcta areas usuario:1
+20190412 12:11:57 Obtención correcta aplicaciones usuario:1 area 2
+20190412 12:12:00 Obtención correcta aplicaciones usuario:1 area 1
+20190412 12:12:02 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:12:02 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:12:08 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:12:11 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:12:11 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:12:14 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:12:20 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:12:21 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:16:28 Obtención correcta areas usuario:1
+20190412 12:16:33 Obtención correcta aplicaciones usuario:1 area 1
+20190412 12:16:35 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:16:35 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:16:47 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:16:52 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:16:53 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:16:56 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:17:03 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:17:04 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:17:08 Obtención correcta aplicaciones usuario:1 area 2
+20190412 12:17:10 Obtención correcta objetosdb usuario:1 app 50
+20190412 12:17:11 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 12:17:11 Obtención correcta objetosdb usuario:1 app 50
+20190412 12:17:14 Obtención incorrecta aplicaciones usuario:1 app 50
+20190412 12:17:15 Obtención incorrecta aplicaciones usuario:1 app 50
+20190412 12:17:15 Obtención incorrecta ObtenIndicaores usuario:1 app 50
+20190412 12:26:26 Acceso correcto usuario banobras
+20190412 12:26:26 Obtención correcta areas usuario:1
+20190412 12:26:26 Avance correcto proceso 0
+20190412 12:26:35 Obtención correcta areas usuario:1
+20190412 12:26:37 Obtención correcta aplicaciones usuario:1 area 1
+20190412 12:26:39 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:26:40 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:26:48 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:26:48 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:26:48 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:26:48 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190412 12:26:53 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:26:53 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:27:46 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:27:47 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:27:47 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190412 12:27:49 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:27:50 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:28:06 Obtención incorrecta ObtenTransversalidad usuario:1 app 49
+20190412 12:28:08 Obtención incorrecta ObtenTransversalidad usuario:1 app 49
+20190412 12:28:11 Obtención incorrecta ObtenTransversalidad usuario:1 app 49
+20190412 12:28:11 Obtención incorrecta ObtenTransversalidad usuario:1 app 49
+20190412 12:28:11 Obtención incorrecta ObtenTransversalidad usuario:1 app 49
+20190412 12:28:11 Obtención incorrecta ObtenTransversalidad usuario:1 app 49
+20190412 12:28:12 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:28:13 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190412 12:28:13 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:28:14 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:28:15 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:30:32 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:30:33 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:30:33 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190412 12:32:22 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:32:23 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190412 12:32:23 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:32:28 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:32:28 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:50:52 Acceso correcto usuario banobras
+20190412 12:50:53 Obtención correcta areas usuario:1
+20190412 12:50:53 Avance correcto proceso 0
+20190412 12:50:57 Obtención correcta areas usuario:1
+20190412 12:51:01 Obtención correcta aplicaciones usuario:1 area 1
+20190412 12:51:02 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:51:03 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:51:08 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:51:12 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:51:12 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190412 12:51:12 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:51:14 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:51:14 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:51:19 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:51:19 Obtención correcta objetosdb usuario:1 app 49
+20190412 12:51:20 Obtención correcta ObtenIndicaores usuario:1 app 49
+20190412 12:51:23 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:51:24 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:52:33 Acceso correcto usuario banobras
+20190412 12:52:33 Obtención correcta areas usuario:1
+20190412 12:52:33 Avance correcto proceso 0
+20190412 12:52:38 Obtención correcta areas usuario:1
+20190412 12:52:41 Obtención correcta aplicaciones usuario:1 area 1
+20190412 12:52:44 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:52:44 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:53:13 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:54:24 Acceso correcto usuario banobras
+20190412 12:54:24 Obtención correcta areas usuario:1
+20190412 12:54:24 Avance correcto proceso 0
+20190412 12:54:27 Obtención correcta areas usuario:1
+20190412 12:54:32 Obtención correcta aplicaciones usuario:1 area 1
+20190412 12:54:34 Obtención incorrecta aplicaciones usuario:1 app 49
+20190412 12:54:38 Obtención incorrecta ObtenIndicaores usuario:1 app 49
+20190412 12:56:23 Acceso correcto usuario banobras
+20190412 12:56:23 Obtención correcta areas usuario:1
+20190412 12:56:23 Avance correcto proceso 0
+20190412 12:57:43 Obtención correcta areas usuario:1
+20190412 12:57:53 Obtención correcta aplicaciones usuario:1 area 2
+20190412 12:57:56 Obtención correcta objetosdb usuario:1 app 50
+20190412 12:57:57 Obtención correcta objetosdb usuario:1 app 50
+20190412 12:58:02 Obtención correcta ObtenIndicaores usuario:1 app 50
+20190412 13:11:59 Acceso correcto usuario banobras
+20190412 13:11:59 Obtención correcta areas usuario:1
+20190412 13:11:59 Avance correcto proceso 0
+20190412 13:14:12 Obtención correcta aplicaciones usuario:1 area 1
+20190412 13:14:22 actualizaStatus.UploadComplete Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+20190412 13:14:22 Obtención correcta areas usuario:1
+20190412 13:14:22 Avance correcto proceso 0
+20190412 13:14:32 Obtención correcta areas usuario:1
+20190412 13:14:32 Avance correcto proceso 0
+20190412 13:14:44 Obtención correcta areas usuario:1
+20190412 13:14:44 Avance correcto proceso 0
+20190412 13:14:52 Obtención correcta areas usuario:1
+20190412 13:14:52 Avance correcto proceso 0
+20190412 13:15:02 Obtención correcta areas usuario:1
+20190412 13:15:02 Avance correcto proceso 0
+20190412 13:15:12 Obtención correcta areas usuario:1
+20190412 13:15:12 Avance correcto proceso 0
+20190412 13:15:22 Obtención correcta areas usuario:1
+20190412 13:15:22 Avance correcto proceso 0
+20190412 13:15:32 Obtención correcta areas usuario:1
+20190412 13:15:32 Avance correcto proceso 0
+20190412 13:15:42 Obtención correcta areas usuario:1
+20190412 13:15:42 Avance correcto proceso 0
+20190412 13:15:52 Obtención correcta areas usuario:1
+20190412 13:15:52 Avance correcto proceso 0
+20190412 13:16:02 Obtención correcta areas usuario:1
+20190412 13:16:02 Avance correcto proceso 0
+20190412 13:16:12 Obtención correcta areas usuario:1
+20190412 13:16:12 Avance correcto proceso 0
+20190412 13:16:22 Obtención correcta areas usuario:1
+20190412 13:16:22 Avance correcto proceso 0
+20190412 13:16:32 Obtención correcta areas usuario:1
+20190412 13:16:32 Avance correcto proceso 0
+20190412 13:16:42 Obtención correcta areas usuario:1
+20190412 13:16:42 Avance correcto proceso 0
+20190412 13:16:52 Obtención correcta areas usuario:1
+20190412 13:16:52 Avance correcto proceso 0
+20190412 13:17:02 Obtención correcta areas usuario:1
+20190412 13:17:02 Avance correcto proceso 0
+20190412 13:17:12 Obtención correcta areas usuario:1
+20190412 13:17:12 Avance correcto proceso 0
+20190412 13:17:22 Obtención correcta areas usuario:1
+20190412 13:17:22 Avance correcto proceso 0
+20190412 13:17:32 Obtención correcta areas usuario:1
+20190412 13:17:32 Avance correcto proceso 0
+20190412 13:17:42 Obtención correcta areas usuario:1
+20190412 13:17:42 Avance correcto proceso 0
+20190412 13:17:52 Obtención correcta areas usuario:1
+20190412 13:17:52 Avance correcto proceso 0
+20190412 13:18:02 Obtención correcta areas usuario:1
+20190412 13:18:02 Avance correcto proceso 0
+20190412 13:18:12 Obtención correcta areas usuario:1
+20190412 13:18:12 Avance correcto proceso 0
+20190412 13:18:22 Obtención correcta areas usuario:1
+20190412 13:18:22 Avance correcto proceso 0
+20190412 13:18:32 Obtención correcta areas usuario:1
+20190412 13:18:32 Avance correcto proceso 0
+20190412 13:18:42 Obtención correcta areas usuario:1
+20190412 13:18:42 Avance correcto proceso 0
+20190412 13:18:52 Obtención correcta areas usuario:1
+20190412 13:18:52 Avance correcto proceso 0
+20190412 13:19:02 Obtención correcta areas usuario:1
+20190412 13:19:02 Avance correcto proceso 0
+20190412 13:19:12 Obtención correcta areas usuario:1
+20190412 13:19:12 Avance correcto proceso 0
+20190412 13:19:22 Obtención correcta areas usuario:1
+20190412 13:19:22 Avance correcto proceso 0
+20190412 13:19:32 Obtención correcta areas usuario:1
+20190412 13:19:32 Avance correcto proceso 0
+20190412 13:19:42 Obtención correcta areas usuario:1
+20190412 13:19:42 Avance correcto proceso 0
+20190412 13:19:52 Obtención correcta areas usuario:1
+20190412 13:19:52 Avance correcto proceso 0
+20190412 13:20:02 Obtención correcta areas usuario:1
+20190412 13:20:02 Avance correcto proceso 0
+20190412 13:20:12 Obtención correcta areas usuario:1
+20190412 13:20:12 Avance correcto proceso 0
+20190412 13:20:22 Obtención correcta areas usuario:1
+20190412 13:20:22 Avance correcto proceso 0
+20190412 13:20:32 Obtención correcta areas usuario:1
+20190412 13:20:32 Avance correcto proceso 0
+20190412 13:20:42 Obtención correcta areas usuario:1
+20190412 13:20:42 Avance correcto proceso 0
+20190412 13:20:52 Obtención correcta areas usuario:1
+20190412 13:20:52 Avance correcto proceso 0
+20190412 13:21:02 Obtención correcta areas usuario:1
+20190412 13:21:02 Avance correcto proceso 0
+20190412 13:21:12 Obtención correcta areas usuario:1
+20190412 13:21:12 Avance correcto proceso 0
+20190412 13:21:22 Obtención correcta areas usuario:1
+20190412 13:21:22 Avance correcto proceso 0
+20190412 13:21:32 Obtención correcta areas usuario:1
+20190412 13:21:32 Avance correcto proceso 0
+20190412 13:21:42 Obtención correcta areas usuario:1
+20190412 13:21:42 Avance correcto proceso 0
+20190412 13:21:52 Obtención correcta areas usuario:1
+20190412 13:21:52 Avance correcto proceso 0
+20190412 13:22:02 Obtención correcta areas usuario:1
+20190412 13:22:02 Avance correcto proceso 0
+20190412 13:22:12 Obtención correcta areas usuario:1
+20190412 13:22:12 Avance correcto proceso 0
+20190412 13:22:22 Obtención correcta areas usuario:1
+20190412 13:22:22 Avance correcto proceso 0
+20190412 13:22:32 Obtención correcta areas usuario:1
+20190412 13:22:32 Avance correcto proceso 0
+20190412 13:22:42 Obtención correcta areas usuario:1
+20190412 13:22:42 Avance correcto proceso 0
+20190412 13:22:52 Obtención correcta areas usuario:1
+20190412 13:22:52 Avance correcto proceso 0
+20190412 13:23:02 Obtención correcta areas usuario:1
+20190412 13:23:02 Avance correcto proceso 0
+20190412 13:23:12 Obtención correcta areas usuario:1
+20190412 13:23:12 Avance correcto proceso 0
+20190412 13:23:22 Obtención correcta areas usuario:1
+20190412 13:23:22 Avance correcto proceso 0
+20190412 13:23:32 Obtención correcta areas usuario:1
+20190412 13:23:32 Avance correcto proceso 0
+20190412 13:23:42 Obtención correcta areas usuario:1
+20190412 13:23:42 Avance correcto proceso 0
+20190412 13:23:52 Obtención correcta areas usuario:1
+20190412 13:23:52 Avance correcto proceso 0
+20190412 13:24:02 Obtención correcta areas usuario:1
+20190412 13:24:02 Avance correcto proceso 0
+20190412 13:24:12 Obtención correcta areas usuario:1
+20190412 13:24:12 Avance correcto proceso 0
+20190412 13:24:22 Obtención correcta areas usuario:1
+20190412 13:24:22 Avance correcto proceso 0
+20190412 13:24:32 Obtención correcta areas usuario:1
+20190412 13:24:32 Avance correcto proceso 0
+20190412 13:24:42 Obtención correcta areas usuario:1
+20190412 13:24:42 Avance correcto proceso 0
+20190412 13:24:52 Obtención correcta areas usuario:1
+20190412 13:24:52 Avance correcto proceso 0
+20190412 13:25:02 Obtención correcta areas usuario:1
+20190412 13:25:02 Avance correcto proceso 0
+20190412 13:25:12 Obtención correcta areas usuario:1
+20190412 13:25:12 Avance correcto proceso 0
+20190412 13:25:22 Obtención correcta areas usuario:1
+20190412 13:25:22 Avance correcto proceso 0
+20190412 13:25:32 Obtención correcta areas usuario:1
+20190412 13:25:32 Avance correcto proceso 0

@@ -1,0 +1,27 @@
+﻿@model DependenciaMVC5demo.Models.AnalisisModel
+<table id="Tabla1" style="width: 100%; border-collapse: collapse;" cellpadding="0" cellspacing="0">
+    @{
+        string codigo = string.Empty;
+        string numlinea = string.Empty;
+        string archivo = string.Empty;
+        string ruta = string.Empty;
+
+        foreach (System.Xml.XmlNode proc in Model.Xdetalle.DocumentElement.SelectSingleNode("Consulta").SelectNodes("row"))
+        {
+            codigo = @proc.Attributes["Referencia"].Value.ToString();
+            numlinea = @proc.Attributes["Numlinea"].Value.ToString();
+            archivo = @proc.Attributes["BibPadre"].Value.ToString();
+
+            <tr class="GridViewScrollItem">
+                <td class="numline CampoMasCorto" onmouseover="show_divline(event,'@codigo','@archivo','@numlinea')" onmouseout="hide_divline()">@proc.Attributes["Numlinea"].Value.ToString()</td>
+                <td class="CampoDescarga">@proc.Attributes["LenguajeApp"].Value.ToString()</td>
+                <td class="CampoAnalisis">@proc.Attributes["BibPadre"].Value.ToString()</td>
+                <td class="CampoAnalisis">@proc.Attributes["ObjPadre"].Value.ToString()</td>
+                <td class="CampoAnalisis">@proc.Attributes["ObjHijo"].Value.ToString()</td>
+                <td>@proc.Attributes["TIpoHijo"].Value.ToString()</td>
+            </tr>
+
+            }
+        }
+</table>
+

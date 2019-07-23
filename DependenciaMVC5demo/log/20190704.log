@@ -1,0 +1,9 @@
+20190704 19:47:38 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ValidaUsuario' expects parameter '@Usuario', which was not supplied. 201 Sp_ValidaUsuario 0 4
+20190704 19:47:38 Usuario.ValidaUsuario Referencia a objeto no establecida como instancia de un objeto.
+20190704 19:48:04 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ValidaUsuario' expects parameter '@Usuario', which was not supplied. 201 Sp_ValidaUsuario 0 4
+20190704 19:48:04 Usuario.ValidaUsuario Referencia a objeto no establecida como instancia de un objeto.
+20190704 19:50:45 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ValidaUsuario' expects parameter '@Usuario', which was not supplied. 201 Sp_ValidaUsuario 0 4
+20190704 19:51:16 Usuario.ValidaUsuario Referencia a objeto no establecida como instancia de un objeto.
+20190704 19:55:06 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ValidaUsuario' expects parameter '@Usuario', which was not supplied. 201 Sp_ValidaUsuario 0 4
+20190704 19:56:08 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ValidaUsuario' expects parameter '@Usuario', which was not supplied. 201 Sp_ValidaUsuario 0 4
+20190704 19:57:00 Usuario.ValidaUsuario Referencia a objeto no establecida como instancia de un objeto.

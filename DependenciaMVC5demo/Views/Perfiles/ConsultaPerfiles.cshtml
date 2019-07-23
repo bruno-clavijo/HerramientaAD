@@ -1,0 +1,36 @@
+﻿@model DependenciaMVC5demo.Models.PerfilesModel
+
+<table id="Tabla1" align="center" style="width:100%; border-collapse: collapse;" cellpadding="0" cellspacing="0">
+    <tr class="GridViewScrollHeader">
+        <th>Perfil</th>
+        <th>Analisis</th>
+        <th>Dependencias</th>
+        <th>Detalle</th>
+        <th>Graficas</th>
+        <th>Usuarios</th>
+        <th>Perfiles</th>
+        <th>Aplicaciones</th>
+        <th>Eliminar</th>
+        <th>Modificar</th>
+    </tr>
+    @{
+        foreach (System.Xml.XmlNode xmlNode in Model.PerfilesXML.DocumentElement.SelectSingleNode("Perfiles").SelectNodes("row"))
+        {
+    <tr class="GridViewScrollItem">
+        <td>@xmlNode.Attributes["Nombre"].Value.ToString()</td>
+        <td>@xmlNode.Attributes["Analisis"].Value.ToString()</td>
+        <td>@xmlNode.Attributes["Dependencias"].Value.ToString()</td>
+        <td>@xmlNode.Attributes["Detalle"].Value.ToString()</td>
+        <td>@xmlNode.Attributes["Graficas"].Value.ToString()</td>
+        <td>@xmlNode.Attributes["ABMUsuarios"].Value.ToString()</td>
+        <td>@xmlNode.Attributes["ABMPerfiles"].Value.ToString()</td>
+        <td>@xmlNode.Attributes["ABMAplicaciones"].Value.ToString()</td>
+        <td class="CampoMasCorto">@Html.ActionLink("(-)", "Eliminar", "Perfiles", new { usuario = 1, buscado = xmlNode.Attributes["PerfilID"].Value.ToString() }, new { @class = "btn-descarga" })</td>
+        <td class="CampoMasCorto">@Html.ActionLink("Editar", "Editar", "Perfiles", new { usuario = 1, buscado = xmlNode.Attributes["PerfilID"].Value.ToString() }, new { @class = "btn-descarga" })</td>
+    </tr>
+        }
+    }
+</table>
+
+
+

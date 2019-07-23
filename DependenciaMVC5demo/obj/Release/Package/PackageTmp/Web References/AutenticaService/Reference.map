@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://10.90.8.208:9487/AutenticaLdap/autenticaService/AutenticaService.wsdl" filename="autenticaService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://10.90.8.208:9487/AutenticaLdap/autenticaService/AutenticaService_schema1.xsd" filename="AutenticaService_schema1.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

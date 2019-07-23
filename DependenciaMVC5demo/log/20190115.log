@@ -1,0 +1,33 @@
+20190115 10:02:53 Obtención correcta areas usuario:1
+20190115 10:02:53 ObtenProcesoAvance ObtenProcesoAvance Object reference not set to an instance of an object.
+20190115 10:03:06 Obtención correcta areas usuario:1
+20190115 10:03:06 ObtenProcesoAvance ObtenProcesoAvance Object reference not set to an instance of an object.
+20190115 10:03:45 Obtención correcta areas usuario:1
+20190115 10:03:45 ObtenProcesoAvance ObtenProcesoAvance Object reference not set to an instance of an object.
+20190115 10:10:32 Acceso correcto usuario IN335224
+20190115 10:10:36 Obtención correcta areas usuario:1
+20190115 10:10:37 Avance correcto proceso 0
+20190115 10:48:38 Acceso incorrecto usuario info
+20190115 10:48:40 Edita Usuarios correcta Usuario info
+20190115 10:48:40 Acceso correcto usuario info
+20190115 10:48:47 Obtención correcta areas usuario:1
+20190115 10:48:47 Avance correcto proceso 0
+20190115 12:37:35 IsAuthenticated
+20190115 12:37:57 IsAuthenticated
+20190115 12:38:25 IsAuthenticated
+20190115 12:38:58 IsAuthenticated
+20190115 12:42:08 IsAuthenticated
+20190115 12:42:21 IsAuthenticated
+20190115 12:43:41 IsAuthenticated
+20190115 14:44:11 Acceso correcto usuario IN335224
+20190115 14:44:11 Obtención correcta areas usuario:1
+20190115 14:44:12 Avance correcto proceso 0
+20190115 14:48:25 Acceso correcto usuario IN335224
+20190115 14:48:25 Obtención correcta areas usuario:1
+20190115 14:48:25 Avance correcto proceso 0
+20190115 14:53:58 Acceso correcto usuario IN335224
+20190115 14:53:58 Obtención correcta areas usuario:1
+20190115 14:53:58 Avance correcto proceso 0
+20190115 14:56:59 Acceso correcto usuario IN335224
+20190115 14:56:59 Obtención correcta areas usuario:1
+20190115 14:56:59 Avance correcto proceso 0

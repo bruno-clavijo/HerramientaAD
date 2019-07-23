@@ -1,0 +1,3 @@
+20190111 17:22:48 Acceso incorrecto usuario IN335224
+20190111 17:43:10 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ValidaUsuario' expects parameter '@password', which was not supplied. 201 Sp_ValidaUsuario 0 4
+20190111 17:43:10 Usuario.ValidaUsuario Object reference not set to an instance of an object.

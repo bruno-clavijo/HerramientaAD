@@ -1,0 +1,84 @@
+﻿@model DependenciaMVC5demo.Models.UsuarioModel
+
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+<div class="combos">
+    <table>
+        <tr>
+            <td style="color:#fff;"><h4>  Usuarios</h4></td>
+        </tr>
+    </table>
+</div>
+<br />
+<br />
+<br />
+
+@using (Html.BeginForm("Guardar", "Usuario", new { Tipo = ViewBag.Operacion }))
+{
+    <table align="center" border="0">
+        <tr>
+            <td align="center"><label>Nombre </label></td>
+            <td align="center">@Html.TextBoxFor(m => m.Nombre, new { @class = "textboxmediano" })</td>
+            <td align="center"><label>Apellido paterno </label></td>
+            <td align="center">@Html.TextBoxFor(m => m.Apaterno, new { @class = "textboxmediano" })</td>
+            <td align="center"><label>Apellido Materno </label></td>
+            <td align="center">@Html.TextBoxFor(m => m.Amaterno, new { @class = "textboxmediano" })</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">@Html.ValidationMessageFor(m => m.Nombre)</td>
+            <td colspan="2" align="right">@Html.ValidationMessageFor(m => m.Apaterno)</td>
+            <td colspan="2" align="right">@Html.ValidationMessageFor(m => m.Amaterno)</td>
+        </tr>
+        <tr><td colspan="6"><hr /></td></tr>
+        <tr>
+            <td align="center"><label>Nic </label></td>
+            <td align="center">@Html.TextBoxFor(m => m.Nic, new { @class = "textboxmediano" })</td>
+            <td align="center"><label>Area </label></td>
+            <td align="center">
+                <div class="select">
+                    @Html.DropDownListFor(m => m.AreaID, new SelectList(Model.ListaAreas, "Ivalue", "Text"), "--Seleccione--")
+                    @Html.HiddenFor(m => m.AreaID, new { id = "AreaID" })
+                </div>
+            </td>
+            <td align="center"><label>Estatus </label></td>
+            <td align="center">
+                <div class="select">
+                    @Html.DropDownListFor(m => m.EstatusID, new SelectList(Model.ListaEstatus, "Ivalue", "Text"), "--Seleccione--")
+                    @Html.HiddenFor(m => m.EstatusID, new { id = "EstatusID" })
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">@Html.ValidationMessageFor(m => m.Nic)</td>
+            <td colspan="2" align="right">@Html.ValidationMessageFor(m => m.AreaID)</td>
+            <td colspan="2" align="right">@Html.ValidationMessageFor(m => m.EstatusID)</td>
+        </tr>
+        <tr><td colspan="6"><hr /></td></tr>
+        <tr>
+            <td align="center"><label>Perfil </label></td>
+            <td align="center">
+                <div class="select">
+                    @Html.DropDownListFor(m => m.PerfilID, new SelectList(Model.ListaPerfiles, "Ivalue", "Text"), "--Seleccione--")
+                    @Html.HiddenFor(m => m.PerfilID, new { id = "PerfilID" })
+                </div>
+            </td>
+            <td align="center"><label>Correo </label></td>
+            <td colspan="3" align="center">@Html.TextBoxFor(m => m.Correo, new { @class = "textboxlargo" })</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">@Html.ValidationMessageFor(m => m.PerfilID)</td>
+            <td colspan="5" align="right">@Html.ValidationMessageFor(m => m.Correo)</td>
+        </tr>
+        <tr class="alineacion">
+            <td>@Html.TextBoxFor(m => m.Identificador, new { style = "visibility:hidden", @class = "textboxmediano" })</td>
+        </tr>
+        <tr><td colspan="6"><hr /></td></tr>
+        <tr>
+            <td colspan="3" align="center"><input type="submit" class="botonazul" id="btnGuardar" value="GUARDAR" /></td>
+            <td colspan="3" align="center"><input type="button" class="botonazul" id="btnCancelar" onclick="@("window.location.href='" + @Url.Action("Index", "Usuario") + "'");" value="CANCELAR" /></td>
+        </tr>
+    </table>
+}
+

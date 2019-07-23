@@ -1,0 +1,263 @@
+20181212 12:20:39 Acceso correcto usuario info
+20181212 12:20:39 Obtención correcta areas usuario:1
+20181212 12:20:39 Avance correcto proceso 0
+20181212 12:20:57 Obtención correcta aplicaciones usuario:1 area 1
+20181212 12:21:07 Obtención correcta areas usuario:1
+20181212 12:24:17 Acceso correcto usuario info
+20181212 12:24:17 Obtención correcta areas usuario:1
+20181212 12:24:17 Avance correcto proceso 0
+20181212 12:24:21 Obten Aplicaciones correcto usuario 1
+20181212 12:24:32 Obten Aplicaciones correcto usuario 1
+20181212 12:24:32 Obten Aplicaciones correcto usuario 1
+20181212 12:24:47 Obten Aplicaciones correcto usuario 1
+20181212 12:25:14 Obten Aplicaciones correcto usuario 1
+20181212 12:25:14 Obten Aplicaciones correcto usuario 1
+20181212 12:25:22 Obten Aplicaciones correcto usuario 1
+20181212 12:25:50 Obten Aplicaciones correcto usuario 1
+20181212 12:26:06 Obten Aplicaciones correcto usuario 1
+20181212 12:50:01 Acceso correcto usuario info
+20181212 12:50:01 Obtención correcta areas usuario:1
+20181212 12:50:01 Avance correcto proceso 0
+20181212 12:50:09 Obten Aplicaciones correcto usuario 1
+20181212 12:50:09 Obten Lenguajes correcto usuario 1
+20181212 12:50:32 Obten Aplicaciones correcto usuario 1
+20181212 12:50:32 Obten Lenguajes correcto usuario 1
+20181212 12:50:32 BaseDatos.ExecStoredProcNoQuery The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+Error number 3903 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 3903 Sp_EditaAplicacion 72 1
+20181212 12:50:32 Edita aplicaciones correcto usuario 1 tipo Inserta
+20181212 12:50:32 Obten Aplicaciones correcto usuario 1
+20181212 12:50:32 Obten Aplicaciones correcto usuario 1
+20181212 12:50:32 Obten Lenguajes correcto usuario 1
+20181212 12:50:40 Obten Aplicaciones correcto usuario 1
+20181212 12:50:40 Obten Lenguajes correcto usuario 1
+20181212 12:50:56 Obten Aplicaciones correcto usuario 1
+20181212 12:50:56 Obten Lenguajes correcto usuario 1
+20181212 12:55:41 Acceso correcto usuario info
+20181212 12:55:41 Obtención correcta areas usuario:1
+20181212 12:55:41 Avance correcto proceso 0
+20181212 12:55:45 Obten Aplicaciones correcto usuario 1
+20181212 12:55:45 Obten Lenguajes correcto usuario 1
+20181212 13:17:42 Acceso correcto usuario info
+20181212 13:17:42 Obtención correcta areas usuario:1
+20181212 13:17:42 Avance correcto proceso 0
+20181212 13:17:48 Obten Aplicaciones correcto usuario 1
+20181212 13:17:48 Obtención correcta areas usuario:1
+20181212 13:17:48 Obten Lenguajes correcto usuario 1
+20181212 13:18:09 Obten Aplicaciones correcto usuario 1
+20181212 13:18:09 Obtención correcta areas usuario:1
+20181212 13:18:09 Obten Lenguajes correcto usuario 1
+20181212 13:18:13 BaseDatos.ExecStoredProcNoQuery The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+Error number 3903 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 3903 Sp_EditaAplicacion 84 1
+20181212 13:18:13 Edita aplicaciones correcto usuario 1 tipo Inserta
+20181212 13:18:15 Obten Aplicaciones correcto usuario 1
+20181212 13:18:16 Obten Aplicaciones correcto usuario 1
+20181212 13:18:16 Obtención correcta areas usuario:1
+20181212 13:18:16 Obten Lenguajes correcto usuario 1
+20181212 13:19:19 Obten Aplicaciones correcto usuario 1
+20181212 13:19:19 Obtención correcta areas usuario:1
+20181212 13:19:19 Obten Lenguajes correcto usuario 1
+20181212 13:19:36 Obten Aplicaciones correcto usuario 1
+20181212 13:19:36 Obtención correcta areas usuario:1
+20181212 13:19:36 Obten Lenguajes correcto usuario 1
+20181212 13:19:36 Obten Aplicaciones correcto usuario 1
+20181212 13:19:54 Obten Aplicaciones correcto usuario 1
+20181212 13:19:54 Obtención correcta areas usuario:1
+20181212 13:19:54 Obten Lenguajes correcto usuario 1
+20181212 13:19:59 Obten Aplicaciones correcto usuario 1
+20181212 13:19:59 Obtención correcta areas usuario:1
+20181212 13:19:59 Obten Lenguajes correcto usuario 1
+20181212 13:20:03 BaseDatos.ExecStoredProcNoQuery The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+Error number 3903 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 3903 Sp_EditaAplicacion 84 1
+20181212 13:20:03 Edita aplicaciones correcto usuario 1 tipo Elimina
+20181212 13:20:03 Obten Aplicaciones correcto usuario 1
+20181212 13:20:05 Obten Aplicaciones correcto usuario 1
+20181212 13:20:05 Obtención correcta areas usuario:1
+20181212 13:20:05 Obten Lenguajes correcto usuario 1
+20181212 13:20:43 Obten Aplicaciones correcto usuario 1
+20181212 13:20:43 Obtención correcta areas usuario:1
+20181212 13:20:43 Obten Lenguajes correcto usuario 1
+20181212 13:20:46 BaseDatos.ExecStoredProcNoQuery The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+Error number 3903 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 3903 Sp_EditaAplicacion 84 1
+20181212 13:20:46 Edita aplicaciones correcto usuario 1 tipo Inserta
+20181212 13:20:46 Obten Aplicaciones correcto usuario 1
+20181212 13:20:46 Obten Aplicaciones correcto usuario 1
+20181212 13:20:46 Obtención correcta areas usuario:1
+20181212 13:20:46 Obten Lenguajes correcto usuario 1
+20181212 13:21:10 Obten Aplicaciones correcto usuario 1
+20181212 13:21:10 Obtención correcta areas usuario:1
+20181212 13:21:10 Obten Lenguajes correcto usuario 1
+20181212 13:21:21 Obten Aplicaciones correcto usuario 1
+20181212 13:21:21 Obtención correcta areas usuario:1
+20181212 13:21:21 Obten Lenguajes correcto usuario 1
+20181212 13:21:31 Obten Aplicaciones correcto usuario 1
+20181212 13:26:52 Obten Aplicaciones correcto usuario 1
+20181212 13:26:52 Obtención correcta areas usuario:1
+20181212 13:26:52 Obten Lenguajes correcto usuario 1
+20181212 13:26:59 Obten Aplicaciones correcto usuario 1
+20181212 13:26:59 Obtención correcta areas usuario:1
+20181212 13:26:59 Obten Lenguajes correcto usuario 1
+20181212 13:26:59 Obten Aplicaciones correcto usuario 1
+20181212 13:27:45 Obten Aplicaciones correcto usuario 1
+20181212 13:27:45 Obtención correcta areas usuario:1
+20181212 13:27:45 Obten Lenguajes correcto usuario 1
+20181212 13:34:12 Acceso correcto usuario info
+20181212 13:34:12 Obtención correcta areas usuario:1
+20181212 13:34:12 Avance correcto proceso 0
+20181212 13:34:18 Obten Aplicaciones correcto usuario 1
+20181212 13:34:18 Obtención correcta areas usuario:1
+20181212 13:34:18 Obten Lenguajes correcto usuario 1
+20181212 13:34:27 Obten Aplicaciones correcto usuario 1
+20181212 13:34:27 Obtención correcta areas usuario:1
+20181212 13:34:27 Obten Lenguajes correcto usuario 1
+20181212 13:34:27 Obten Aplicaciones correcto usuario 1
+20181212 13:41:34 Acceso correcto usuario info
+20181212 13:41:34 Obtención correcta areas usuario:1
+20181212 13:41:34 Avance correcto proceso 0
+20181212 13:41:48 Obten Aplicaciones correcto usuario 1
+20181212 13:41:48 Obtención correcta areas usuario:1
+20181212 13:41:48 Obten Lenguajes correcto usuario 1
+20181212 13:42:33 Obten Aplicaciones correcto usuario 1
+20181212 13:42:33 Obtención correcta areas usuario:1
+20181212 13:42:33 Obten Lenguajes correcto usuario 1
+20181212 13:42:33 Obten Aplicaciones correcto usuario 1
+20181212 13:42:35 Obten Aplicaciones correcto usuario 1
+20181212 13:42:35 Obtención correcta areas usuario:1
+20181212 13:42:35 Obten Lenguajes correcto usuario 1
+20181212 13:42:43 Obten Aplicaciones correcto usuario 1
+20181212 13:42:43 Obtención correcta areas usuario:1
+20181212 13:42:43 Obten Lenguajes correcto usuario 1
+20181212 13:42:43 Obten Aplicaciones correcto usuario 1
+20181212 13:43:05 Obten Aplicaciones correcto usuario 1
+20181212 13:43:05 Obtención correcta areas usuario:1
+20181212 13:43:05 Obten Lenguajes correcto usuario 1
+20181212 13:43:16 Obten Aplicaciones correcto usuario 1
+20181212 13:43:16 Obtención correcta areas usuario:1
+20181212 13:43:16 Obten Lenguajes correcto usuario 1
+20181212 13:43:16 Obten Aplicaciones correcto usuario 1
+20181212 13:43:24 Obten Aplicaciones correcto usuario 1
+20181212 13:43:24 Obtención correcta areas usuario:1
+20181212 13:43:24 Obten Lenguajes correcto usuario 1
+20181212 13:43:33 Obten Aplicaciones correcto usuario 1
+20181212 13:43:33 Obtención correcta areas usuario:1
+20181212 13:43:33 Obten Lenguajes correcto usuario 1
+20181212 13:43:35 Obten Aplicaciones correcto usuario 1
+20181212 13:43:35 Obtención correcta areas usuario:1
+20181212 13:43:35 Obten Lenguajes correcto usuario 1
+20181212 13:43:48 Acceso correcto usuario info
+20181212 13:43:48 Obtención correcta areas usuario:1
+20181212 13:43:48 Avance correcto proceso 0
+20181212 13:43:53 Obten Aplicaciones correcto usuario 1
+20181212 13:43:53 Obtención correcta areas usuario:1
+20181212 13:43:53 Obten Lenguajes correcto usuario 1
+20181212 13:44:02 Obten Aplicaciones correcto usuario 1
+20181212 13:44:02 Obtención correcta areas usuario:1
+20181212 13:44:02 Obten Lenguajes correcto usuario 1
+20181212 13:44:02 Obten Aplicaciones correcto usuario 1
+20181212 13:44:17 Obten Aplicaciones correcto usuario 1
+20181212 13:44:17 Obtención correcta areas usuario:1
+20181212 13:44:17 Obten Lenguajes correcto usuario 1
+20181212 13:47:32 Acceso correcto usuario info
+20181212 13:47:32 Obtención correcta areas usuario:1
+20181212 13:47:32 Avance correcto proceso 0
+20181212 13:47:38 Obten Aplicaciones correcto usuario 1
+20181212 13:47:38 Obtención correcta areas usuario:1
+20181212 13:47:38 Obten Lenguajes correcto usuario 1
+20181212 13:47:50 Obten Aplicaciones correcto usuario 1
+20181212 13:47:50 Obtención correcta areas usuario:1
+20181212 13:47:50 Obten Lenguajes correcto usuario 1
+20181212 13:47:50 Obten Aplicaciones correcto usuario 1
+20181212 13:48:13 Obten Aplicaciones correcto usuario 1
+20181212 13:48:13 Obtención correcta areas usuario:1
+20181212 13:48:13 Obten Lenguajes correcto usuario 1
+20181212 13:48:21 BaseDatos.ExecStoredProcNoQuery The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+Error number 3903 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 3903 Sp_EditaAplicacion 84 1
+20181212 13:48:22 Edita aplicaciones correcto usuario 1 tipo Actualiza
+20181212 13:48:23 Obten Aplicaciones correcto usuario 1
+20181212 13:48:23 Obten Aplicaciones correcto usuario 1
+20181212 13:48:23 Obtención correcta areas usuario:1
+20181212 13:48:23 Obten Lenguajes correcto usuario 1
+20181212 13:48:30 Obten Aplicaciones correcto usuario 1
+20181212 13:48:30 Obtención correcta areas usuario:1
+20181212 13:48:30 Obten Lenguajes correcto usuario 1
+20181212 15:27:54 Acceso correcto usuario info
+20181212 15:27:54 Obtención correcta areas usuario:1
+20181212 15:27:54 Avance correcto proceso 0
+20181212 15:28:39 Acceso correcto usuario info
+20181212 15:28:39 Obtención correcta areas usuario:1
+20181212 15:28:39 Avance correcto proceso 0
+20181212 15:37:43 Obtención correcta areas usuario:1
+20181212 15:37:43 Avance correcto proceso 0
+20181212 15:38:03 Acceso correcto usuario info
+20181212 15:38:03 Obtención correcta areas usuario:1
+20181212 15:38:03 Avance correcto proceso 0
+20181212 15:44:09 Acceso correcto usuario info
+20181212 15:44:09 Obtención correcta areas usuario:1
+20181212 15:44:09 Avance correcto proceso 0
+20181212 15:44:14 Obtención correcta areas usuario:1
+20181212 15:58:39 Acceso correcto usuario info
+20181212 15:58:39 Obtención correcta areas usuario:1
+20181212 15:58:39 Avance correcto proceso 0
+20181212 15:58:42 Obtención correcta areas usuario:1
+20181212 15:58:42 Avance correcto proceso 0
+20181212 15:58:47 Obtención correcta areas usuario:1
+20181212 15:58:47 Avance correcto proceso 0
+20181212 15:58:59 Acceso correcto usuario info
+20181212 15:58:59 Obtención correcta areas usuario:1
+20181212 15:58:59 Avance correcto proceso 0
+20181212 16:00:26 Acceso correcto usuario info
+20181212 16:00:26 Obtención correcta areas usuario:1
+20181212 16:00:26 Avance correcto proceso 0
+20181212 16:07:03 Acceso correcto usuario info
+20181212 16:07:03 Obtención correcta areas usuario:1
+20181212 16:07:03 Avance correcto proceso 0
+20181212 16:30:48 Acceso correcto usuario info
+20181212 16:30:48 Obtención correcta areas usuario:1
+20181212 16:30:48 Avance correcto proceso 0
+20181212 16:30:57 Obtención correcta areas usuario:1
+20181212 16:32:44 Obtención correcta areas usuario:1
+20181212 16:45:32 Acceso correcto usuario info
+20181212 16:45:32 Obtención correcta areas usuario:1
+20181212 16:45:32 Avance correcto proceso 0
+20181212 16:46:03 Obten usuarios correcto usuario 1
+20181212 16:46:03 Obtención correcta areas usuario:1
+20181212 16:46:03 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ObtenPerfiles' expects parameter '@Buscado', which was not supplied. 201 Sp_ObtenPerfiles 0 4
+20181212 16:46:03 Usuario.ObtenPerfiles Object reference not set to an instance of an object.
+20181212 16:47:06 Obten usuarios correcto usuario 1
+20181212 16:47:06 Obtención correcta areas usuario:1
+20181212 16:47:07 Obten PERFILES correcto usuario 1
+20181212 16:48:14 Acceso correcto usuario info
+20181212 16:48:15 Obtención correcta areas usuario:1
+20181212 16:48:15 Avance correcto proceso 0
+20181212 16:48:25 Obtención correcta areas usuario:1
+20181212 16:59:07 Acceso correcto usuario info
+20181212 16:59:08 Obtención correcta areas usuario:1
+20181212 16:59:08 Avance correcto proceso 0
+20181212 16:59:17 Obtención correcta areas usuario:1
+20181212 17:06:24 Acceso correcto usuario info
+20181212 17:06:24 Obtención correcta areas usuario:1
+20181212 17:06:24 Avance correcto proceso 0
+20181212 17:06:35 Obtención correcta areas usuario:1
+20181212 17:06:47 Obtención correcta aplicaciones usuario:1 area 1
+20181212 17:06:49 Obtención correcta objetosdb usuario:1 app 1
+20181212 17:06:59 Obtención correcta objetosdb usuario:1 app 1
+20181212 17:07:00 Obtención correcta ObtenIndicaores usuario:1 app 1
+20181212 17:15:38 Acceso correcto usuario info
+20181212 17:15:38 Obtención correcta areas usuario:1
+20181212 17:15:38 Avance correcto proceso 0
+20181212 17:15:47 Obtención correcta areas usuario:1
+20181212 17:16:01 Obtención correcta areas usuario:1
+20181212 17:16:01 Avance correcto proceso 0
+20181212 17:16:25 Obtención correcta areas usuario:1
+20181212 17:16:25 Avance correcto proceso 0
+20181212 17:16:32 Obtención correcta areas usuario:1
+20181212 17:18:10 Acceso correcto usuario info
+20181212 17:18:10 Obtención correcta areas usuario:1
+20181212 17:18:10 Avance correcto proceso 0
+20181212 17:18:18 Obtención correcta areas usuario:1
+20181212 17:20:20 Acceso correcto usuario info
+20181212 17:20:20 Obtención correcta areas usuario:1
+20181212 17:20:20 Avance correcto proceso 0
+20181212 17:20:30 Obtención correcta areas usuario:1
+20181212 17:20:47 Obten perfiles correcto usuario 1
+20181212 17:21:10 Obten perfiles correcto usuario 1
+20181212 17:21:10 Obten perfiles correcto usuario 1

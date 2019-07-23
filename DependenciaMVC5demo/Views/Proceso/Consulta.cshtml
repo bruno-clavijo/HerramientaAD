@@ -1,0 +1,34 @@
+﻿@model DependenciaMVC5demo.Models.ProcesoModel
+<table cellspacing="0" id="Tabla1" style="width: 100%; border-collapse: collapse;">
+    @{
+        /**/
+
+        string Carga, Descomprimir, Parseo, GenInfo, DivID, tDivID;
+
+        foreach (System.Xml.XmlNode proc in Model.Xprocesos.DocumentElement.SelectSingleNode("Proceso").SelectNodes("row"))
+        {
+            Carga = proc.Attributes["Carga_estilo"].Value;
+            Descomprimir = proc.Attributes["Descomprimir_estilo"].Value;
+            Parseo = proc.Attributes["Parseo_estilo"].Value;
+            GenInfo = proc.Attributes["GenInfo_estilo"].Value;
+            DivID = "d" + @proc.Attributes["ProcesoID"].Value.ToString();
+            tDivID = "td" + @proc.Attributes["ProcesoID"].Value.ToString();
+
+            <tr class="GridViewScrollItem">
+                <td class="CampoNormal">@proc.Attributes["Aplicacion"].Value.ToString()</td>
+                <td class="@Carga CampoPizarra">@proc.Attributes["Carga"].Value.ToString()</td>
+                <td class="@Descomprimir CampoMediana">@proc.Attributes["Descomprimir"].Value.ToString()</td>
+                <td class="@Parseo CampoPizarra">@proc.Attributes["Parseo"].Value.ToString()</td>
+                <td class="@GenInfo CampoPizarra">@proc.Attributes["GenInfo"].Value.ToString()</td>
+                <td class="CampoMediana">@proc.Attributes["Estatus"].Value.ToString()</td>
+                <td class="CampoCorto CampoFechaHora">@proc.Attributes["FechaHora"].Value.ToString()</td>
+                <td id="@tDivID" class="CampoMediana" onmouseover="show_divinfo(event,'@DivID','@tDivID')" onmouseout="hide_divinfo('@DivID')">
+                    ...
+                    <div id="@DivID" class="DivInfo">@proc.Attributes["Observacion"].Value.ToString()</div>
+                </td>
+                <td class="CampoDescarga">@Html.ActionLink("descarga", "Descarga", "Proceso", new { proceso = @proc.Attributes["ProcesoID"].Value.ToString() }, new { @class = "btn-descarga" })</td>
+                <td >@Html.ActionLink("(-)", "Eliminar", "Proceso", new { proceso = @proc.Attributes["ProcesoID"].Value.ToString() }, new { @class = "btn-eliminar" })</td>
+            </tr>
+        }
+    }
+</table>

@@ -1,0 +1,293 @@
+20181219 10:38:42 Acceso correcto usuario info
+20181219 10:38:42 Obtención correcta areas usuario:1
+20181219 10:38:42 Avance correcto proceso 0
+20181219 10:38:54 Obtención correcta areas usuario:1
+20181219 10:39:30 Obtención correcta aplicaciones usuario:1 area 1
+20181219 10:39:39 Obtención correcta aplicaciones usuario:1 area 0
+20181219 10:44:52 Obtención correcta aplicaciones usuario:1 area 1
+20181219 10:44:56 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:01 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:45:02 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:02 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:03 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:06 Obtención incorrecta aplicaciones usuario:1 app 27
+20181219 10:45:06 Obtención incorrecta aplicaciones usuario:1 app 27
+20181219 10:45:10 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:10 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:10 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:45:12 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:13 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:13 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:45:13 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:14 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:45:14 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:15 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:45:16 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:45:16 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:48:06 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:48:06 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:48:07 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:48:27 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:48:27 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:48:27 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:48:27 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:48:27 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:48:28 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:49:17 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:49:24 Obtención incorrecta aplicaciones usuario:1 app 27
+20181219 10:49:25 Obtención incorrecta aplicaciones usuario:1 app 27
+20181219 10:49:30 Obtención correcta objetosdb usuario:1 app 26
+20181219 10:49:30 Obtención incorrecta aplicaciones usuario:1 app 26
+20181219 10:49:31 Obtención correcta ObtenIndicaores usuario:1 app 26
+20181219 10:49:34 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:49:34 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:49:35 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:50:06 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:06 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:08 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:09 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:12 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:12 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:13 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:13 Obtención incorrecta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:13 Obtención incorrecta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:13 Obtención incorrecta ObtenTransversalidad usuario:1 app 27
+20181219 10:50:23 Obtención correcta ObtenIndicaores usuario:1 app 25
+20181219 10:50:24 Obtención correcta objetosdb usuario:1 app 25
+20181219 10:50:24 Obtención incorrecta aplicaciones usuario:1 app 25
+20181219 10:50:27 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:50:27 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:50:28 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:51:01 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:51:02 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:51:02 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:51:04 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:04 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:06 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:07 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:10 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:10 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:13 Obtención incorrecta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:14 Obtención incorrecta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:17 Obtención incorrecta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:18 Obtención incorrecta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:21 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:21 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:51:25 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:51:26 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 10:51:26 Obtención correcta objetosdb usuario:1 app 27
+20181219 10:53:10 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:53:11 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:53:13 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:53:14 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:55:01 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:55:02 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:55:52 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:55:55 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 10:55:56 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 11:07:40 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 11:07:41 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 11:07:41 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 11:07:42 Obtención correcta ObtenTransversalidad usuario:1 app 27
+20181219 11:07:46 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:07:46 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:07:46 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 11:07:52 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:07:53 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:07:55 Obtención incorrecta aplicaciones usuario:1 app 27
+20181219 11:07:56 Obtención incorrecta aplicaciones usuario:1 app 27
+20181219 11:07:59 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:07:59 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:08:00 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 11:08:02 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:08:02 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:08:07 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:08:07 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 11:08:07 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:08:15 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:08:15 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:14:23 Obtención correcta areas usuario:1
+20181219 11:14:24 Consulta correcta aplicacion 0
+20181219 11:15:26 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:15:26 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 11:15:27 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:15:31 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:15:32 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 11:15:32 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:15:35 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:15:35 Obtención correcta objetosdb usuario:1 app 27
+20181219 11:15:36 Obtención correcta ObtenIndicaores usuario:1 app 27
+20181219 11:21:06 Obtención correcta areas usuario:1
+20181219 11:21:13 Obtención correcta aplicaciones usuario:1 area 1
+20181219 11:21:15 Obtención correcta areas usuario:1
+20181219 11:21:34 Obtención correcta areas usuario:1
+20181219 11:21:38 Obtención correcta aplicaciones usuario:1 area 1
+20181219 11:21:49 Obtención correcta areas usuario:1
+20181219 11:22:04 Obtención correcta aplicaciones usuario:1 area 0
+20181219 11:22:10 Obtención correcta areas usuario:1
+20181219 11:28:59 Obten usuarios correcto usuario 1
+20181219 11:28:59 Obtención correcta areas usuario:1
+20181219 11:28:59 Obten PERFILES correcto usuario 1
+20181219 11:29:07 Obten usuarios correcto usuario 1
+20181219 11:29:07 Obtención correcta areas usuario:1
+20181219 11:29:07 Obten PERFILES correcto usuario 1
+20181219 11:29:15 Obten usuarios correcto usuario 1
+20181219 11:29:15 Obtención correcta areas usuario:1
+20181219 11:29:15 Obten PERFILES correcto usuario 1
+20181219 11:29:15 Obten usuarios correcto usuario 1
+20181219 11:31:34 Acceso correcto usuario info
+20181219 11:31:34 Obtención correcta areas usuario:1
+20181219 11:31:34 Avance correcto proceso 0
+20181219 11:31:39 Obten usuarios correcto usuario 1
+20181219 11:31:39 Obtención correcta areas usuario:1
+20181219 11:31:40 Obten PERFILES correcto usuario 1
+20181219 11:31:45 Obten usuarios correcto usuario 1
+20181219 11:31:45 Obtención correcta areas usuario:1
+20181219 11:31:45 Obten PERFILES correcto usuario 1
+20181219 11:31:45 Obten usuarios correcto usuario 1
+20181219 11:33:40 Acceso correcto usuario info
+20181219 11:33:40 Obtención correcta areas usuario:1
+20181219 11:33:40 Avance correcto proceso 0
+20181219 11:33:49 Obten usuarios correcto usuario 1
+20181219 11:33:49 Obtención correcta areas usuario:1
+20181219 11:33:49 Obten PERFILES correcto usuario 1
+20181219 11:33:55 Obten usuarios correcto usuario 1
+20181219 11:33:55 Obtención correcta areas usuario:1
+20181219 11:33:55 Obten PERFILES correcto usuario 1
+20181219 11:33:55 Modificación de Usuario Correcta 
+20181219 11:33:55 Obten usuarios correcto usuario 1
+20181219 11:33:55 Obten usuarios correcto usuario 1
+20181219 11:33:55 Obtención correcta areas usuario:1
+20181219 11:33:55 Obten PERFILES correcto usuario 1
+20181219 11:34:04 Obten usuarios correcto usuario 1
+20181219 11:34:04 Obtención correcta areas usuario:1
+20181219 11:34:04 Obten PERFILES correcto usuario 1
+20181219 11:34:04 Modificación de Usuario Correcta 
+20181219 11:34:04 Obten usuarios correcto usuario 1
+20181219 11:34:04 Obten usuarios correcto usuario 1
+20181219 11:34:04 Obtención correcta areas usuario:1
+20181219 11:34:04 Obten PERFILES correcto usuario 1
+20181219 11:34:06 Obten usuarios correcto usuario 1
+20181219 11:34:06 Obtención correcta areas usuario:1
+20181219 11:34:06 Obten PERFILES correcto usuario 1
+20181219 11:34:06 Modificación de Usuario Correcta 
+20181219 11:34:06 Obten usuarios correcto usuario 1
+20181219 11:34:06 Obten usuarios correcto usuario 1
+20181219 11:34:06 Obtención correcta areas usuario:1
+20181219 11:34:06 Obten PERFILES correcto usuario 1
+20181219 11:34:07 Obten usuarios correcto usuario 1
+20181219 11:34:07 Obtención correcta areas usuario:1
+20181219 11:34:07 Obten PERFILES correcto usuario 1
+20181219 11:34:07 Modificación de Usuario Correcta 
+20181219 11:34:07 Obten usuarios correcto usuario 1
+20181219 11:34:07 Obten usuarios correcto usuario 1
+20181219 11:34:07 Obtención correcta areas usuario:1
+20181219 11:34:07 Obten PERFILES correcto usuario 1
+20181219 11:34:08 Obten usuarios correcto usuario 1
+20181219 11:34:08 Obtención correcta areas usuario:1
+20181219 11:34:08 Obten PERFILES correcto usuario 1
+20181219 11:34:08 Modificación de Usuario Correcta 
+20181219 11:34:08 Obten usuarios correcto usuario 1
+20181219 11:34:08 Obten usuarios correcto usuario 1
+20181219 11:34:08 Obtención correcta areas usuario:1
+20181219 11:34:08 Obten PERFILES correcto usuario 1
+20181219 11:34:09 Obten usuarios correcto usuario 1
+20181219 11:34:09 Obtención correcta areas usuario:1
+20181219 11:34:09 Obten PERFILES correcto usuario 1
+20181219 11:34:09 Modificación de Usuario Correcta 
+20181219 11:34:09 Obten usuarios correcto usuario 1
+20181219 11:34:09 Obten usuarios correcto usuario 1
+20181219 11:34:09 Obtención correcta areas usuario:1
+20181219 11:34:09 Obten PERFILES correcto usuario 1
+20181219 11:34:10 Obten usuarios correcto usuario 1
+20181219 11:34:10 Obtención correcta areas usuario:1
+20181219 11:34:10 Obten PERFILES correcto usuario 1
+20181219 11:34:10 Modificación de Usuario Correcta 
+20181219 11:34:10 Obten usuarios correcto usuario 1
+20181219 11:34:10 Obten usuarios correcto usuario 1
+20181219 11:34:10 Obtención correcta areas usuario:1
+20181219 11:34:10 Obten PERFILES correcto usuario 1
+20181219 11:34:11 Obten usuarios correcto usuario 1
+20181219 11:34:11 Obtención correcta areas usuario:1
+20181219 11:34:11 Obten PERFILES correcto usuario 1
+20181219 11:34:11 Modificación de Usuario Correcta 
+20181219 11:34:11 Obten usuarios correcto usuario 1
+20181219 11:34:11 Obten usuarios correcto usuario 1
+20181219 11:34:11 Obtención correcta areas usuario:1
+20181219 11:34:11 Obten PERFILES correcto usuario 1
+20181219 11:34:12 Obten usuarios correcto usuario 1
+20181219 11:34:12 Obtención correcta areas usuario:1
+20181219 11:34:12 Obten PERFILES correcto usuario 1
+20181219 11:34:12 Modificación de Usuario Correcta 
+20181219 11:34:12 Obten usuarios correcto usuario 1
+20181219 11:34:12 Obten usuarios correcto usuario 1
+20181219 11:34:12 Obtención correcta areas usuario:1
+20181219 11:34:12 Obten PERFILES correcto usuario 1
+20181219 11:34:14 Obten usuarios correcto usuario 1
+20181219 11:34:14 Obtención correcta areas usuario:1
+20181219 11:34:14 Obten PERFILES correcto usuario 1
+20181219 11:34:14 Modificación de Usuario Correcta 
+20181219 11:34:14 Obten usuarios correcto usuario 1
+20181219 11:34:14 Obten usuarios correcto usuario 1
+20181219 11:34:14 Obtención correcta areas usuario:1
+20181219 11:34:14 Obten PERFILES correcto usuario 1
+20181219 11:39:58 Obten usuarios correcto usuario 1
+20181219 11:39:58 Obtención correcta areas usuario:1
+20181219 11:39:58 Obten PERFILES correcto usuario 1
+20181219 11:39:58 Creación de Usuario Correcta manual
+20181219 11:39:58 Obten usuarios correcto usuario 1
+20181219 11:39:58 Obten usuarios correcto usuario 1
+20181219 11:39:58 Obtención correcta areas usuario:1
+20181219 11:39:58 Obten PERFILES correcto usuario 1
+20181219 11:40:10 Obten usuarios correcto usuario 1
+20181219 11:40:10 Obtención correcta areas usuario:1
+20181219 11:40:10 Obten PERFILES correcto usuario 1
+20181219 11:44:35 Obten usuarios correcto usuario 1
+20181219 11:44:35 Obtención correcta areas usuario:1
+20181219 11:44:35 Obten PERFILES correcto usuario 1
+20181219 11:44:35 Obten usuarios correcto usuario 1
+20181219 11:50:18 Obten usuarios correcto usuario 1
+20181219 11:50:18 Obtención correcta areas usuario:1
+20181219 11:50:18 Obten PERFILES correcto usuario 1
+20181219 11:50:24 Obten perfiles correcto usuario 1
+20181219 11:50:35 Obten perfiles correcto usuario 1
+20181219 11:57:24 Obten perfiles correcto usuario 1
+20181219 11:57:24 Edita perfiles correcto usuario 1 tipo Inserta
+20181219 11:57:24 Obten perfiles correcto usuario 1
+20181219 11:57:24 Obten perfiles correcto usuario 1
+20181219 11:57:31 Obten perfiles correcto usuario 1
+20181219 11:58:31 Obten perfiles correcto usuario 1
+20181219 11:58:31 Obten perfiles correcto usuario 1
+20181219 11:59:53 Obten Aplicaciones correcto usuario 1
+20181219 11:59:53 Obtención correcta areas usuario:1
+20181219 11:59:53 Obten Lenguajes correcto usuario 1
+20181219 12:02:13 Obten Aplicaciones correcto usuario 1
+20181219 12:02:13 Obtención correcta areas usuario:1
+20181219 12:02:13 Obten Lenguajes correcto usuario 1
+20181219 12:02:13 BaseDatos.ExecStoredProcNoQuery The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+Error number 3903 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 3903 Sp_EditaAplicacion 84 1
+20181219 12:02:13 Edita aplicaciones correcto usuario 1 tipo Actualiza
+20181219 12:02:13 Obten Aplicaciones correcto usuario 1
+20181219 12:02:13 Obten Aplicaciones correcto usuario 1
+20181219 12:02:13 Obtención correcta areas usuario:1
+20181219 12:02:13 Obten Lenguajes correcto usuario 1
+20181219 12:02:20 Obten Aplicaciones correcto usuario 1
+20181219 12:02:20 Obtención correcta areas usuario:1
+20181219 12:02:20 Obten Lenguajes correcto usuario 1
+20181219 12:04:18 Obten Aplicaciones correcto usuario 1
+20181219 12:04:19 Obtención correcta areas usuario:1
+20181219 12:04:19 Obten Lenguajes correcto usuario 1
+20181219 12:04:19 BaseDatos.ExecStoredProcNoQuery The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+Error number 3903 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 3903 Sp_EditaAplicacion 84 1
+20181219 12:04:19 Edita aplicaciones correcto usuario 1 tipo Inserta
+20181219 12:04:19 Obten Aplicaciones correcto usuario 1
+20181219 12:04:19 Obten Aplicaciones correcto usuario 1
+20181219 12:04:19 Obtención correcta areas usuario:1
+20181219 12:04:19 Obten Lenguajes correcto usuario 1
+20181219 12:04:24 Obten Aplicaciones correcto usuario 1
+20181219 12:04:24 Obtención correcta areas usuario:1
+20181219 12:04:24 Obten Lenguajes correcto usuario 1
+20181219 12:05:39 Obten Aplicaciones correcto usuario 1
+20181219 12:05:39 Obtención correcta areas usuario:1
+20181219 12:05:39 Obten Lenguajes correcto usuario 1
+20181219 12:05:39 Obten Aplicaciones correcto usuario 1

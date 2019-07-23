@@ -1,0 +1,30 @@
+﻿@model DependenciaMVC5demo.Models.LoginModel
+@{
+    ViewBag.Title = "Login";
+}
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <table align="center" border="0">
+        <tr>
+            <td rowspan="4" width="400"><img src="../Imagenes/Banobras.png" height="168" width="320" title="Logotipo" alt="BANOBRAS" /></td>
+            <td align="left">@Html.LabelFor(m => m.Nic, "Usuario")</td>
+        </tr>
+        <tr>
+            <td align="center">@Html.TextBoxFor(m => m.Nic, new { @class = "textbox" })</td>
+        </tr>
+        <tr>
+            <td align="left">@Html.LabelFor(m => m.Contrasenia, "Contraseña")</td>
+        </tr>
+        <tr>
+            <td align="center"> @Html.PasswordFor(m => m.Contrasenia, new { @class = "textbox" })</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">@Html.ValidationSummary("", new { @class = "help-block" })</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2" height="200"><input type="submit" value="ACCEDER" class="botonlogin" /></td>
+        </tr>
+    </table>
+
+}

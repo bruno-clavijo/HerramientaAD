@@ -1,0 +1,169 @@
+﻿div.espacio3D {
+  width: 300px;
+  height: 300px;
+  margin: 3em auto 0 auto;
+  border: 1px solid rgba(0,255,0,0.5);
+  position: absolute;
+  perspective-origin: center -50%;
+  perspective: 500px;
+  transform: scale(0.50);
+  top:10px;
+  display:none;
+}
+
+div.cubo3D {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: translateZ(-150px);
+    animation-name: giray;
+    animation-duration: 15000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display: block;
+}
+giray::after {
+    animation-name: girax;
+}
+
+div.cubo3D:hover {
+    cursor:pointer;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+div.base {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0,0,0,0.15);
+  transform: translateX(75px) translateY(75px) rotateX(90deg) translateZ(-200px);
+  box-shadow: 0 0 50px 100px rgba(0,0,0,0.15);
+}
+aside.cara {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    background-color: rgba(18, 13, 64, 0.84);
+    border: 1px solid rgba(255,255,255,255.255);
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    line-height: 298px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+}
+
+aside.cara:hover{
+    background-color: rgba(255, 0, 0, 0.73);
+}
+
+.indicaaside:hover {
+    cursor: pointer;
+    color: #2E2E2E;
+    background-color: lightgray;
+}
+
+aside.cara1 { /* Frente */
+  transform: translateZ(150px);
+}
+
+aside.cara2 { /* Atrás */
+  transform: rotateY(180deg) translateZ(150px);
+}
+
+aside.cara3 { /* Izquierda */
+  transform: rotateY(-90deg) translateZ(150px);
+}
+
+aside.cara4 { /* derecha */
+  transform: rotateY(90deg) translateZ(150px);
+}
+
+aside.cara5 { /* abajo */
+  transform: rotateX(-90deg) translateZ(150px);
+}
+
+aside.cara6 { /* arriba */
+  transform: rotateX(90deg) translateZ(150px);
+}
+
+@keyframes girax {
+  0% {
+    transform: translateZ(-150px) rotateX(0deg);
+  }
+  100% {
+    transform: translateZ(-150px) rotateX(360deg);
+  }
+}
+
+@keyframes giray {
+  0% {
+    transform: translateZ(-150px) rotateY(0deg);
+  }
+  100% {
+    transform: translateZ(-150px) rotateY(360deg);
+  }
+}
+
+#divcubo {
+    width: 400px;
+    height: 400px;
+    top: 160px;
+    left: 1000px;
+    position: absolute;
+    background-color: white;
+    z-index: 2;        
+}
+
+.indica {
+    width: 400px;
+    height: 360px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+
+
+
+.indicaaside {
+    width: 250px;
+    height: 45px;
+    border-color: #2E2E2E;
+    background-color: #2E2E2E;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+}
+
+
+#divtree h6,
+#divcubo h6 {
+    cursor: pointer;
+}
+
+#divtree h6 {
+    left: 360px;
+    position: relative;
+    width:35px;
+}
+
+#indicadores {
+    color: #2E2E2E;
+    font-weight: bold;
+    left: 60px;
+    position: relative;
+}
+
+#divtree {
+    width: 420px;
+    height: 400px;
+    top: 160px;
+    left: 0px;
+    position: absolute;
+    background-color: white;
+    z-index:3;    
+}

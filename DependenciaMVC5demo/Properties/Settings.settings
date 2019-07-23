@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DependenciaMVC5demo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DependenciaMVC5demo_AppSeguridad_LDAPConnectionJAASService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://10.90.1.31/ServicioAutentificacionConLDAP/services/LDAPConnectionJAAS</Value>
+    </Setting>
+    <Setting Name="DependenciaMVC5demo_AutenticaService_autenticaService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://10.90.8.208:9487/AutenticaLdap/autenticaService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

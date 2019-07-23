@@ -1,0 +1,97 @@
+﻿@model DependenciaMVC5demo.Models.CargaModel
+
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Carga de CSV</h2>
+<div id="panel" class="combos">
+    <table class="campos" align="center">
+        <tr>
+            <td>@Html.LabelFor(m => m.AreaID, "Area")</td>
+            <td>@Html.DropDownListFor(m => m.AreasList, new SelectList(Model.AreasList, "Ivalue", "Text", new { onchange = "CallChangefunc();", @class = "form-control" }))</td>
+            <td>@Html.LabelFor(m => m.AplicacionID, "Aplicación")</td>
+            <td>@Html.DropDownListFor(m => m.AplicacionesList, new SelectList(Model.AplicacionesList, "Ivalue", "Text"))</td>
+            <td><label>Archivo CSV:</label></td>
+            <td><input type="file" id="fileInput" /></td>
+            <td colspan="2"><input type="button" id="btnUpload" value="Procesar" /></td>
+        </tr>
+    </table>
+</div>
+
+<div id="VideoDiv">
+    <div id="progressbar_container" style="width: 100%; height: 30px; position: relative; background-color: grey; display: none">
+        <div id="progressbar" style="width: 0%; height: 100%; position: absolute; background-color: green"></div>
+        <span id="progressbar_label" style="position: absolute; left: 35%; top: 20%">Cargando...</span>
+    </div>
+</div>
+<br /><br />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script id="sp2">
+
+    var progressBarStart = function () {
+        $("#progressbar_container").show();
+    }
+
+    var progressBarUpdate = function (percentage) {
+        $('#progressbar_label').html(percentage + "%");
+        $("#progressbar").width(percentage + "%");
+    }
+
+    var progressBarComplete = function () {
+        $("#progressbar_container").fadeOut(500);
+    }
+
+    var file;
+
+    $('#fileInput').change(function (e) {
+        file = e.target.files[0];
+    });
+
+    var uploadCompleted = function () {
+        var formData = new FormData();
+        formData.append('fileName', file.name);
+        formData.append('completed', true);
+
+        var xhr2 = new XMLHttpRequest();
+        xhr2.onload = function () {
+            progressBarUpdate(100);
+            progressBarComplete();
+        }
+        xhr2.open("POST", "/Carga/UploadComplete?fileName=" + file.name + "&complete=" + 1, true);
+        xhr2.send(formData);
+    }
+
+    var multiUpload = function (count, counter, blob, completed, start, end, bytesPerChunk) {
+        counter = counter + 1;
+        if (counter <= count) {
+            var chunk = blob.slice(start, end);
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                start = end;
+                end = start + bytesPerChunk;
+                if (count == counter) {
+                    uploadCompleted();
+                } else {
+                    var percentage = (counter / count) * 100;
+                    progressBarUpdate(percentage);
+                    multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+                }
+            }
+            xhr.open("POST", "/Carga/MultiUpload?id=" + counter.toString() + "&fileName=" + file.name, true);
+            xhr.send(chunk);
+        }
+    }
+    $("#btnUpload").click(function () {
+        var blob = file;
+        var bytesPerChunk = 1048576;
+        var size = blob.size;
+
+        var start = 0;
+        var end = bytesPerChunk;
+        var completed = 0;
+        var count = size % bytesPerChunk == 0 ? size / bytesPerChunk : Math.floor(size / bytesPerChunk) + 1;
+        var counter = 0;
+        progressBarStart();
+        multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+    });
+</script>

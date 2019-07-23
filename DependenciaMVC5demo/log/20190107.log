@@ -1,0 +1,64 @@
+20190107 08:04:48 Acceso correcto usuario info
+20190107 08:04:49 Obtención correcta areas usuario:1
+20190107 08:04:51 Avance correcto proceso 0
+20190107 08:05:08 Obten perfiles correcto usuario 1
+20190107 08:05:08 Obtención correcta estatus usuario:1
+20190107 08:05:18 Obten perfiles correcto usuario 1
+20190107 08:05:18 Obtención correcta estatus usuario:1
+20190107 08:05:19 BaseDatos.ExecStoredProcNoQuery Procedure or function 'Sp_EditaPerfil' expects parameter '@estatus', which was not supplied. 201 Sp_EditaPerfil 0 4
+20190107 08:05:19 Edita perfiles correcto usuario 1 tipo Elimina
+20190107 08:05:20 Obten Aplicaciones correcto usuario 1
+20190107 08:05:20 Obtención correcta areas usuario:1
+20190107 08:05:20 Obten Lenguajes correcto usuario 1
+20190107 08:05:20 Obtención correcta estatus usuario:1
+20190107 08:10:22 Acceso correcto usuario info
+20190107 08:10:22 Obtención correcta areas usuario:1
+20190107 08:10:22 Avance correcto proceso 0
+20190107 08:10:32 Obten perfiles correcto usuario 1
+20190107 08:10:32 Obtención correcta estatus usuario:1
+20190107 08:10:44 Obten perfiles correcto usuario 1
+20190107 08:10:44 Obtención correcta estatus usuario:1
+20190107 08:11:32 Obten perfiles correcto usuario 1
+20190107 08:11:32 Obtención correcta estatus usuario:1
+20190107 08:12:00 Obten perfiles correcto usuario 1
+20190107 08:12:00 Obtención correcta estatus usuario:1
+20190107 08:13:01 Obten perfiles correcto usuario 1
+20190107 08:13:01 Obtención correcta estatus usuario:1
+20190107 08:13:28 Obten perfiles correcto usuario 1
+20190107 08:13:28 Obtención correcta estatus usuario:1
+20190107 08:14:14 Obten perfiles correcto usuario 1
+20190107 08:14:14 Obtención correcta estatus usuario:1
+20190107 08:14:48 BaseDatos.ExecStoredProcNoQuery Procedure or function 'Sp_EditaPerfil' expects parameter '@estatus', which was not supplied. 201 Sp_EditaPerfil 0 4
+20190107 08:14:48 Edita perfiles correcto usuario 1 tipo Inserta
+20190107 08:14:49 Obten perfiles correcto usuario 1
+20190107 08:14:49 Obtención correcta estatus usuario:1
+20190107 08:14:56 Obten perfiles correcto usuario 1
+20190107 08:14:56 Obtención correcta estatus usuario:1
+20190107 08:15:27 Obtención correcta estatus usuario:1
+20190107 08:17:36 BaseDatos.ExecStoredProcNoQuery Procedure or function 'Sp_EditaPerfil' expects parameter '@estatus', which was not supplied. 201 Sp_EditaPerfil 0 4
+20190107 08:23:32 Acceso correcto usuario info
+20190107 08:23:32 Obtención correcta areas usuario:1
+20190107 08:23:32 Avance correcto proceso 0
+20190107 08:23:40 Obten perfiles correcto usuario 1
+20190107 08:23:40 Obtención correcta estatus usuario:1
+20190107 08:23:44 Obten perfiles correcto usuario 1
+20190107 08:23:44 Obtención correcta estatus usuario:1
+20190107 08:24:15 Edita perfiles correcto usuario 1 tipo Inserta
+20190107 08:24:15 Obten perfiles correcto usuario 1
+20190107 08:24:15 Obtención correcta estatus usuario:1
+20190107 08:24:19 Obten perfiles correcto usuario 1
+20190107 08:24:19 Obtención correcta estatus usuario:1
+20190107 08:24:34 Edita perfiles correcto usuario 1 tipo Actualiza
+20190107 08:24:34 Obten perfiles correcto usuario 1
+20190107 08:24:34 Obtención correcta estatus usuario:1
+20190107 08:24:40 Obten perfiles correcto usuario 1
+20190107 08:24:40 Obtención correcta estatus usuario:1
+20190107 08:24:40 Edita perfiles correcto usuario 1 tipo Elimina
+20190107 08:24:40 Obten perfiles correcto usuario 1
+20190107 08:24:40 Obtención correcta estatus usuario:1
+20190107 08:26:49 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ValidaUsuario' expects parameter '@user', which was not supplied. 201 Sp_ValidaUsuario 0 4
+20190107 08:26:49 Usuario.ValidaUsuario Object reference not set to an instance of an object.
+20190107 08:26:53 Acceso correcto usuario info
+20190107 08:26:53 Obtención correcta areas usuario:1
+20190107 08:26:53 Avance correcto proceso 0
+20190107 17:56:22 IsAuthenticated

@@ -1,0 +1,25 @@
+﻿@model DependenciaMVC5demo.Models.Dependencias
+
+<h6 onclick="oculta()" id="hhide">ocultar</h6>
+<h3 id="indicadores">INDICADORES</h3>
+<div class="espacio3D" id="div3dc">
+    <div id="cubo" class="cubo3D">
+        <div class="base"></div>
+        <aside ondblclick="@Model.Lcub[0].Evento" class="cara cara1"><h1>@Model.Lcub[0].Titulo</h1>@Model.Lcub[0].Text</aside>
+        <aside ondblclick="@Model.Lcub[1].Evento" class="cara cara2"><h1>@Model.Lcub[1].Titulo.Replace("_PROCEDURE", "")</h1>@Model.Lcub[1].Text</aside>
+        <aside ondblclick="@Model.Lcub[2].Evento" class="cara cara3"><h1>@Model.Lcub[2].Titulo</h1>@Model.Lcub[2].Text</aside>
+        <aside ondblclick="@Model.Lcub[3].Evento" class="cara cara4"><h1>@Model.Lcub[3].Titulo</h1>@Model.Lcub[3].Text</aside>
+        <aside ondblclick="@Model.Lcub[4].Evento" class="cara cara5"><h1>@Model.Lcub[4].Titulo</h1>@Model.Lcub[4].Text</aside>
+        <aside ondblclick="@Model.Lcub[5].Evento" class="cara cara6"><h1>@Model.Lcub[5].Titulo</h1>@Model.Lcub[5].Text</aside>
+    </div><!-- termina cubo 3d -->
+</div><!-- termina espacio 3d -->
+<div class="indica" id="divIndica">
+    <center>
+        <aside onclick="@Model.Lcub[0].Evento" class="indicaaside"><h5>@Model.Lcub[0].Titulo</h5>@Model.Lcub[0].Text</aside>
+        <aside onclick="@Model.Lcub[1].Evento" class="indicaaside"><h5>@Model.Lcub[1].Titulo.Replace("_PROCEDURE", "")</h5>@Model.Lcub[1].Text</aside>
+        <aside onclick="@Model.Lcub[2].Evento" class="indicaaside"><h5>@Model.Lcub[2].Titulo</h5>@Model.Lcub[2].Text</aside>
+        <aside onclick="@Model.Lcub[3].Evento" class="indicaaside"><h5>@Model.Lcub[3].Titulo</h5>@Model.Lcub[3].Text</aside>
+        <aside onclick="@Model.Lcub[4].Evento" class="indicaaside"><h5>@Model.Lcub[4].Titulo</h5>@Model.Lcub[4].Text</aside>
+        <aside onclick="@Model.Lcub[5].Evento" class="indicaaside"><h5>@Model.Lcub[5].Titulo</h5>@Model.Lcub[5].Text</aside>
+    </center>
+</div><!-- termina espacio 3d -->

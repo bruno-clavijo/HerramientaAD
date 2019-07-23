@@ -1,0 +1,260 @@
+﻿/* Prevent the text contents of draggable elements from being selectable. */
+
+body {
+}
+.cuadrado {
+    width: 80px;
+    height: 15px;
+    background: -webkit-linear-gradient(#b5c1ef 50%,#676565);    
+    position: absolute;
+    font-size: 7px;
+    border-radius: 4px;
+    z-index: 2;
+}
+.cuadrado1 {
+    width: 140px;
+    height: 60px;
+    background: -webkit-linear-gradient(#b5c1ef 50%,#676565);
+    position: absolute;
+    font-size: 7px;
+    border-radius: 4px;
+    z-index: 2;
+}
+.cuadrado2 {
+    width: 120px;
+    height: 45px;
+    background: -webkit-linear-gradient(#b5c1ef 50%,#676565);;
+    position: absolute;
+    font-size: 9px;
+    border-radius: 9px;
+    z-index: 2;
+    vertical-align: central;
+}
+#svg1 {
+    width:1330px;
+    height:800px;    
+    position:absolute;
+}
+.padre {
+    width: 80px;
+    height: 15px;    
+    background-image: url("../imagenes/padre.png");
+    position: absolute;
+    font-size: 10px;
+    border-radius: 4px;
+    z-index: 2;
+}
+.padre1 {
+    width: 140px;
+    height: 60px;
+    background-image: url("../imagenes/padre.png");
+    position: absolute;
+    font-size: 10px;
+    border-radius: 4px;
+    z-index: 2;
+}
+.padre2 {
+    width: 120px;
+    height: 45px;
+    background-image: url("../imagenes/base.png");
+    position: absolute;
+    font-size: 10px;
+    border-radius: 4px;
+    z-index: 2;
+}
+.abuelo {
+    width: 90px;
+    height: 20px;
+    border-radius: 15px;
+    background:  -webkit-linear-gradient(#e65555 50%,#6d2e2e);   
+    position: absolute;
+    font-size: 10px;
+    z-index: 2;
+}
+.abuelo1 {
+    width: 140px;
+    height: 60px;
+    border-radius: 15px;    
+    background-color: #1b25d0;
+    position: absolute;
+    font-size: 10px;
+    z-index: 2;
+}
+.abuelo2 {
+    width: 120px;
+    height: 45px;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(#c53131 50%,#a95555);
+    position: absolute;
+    font-size: 10px;
+    z-index: 2;
+}
+.padre:hover {
+    background-color:black;
+    color:white;
+    font-size:8px; 
+    cursor:pointer;
+    font-weight:bold;
+    border: 2px solid black; 
+    border-radius: 4px;    
+}
+
+.cuadrado:hover { 
+    background-color:darkblue;
+    color:white;
+    font-size:8px; 
+    cursor:pointer;
+    font-weight:bold;
+    border: 2px solid black; 
+    border-radius: 4px;
+}
+.my_class { 
+    background-color:lightblue;
+    cursor:pointer;
+    font-weight:bold;
+    border: 2px solid black; 
+}
+
+.line {
+    z-index: 1;
+    stroke-width: 1px;
+    stroke: black;
+    position: absolute;
+}
+.lineDB {
+    z-index: 1;
+    stroke-width: 6px;
+    stroke: lightgray;
+    position: absolute;
+}
+ .lineDB:hover {
+    cursor: pointer;
+    stroke-width: 5px;
+    stroke: red;
+}
+
+.linepadre {
+    z-index: 1;
+    stroke-width: 1px;
+    stroke: #4cff00;
+    position: absolute;
+}
+.labelcom {
+    text-align: center;
+    width: 80px;
+    height: 15px;
+    vertical-align: middle;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    display: table-cell;    
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow-wrap: break-word;
+}
+
+
+.labelcom2 {
+    text-align: center;
+    width: 80px;
+    height: 15px;
+    vertical-align: middle;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    display: table-cell;
+}
+
+#html5CanvasId {
+    width:1100px;
+    height:500px;
+    border:1px solid black;
+}
+
+#diagramaid {
+    width:1300px;
+    height: 800px;
+    top: 165px;
+    left: 20px;
+}
+#divtrabajo {
+    width: 1330px;
+    height: 800px;
+    top: 155px;
+    left: 0px;
+}
+
+#diagramaid label{
+    cursor:pointer;
+}
+
+#divflotante {
+    position: absolute;
+    display: none;
+    z-index: 4;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 3px;    
+}
+
+#divgrafica {
+    position: absolute;
+    display: none;
+    z-index: 4;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    height: 450px;
+    width: 700px;
+}
+
+#divSelGrafica {
+    position: absolute;
+    top: 90px;
+    left: 950px;
+}
+
+#divSelGrafica:hover {
+    cursor: pointer;
+}
+
+#divflotante1 {
+    position: absolute;
+    display: none;
+    z-index: 4;
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.numline:hover {
+    cursor:pointer;
+}
+
+.numline {
+    color:blue;
+    text-decoration:underline;
+}
+
+#lblauxc {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#lblauxc1 {
+    color: darkblue;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#lblauxc2 {
+    color: darkred;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#lblauxc3 {
+    margin-right: 20px;
+    margin-left: 20px;
+}

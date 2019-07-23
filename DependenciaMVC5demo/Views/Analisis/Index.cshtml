@@ -1,0 +1,444 @@
+﻿@model DependenciaMVC5demo.Models.AnalisisModel
+@{
+    ViewBag.Title = "Detalle Técnico";
+}
+<div class="combos">
+    <table class="campos" align="center">
+        @*<tr>
+            <td><label class="lblcombos">Cargar CSV:</label></td>
+            <td colspan="2"><input type="file" id="fileInput" /></td>
+            <td><input type="button" class="boton curvas" id="btnCarga" value="PROCESAR" /></td>
+        </tr>*@
+    </table>
+</div>
+<link rel="stylesheet" type="text/css" href="~/Estilos/dependencias.css">
+<br />
+<div id="HGrid">
+    <br />
+    <br />
+    <table cellspacing="0" id="Tabla0" style="width: 100%; border-collapse: collapse;">
+        <tr class="GridViewScrollHeader">
+            <th class="CampoMasCorto"># Línea</th>
+            <th class="CampoDescarga">Lenguaje</th>
+            <th class="CampoAnalisis">Archivo</th>
+            <th class="CampoAnalisis">Padre</th>
+            <th class="CampoAnalisis">Nombre</th>
+            <th>Tipo</th>
+        </tr>
+    </table>
+</div>
+<div id="divdet" style="width:100%;">
+    @{
+        Html.RenderPartial("ConsultaDetalle");
+    }
+</div>
+<div style="position:absolute; left:calc(100% - 130px); width:6%; height:30px;" class="botonazul">
+    <h6 onclick="muestra_oculta('comboslateral')" id="idfiltro">FILTROS</h6>
+</div>
+<div id="comboslateral">
+    <table class="campos" id="tbllateral" align="center">
+        <tr>
+            <td>
+                <input type="button" class="boton curvas" id="btnFiltrosBD" value="OBJETOS DB" />&nbsp;
+                <input type="button" class="boton curvas" id="btnFiltrosWS" value="WEBSERVICES" />&nbsp;
+                <input type="button" class="boton curvas" id="btnFiltrosCM" value="CFyM" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(m => m.AreaID, "Selecciona Area")</td>
+        </tr>
+        <tr>            
+                <td align="center"><div class="select">@Html.DropDownListFor(m => m.AreasList, new SelectList(Model.AreasList, "Ivalue", "Text", new { @class = "selectlateral" })) </div></td>           
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(m => m.AplicacionID, "Selecciona Aplicación")</td>
+        </tr>
+        <tr>
+            <td align="center"><div class="select">@Html.DropDownListFor(m => m.AplicacionesList, new SelectList(Model.AplicacionesList, "Ivalue", "Text", new { @class = "selectlateral" }))</div></td>
+        </tr>
+        <tr>
+            <td><label for="checking" id="Filtro1">Selecciona Base de Datos</label></td>
+        </tr>
+        <tr>
+            <td align="center"><div class="select">@Html.DropDownListFor(m => m.Filtro1List, new SelectList(Model.Filtro1List, "Ivalue", "Text", new { @class = "selectlateral" }))</div></td>
+        </tr>
+        <tr>
+            <td><label for="checking" id="Filtro2">Selecciona Objeto de BD</label></td>
+        </tr>
+        <tr>
+            <td align="center"><div class="select">@Html.DropDownListFor(m => m.Filtro2List, new SelectList(Model.Filtro2List, "Ivalue", "Text", new { @class = "selectlateral" }))</div></td >
+        </tr>
+        <tr>
+            <td><label for="checking" id="Filtro3">Selecciona Archivo</label></td>
+        </tr>
+        <tr>
+            <td align="center"><div class="select">@Html.DropDownListFor(m => m.Filtro3List, new SelectList(Model.Filtro3List, "Ivalue", "Text", new { @class = "selectlateral" }))</div></td>
+        </tr>
+        <tr>
+            <td><label for="checking" id="Filtro4">Selecciona Línea de Código</label></td>
+        </tr>
+        <tr>
+            <td align="center"><div class="select">@Html.DropDownListFor(m => m.Filtro4List, new SelectList(Model.Filtro4List, "Ivalue", "Text", new { @class = "selectlateral" }))</div></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="center"><input type="button" class="botonazul" id="btnRefresh" value="BUSCAR" /></td>
+        </tr>
+
+    </table>
+</div>
+<div id="divflotante1">
+    <label id="lblauxc1"></label><br />
+    <label id="lblauxc2"></label><br />
+    <label id="lblauxc3"></label>
+</div>
+<br />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script id="sp1">
+
+</script>
+<script id="sp2">
+
+    function show_divline(e, relacion,archivo,numlinea,ruta) {
+        var top = e.pageY + 'px';
+        var left = (e.pageX + 10) + 'px'
+        console.log(top + left + relacion);
+        $('#lblauxc1').text("Archivo: " + archivo);
+        $('#lblauxc2').text("Línea: " + numlinea);
+        $('#lblauxc3').text(relacion);
+        document.getElementById("divflotante1").style.left = left;
+        document.getElementById("divflotante1").style.top = top;
+        document.getElementById("divflotante1").style.display = "block";
+    }
+    function hide_divline() {
+        document.getElementById("divflotante1").style.display = "none";
+    }
+
+    function openNav() {
+        document.getElementById("sidebar-menu").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("sidebar-menu").style.width = "0";
+    }
+
+    function muestra_oculta(id) {
+        if (document.getElementById) {
+            var el = document.getElementById(id);
+            el.style.display = (el.style.display == 'none') ? 'block' : 'none';
+        }
+    }
+    function ocultaL() {
+        if ($("#hhide").text() == 'ocultar') {
+            $("#comboslateral").width("50px");
+            document.getElementById("comboslateral").style.left = "1300px";
+            document.getElementById("tbllateral").style.display = "none";
+            $("#hhide").text('mostrar');
+        } else {
+            $("#comboslateral").width("330px");
+            $("#hhide").text('ocultar');
+            document.getElementById("comboslateral").style.left = "1020px";
+            document.getElementById("tbllateral").style.display = "block";
+        }
+    }
+
+    function show_divinfo(div,tdiv) {
+        var x = document.getElementById(tdiv).style.left;
+        document.getElementById(div).style.left = x + 80;
+        document.getElementById(div).style.display = "block";
+    }
+
+    function hide_divinfo(div) {
+        document.getElementById(div).style.display = "none";
+    }
+
+    var progressBarStart = function () {
+        $("#progressbar_container").show();
+    }
+
+    var progressBarUpdate = function (percentage) {
+        $('#progressbar_label').html(percentage + "%");
+        $("#progressbar").width(percentage + "%");
+    }
+
+    var progressBarComplete = function () {
+        $("#progressbar_container").fadeOut(500);
+    }
+
+    var tpfil = "BD";
+    var tipo;
+    var file;
+
+    $('#fileInput').change(function (e) {
+        file = e.target.files[0];
+    });
+
+    function limpiarfiltros() {
+        $("#AreasList").empty;
+        $("#AreasList")[0].selectedIndex = 0;
+        $("#AplicacionesList").empty;
+        $("#AplicacionesList")[0].selectedIndex = 0;
+        $("#Filtro1List").empty;
+        $("#Filtro1List")[0].selectedIndex = 0;
+        $("#Filtro2List").empty;
+        $("#Filtro2List")[0].selectedIndex = 0;
+        $("#Filtro3List").empty;
+        $("#Filtro3List")[0].selectedIndex = 0;
+        $("#Filtro4List").empty;
+        $("#Filtro4List")[0].selectedIndex = 0;
+    }
+
+    function ActualizaBusqueda(tpfil, idapp, fil1, fil2, fil3, fil4) {
+        $.ajax({
+            type: "POST",
+            url: "/Analisis/ActualizaConsulta",
+            data: { Tipo: tpfil, AplicacionID: idapp, Filtro1: fil1, Filtro2: fil2, Filtro3: fil3, Filtro4: fil4 },
+            success: function (viewHTML) {
+                $("#divdet").empty;
+                $("#divdet").html(viewHTML);
+            },
+            error: function (errorData) { console.log("Request Failed: " + errorData); }
+        });
+    }
+
+    var multiUpload = function (count, counter, blob, completed, start, end, bytesPerChunk) {
+        counter = counter + 1;
+        if (counter <= count) {
+            var chunk = blob.slice(start, end);
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                start = end;
+                end = start + bytesPerChunk;
+                if (count == counter) {
+                    uploadCompleted();
+                }
+                else {
+                    var percentage = (counter / count) * 100;
+                    progressBarUpdate(percentage);
+                    multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+                }
+            }
+            xhr.open("POST", "/Analisis/MultiUpload?id=" + counter.toString() + "&fileName=" + file.name, true);
+            xhr.send(chunk);
+        }
+    }
+
+    var uploadCompleted = function () {
+        var formData = new FormData();
+        formData.append('fileName', file.name);
+        formData.append('completed', true);
+
+        var xhr2 = new XMLHttpRequest();
+        xhr2.onload = function () {
+            progressBarUpdate(100);
+            progressBarComplete();
+        }
+        var a = $("#AplicacionesList Option:Selected").val();
+        xhr2.open("POST", "/Analisis/UploadComplete?fileName=" + file.name + "&complete=" + 1 + "&appid=" + a, true);
+        xhr2.send(formData);
+    }
+
+    $(document).ready(function () {
+
+        $("#AreasList").change(function () {
+            var a = $("#AreasList Option:Selected").val();
+            var url = '@Url.Content("~/")' + "Analisis/ActualizaApps";
+            var ddlsource = "#AreasList Option:Selected";
+            $.getJSON(url, { areaid: $(ddlsource).val() }, function (data) {
+                var items = '';
+                $("#AplicacionesList").empty;
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+                });
+                $("#AplicacionesList").html(items);
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        });
+
+        $("#AplicacionesList").change(function () {
+            var app = $("#AplicacionesList Option:Selected").val();
+            var fil1 = "";
+            var fil2 = "";
+            var fil3 = "";
+            if (tpfil == "BD") tipo = "BaseDatos";
+            if (tpfil == "WS") tipo = "Tipohijo";
+            if (tpfil == "CM") tipo = "Tipohijo";
+            var url = '@Url.Content("~/")' + "Analisis/ActualizaFiltros";
+            $.getJSON(url, { Filtro: tpfil, Tipo: tipo, AplicacionID: app, Filtro1: fil1,
+                Filtro2: fil2, Filtro3: fil3 }, function (data) {
+                var items = '';
+                $("#Filtro1List").empty;
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+                });
+                $("#Filtro1List").html(items);
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        });
+
+        $("#Filtro1List").change(function () {
+            var app = $("#AplicacionesList Option:Selected").val();
+            var fil1 = $("#Filtro1List Option:Selected").val();
+            var fil2 = "";
+            var fil3 = "";
+            if (tpfil == "BD") tipo = "ObjetosBD";
+            if (tpfil == "WS") tipo = "Middleware";
+            if (tpfil == "CM") tipo = "Archivo";
+            var url = '@Url.Content("~/")' + "Analisis/ActualizaFiltros";
+            $.getJSON(url, { Filtro: tpfil, Tipo: tipo, AplicacionID: app, Filtro1: fil1,
+                Filtro2: fil2, Filtro3: fil3 }, function (data) {
+                var items = '';
+                $("#Filtro2List").empty;
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+                });
+                $("#Filtro2List").html(items);
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        });
+        $("#Filtro2List").change(function () {
+            var app = $("#AplicacionesList Option:Selected").val();
+            var fil1 = $("#Filtro1List Option:Selected").val();
+            var fil2 = $("#Filtro2List Option:Selected").val();
+            var fil3 = "";
+            if (tpfil == "BD") tipo = "Archivo";
+            if (tpfil == "WS") tipo = "URL";
+            if (tpfil == "CM") tipo = "Lenguajeapp";
+            var url = '@Url.Content("~/")' + "Analisis/ActualizaFiltros";
+            $.getJSON(url, { Filtro: tpfil, Tipo: tipo, AplicacionID: app, Filtro1: fil1,
+                Filtro2: fil2, Filtro3: fil3 }, function (data) {
+                var items = '';
+                $("#Filtro3List").empty;
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+                });
+                $("#Filtro3List").html(items);
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        });
+        $("#Filtro3List").change(function () {
+            var app = $("#AplicacionesList Option:Selected").val();
+            var fil1 = $("#Filtro1List Option:Selected").val();
+            var fil2 = $("#Filtro2List Option:Selected").val();
+            var fil3 = $("#Filtro3List Option:Selected").val();
+            if (tpfil == "BD") tipo = "NumeroLinea";
+            if (tpfil == "WS") tipo = "Archivo";
+            if (tpfil == "CM") tipo = "NumeroLinea";
+            var url = '@Url.Content("~/")' + "Analisis/ActualizaFiltros";
+            $.getJSON(url, { Filtro: tpfil, Tipo: tipo, AplicacionID: app, Filtro1: fil1,
+                Filtro2: fil2, Filtro3: fil3 }, function (data) {
+                var items = '';
+                $("#Filtro4List").empty; 
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.Value + "'>" + row.Text + "</option>";
+                });
+                $("#Filtro4List").html(items);
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        });
+
+        $('#btnRefresh').click(function () {
+            var idapp = $("#AplicacionesList Option:Selected").val();
+            if (tpfil == "BD") {
+                var fil1 = $("#Filtro1List Option:Selected").val();
+                var fil2 = $("#Filtro2List Option:Selected").val();
+                var fil3 = $("#Filtro3List Option:Selected").text();
+                var fil4 = $("#Filtro4List Option:Selected").text();
+            }
+
+            if (tpfil == "WS") {
+                var fil1 = $("#Filtro1List Option:Selected").text();
+                var fil2 = $("#Filtro2List Option:Selected").text();
+                var fil3 = $("#Filtro3List Option:Selected").text();
+                var fil4 = $("#Filtro4List Option:Selected").text();
+            }
+
+            if (tpfil == "CM") {
+                var fil1 = $("#Filtro1List Option:Selected").text();
+                var fil2 = $("#Filtro2List Option:Selected").text();
+                var fil3 = $("#Filtro3List Option:Selected").text();
+                var fil4 = $("#Filtro4List Option:Selected").text();
+            }
+
+            ActualizaBusqueda(tpfil,idapp,fil1,fil2,fil3,fil4)
+        });
+
+        $("#btnCarga").click(function () {
+            if (file == null) {
+                $("#lblmensaje").text("Es necesario seleccionar el archivo .csv.");
+                document.getElementById("divmensaje").style.display = "block";
+                return;
+            }
+
+            if (file.name.indexOf(".csv") <= -1) {
+                $("#lblmensaje").text("El archivo debe ser delimitado por comas (.csv)");
+                document.getElementById("divmensaje").style.display = "block";
+                return;
+            }
+
+            var blob = file;
+            var bytesPerChunk = 1048576;
+            var size = blob.size;
+
+            var start = 0;
+            var end = bytesPerChunk;
+            var completed = 0;
+            var count = size % bytesPerChunk == 0 ? size / bytesPerChunk : Math.floor(size / bytesPerChunk) + 1;
+            var counter = 0;
+            multiUpload(count, counter, blob, completed, start, end, bytesPerChunk);
+
+            $("#lblmensaje").text("Archivo .csv cargado correctamente");
+            document.getElementById("divmensaje").style.display = "block";
+
+        });
+    });
+
+    $('#btnFiltrosBD').click(function () {
+        tpfil = "BD";
+        $("#Filtro1").text("Selecciona Base de Datos");
+        $("#Filtro2").text("Selecciona Objeto de BD");
+        $("#Filtro3").text("Selecciona Archivo");
+        $("#Filtro4").text("Selecciona Línea de Código");
+
+        limpiarfiltros();
+    });
+
+    $('#btnFiltrosWS').click(function () {
+        tpfil = "WS";
+        $("#Filtro1").text("Selecciona Tipo Servicio");
+        $("#Filtro2").text("Selecciona Middleware");
+        $("#Filtro3").text("Selecciona URL");
+        $("#Filtro4").text("Selecciona Archivo");
+
+        limpiarfiltros();
+    });
+
+    $('#btnFiltrosCM').click(function () {
+        tpfil = "CM";
+        $("#Filtro1").text("Selecciona Tipo Objeto");
+        $("#Filtro2").text("Selecciona Archivo");
+        $("#Filtro3").text("Selecciona Lenguaje");
+        $("#Filtro4").text("Selecciona Número de Linea");
+
+        limpiarfiltros();
+    });
+    
+</script>

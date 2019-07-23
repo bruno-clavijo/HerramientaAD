@@ -1,0 +1,425 @@
+20181208 16:21:17 Obtención correcta areas usuario:1
+20181208 16:21:26 Consulta correcta usuario 1
+20181208 16:22:21 Acceso correcto usuario info
+20181208 16:22:21 Obtención correcta areas usuario:1
+20181208 16:22:21 Avance correcto proceso 0
+20181208 16:22:27 Obtención correcta areas usuario:1
+20181208 16:22:35 Consulta correcta usuario 1
+20181208 16:22:41 Obtención correcta aplicaciones usuario:1 area 1
+20181208 16:29:22 Obtención correcta areas usuario:1
+20181208 16:29:25 Consulta correcta usuario 1
+20181208 16:29:32 Obtención correcta aplicaciones usuario:1 area 1
+20181208 16:29:54 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 16:31:05 Obtención correcta areas usuario:1
+20181208 16:31:08 Consulta correcta usuario 1
+20181208 16:31:18 Obtención correcta aplicaciones usuario:1 area 1
+20181208 16:31:23 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 16:31:31 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 16:31:42 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 16:31:48 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 16:31:54 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 16:32:01 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 16:32:04 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 16:32:06 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 16:32:08 Obtención correcta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 16:32:23 Obtención correcta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 16:32:34 Obtención correcta areas usuario:1
+20181208 16:32:36 Consulta correcta usuario 1
+20181208 16:32:36 Consulta correcta usuario 1
+20181208 16:32:53 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 17:10:22 Acceso correcto usuario info
+20181208 17:10:22 Obtención correcta areas usuario:1
+20181208 17:10:22 Avance correcto proceso 0
+20181208 17:10:28 Obtención correcta areas usuario:1
+20181208 17:10:43 Consulta correcta usuario 1
+20181208 17:12:16 Obtención correcta areas usuario:1
+20181208 17:12:18 Consulta correcta usuario 1
+20181208 17:12:27 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:12:29 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:12:42 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:12:47 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:13:03 Obtención correcta areas usuario:1
+20181208 17:13:04 Consulta correcta usuario 1
+20181208 17:13:14 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:13:15 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:13:18 Obtención correcta aplicaciones usuario:1 area 0
+20181208 17:13:20 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:13:21 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:13:30 Obtención correcta areas usuario:1
+20181208 17:13:34 Consulta correcta usuario 1
+20181208 17:13:42 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:13:43 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:13:51 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:13:52 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:14:24 Aplicacion.ObtenFiltrosBD Failed to convert parameter value from a String to a Int32.
+20181208 17:16:34 Acceso correcto usuario info
+20181208 17:16:34 Obtención correcta areas usuario:1
+20181208 17:16:34 Avance correcto proceso 0
+20181208 17:16:39 Obtención correcta areas usuario:1
+20181208 17:16:41 Consulta correcta usuario 1
+20181208 17:16:50 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:16:57 Aplicacion.ObtenFiltrosBD Input string was not in a correct format.
+20181208 17:17:16 Aplicacion.ObtenFiltrosBD Input string was not in a correct format.
+20181208 17:19:05 Aplicacion.ObtenFiltrosBD Input string was not in a correct format.
+20181208 17:19:17 BaseDatos.GetResultStoredSQLReader Error number 9412 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 2732 sp_FiltrosDB 125 1
+20181208 17:19:33 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:20:01 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 17:20:37 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 17:20:45 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 17:20:57 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 17:21:08 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 17:22:11 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 17:22:24 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 17:22:28 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 17:22:29 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 17:22:31 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 17:22:33 Obtención correcta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 17:22:46 Obtención incorrecta ObtenFiltros Tipo:WS ObjetosBD Aplicacion 1
+20181208 17:23:39 Obtención incorrecta ObtenFiltros Tipo:WS BaseDatos Aplicacion 4
+20181208 17:23:40 Obtención incorrecta ObtenFiltros Tipo:WS BaseDatos Aplicacion 1
+20181208 17:35:51 Acceso correcto usuario info
+20181208 17:35:51 Obtención correcta areas usuario:1
+20181208 17:35:51 Avance correcto proceso 0
+20181208 17:35:57 Obtención correcta areas usuario:1
+20181208 17:35:59 Consulta correcta usuario 1
+20181208 17:36:09 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:36:10 BaseDatos.GetResultStoredSQLReader Could not find stored procedure 'sp_FiltrosCM'. 2812  1 62
+20181208 17:36:10 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:36:30 BaseDatos.GetResultStoredSQLReader Could not find stored procedure 'sp_FiltrosCM'. 2812  1 62
+20181208 17:36:30 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:36:32 BaseDatos.GetResultStoredSQLReader Could not find stored procedure 'sp_FiltrosCM'. 2812  1 62
+20181208 17:36:32 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:36:35 BaseDatos.GetResultStoredSQLReader Could not find stored procedure 'sp_FiltrosCM'. 2812  1 62
+20181208 17:36:35 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:37:29 BaseDatos.GetResultStoredSQLReader Could not find stored procedure 'sp_FiltrosCM'. 2812  1 62
+20181208 17:37:29 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:37:33 BaseDatos.GetResultStoredSQLReader Could not find stored procedure 'sp_FiltrosCM'. 2812  1 62
+20181208 17:37:33 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:38:24 BaseDatos.GetResultStoredSQLReader Could not find stored procedure 'sp_FiltrosCM'. 2812  1 62
+20181208 17:39:01 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 17:44:09 Acceso correcto usuario info
+20181208 17:44:09 Obtención correcta areas usuario:1
+20181208 17:44:09 Avance correcto proceso 0
+20181208 17:44:14 Obtención correcta areas usuario:1
+20181208 17:44:16 Consulta correcta usuario 1
+20181208 17:44:51 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:46:16 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 17:48:09 Obtención correcta areas usuario:1
+20181208 17:48:11 Consulta correcta usuario 1
+20181208 17:48:37 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:48:55 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 17:49:12 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 1
+20181208 17:49:23 Obtención incorrecta ObtenFiltros Tipo:CM Lenguaje Aplicacion 1
+20181208 17:49:48 Obtención incorrecta ObtenFiltros Tipo:CM Lenguaje Aplicacion 1
+20181208 17:50:03 Obtención incorrecta ObtenFiltros Tipo:CM Lenguaje Aplicacion 1
+20181208 17:50:21 Obtención incorrecta ObtenFiltros Tipo:CM Lenguaje Aplicacion 1
+20181208 17:50:45 Obtención incorrecta ObtenFiltros Tipo:CM Lenguaje Aplicacion 1
+20181208 17:52:50 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 4
+20181208 17:52:56 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 4
+20181208 17:53:02 Obtención incorrecta ObtenFiltros Tipo:CM Lenguaje Aplicacion 4
+20181208 17:54:20 Obtención incorrecta ObtenFiltros Tipo:CM Lenguaje Aplicacion 4
+20181208 17:54:25 Obtención correcta areas usuario:1
+20181208 17:54:27 Consulta correcta usuario 1
+20181208 17:54:36 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:54:42 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 4
+20181208 17:54:48 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 4
+20181208 17:54:56 Obtención correcta ObtenFiltros Tipo:CM Lenguajeapp Aplicacion 4
+20181208 17:55:06 Obtención correcta ObtenFiltros Tipo:CM NumeroLinea Aplicacion 4
+20181208 17:55:54 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 17:56:29 Obtención incorrecta ObtenFiltros Tipo:CM Tipohijo Aplicacion 2
+20181208 17:57:04 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 17:58:21 Obtención correcta areas usuario:1
+20181208 17:58:26 Consulta correcta usuario 1
+20181208 17:58:48 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:59:02 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 17:59:07 Obtención correcta areas usuario:1
+20181208 17:59:09 Consulta correcta usuario 1
+20181208 17:59:14 Obtención correcta aplicaciones usuario:1 area 1
+20181208 17:59:27 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 17:59:41 Acceso correcto usuario info
+20181208 17:59:41 Obtención correcta areas usuario:1
+20181208 17:59:41 Avance correcto proceso 0
+20181208 17:59:47 Obtención correcta areas usuario:1
+20181208 17:59:50 Consulta correcta usuario 1
+20181208 17:59:58 Obtención correcta aplicaciones usuario:1 area 1
+20181208 18:00:10 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 18:02:12 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 1
+20181208 18:03:25 Obtención incorrecta ObtenFiltros Tipo:CM Tipohijo Aplicacion 2
+20181208 18:03:33 Obtención correcta areas usuario:1
+20181208 18:03:34 Consulta correcta usuario 1
+20181208 18:03:41 Obtención correcta aplicaciones usuario:1 area 1
+20181208 18:03:57 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 18:05:03 Acceso correcto usuario info
+20181208 18:05:03 Obtención correcta areas usuario:1
+20181208 18:05:03 Avance correcto proceso 0
+20181208 18:05:12 Obtención correcta areas usuario:1
+20181208 18:05:14 Obtención correcta areas usuario:1
+20181208 18:05:17 Consulta correcta usuario 1
+20181208 18:05:25 Obtención correcta aplicaciones usuario:1 area 1
+20181208 18:05:31 Obtención correcta ObtenFiltros Tipo:WS Tipohijo Aplicacion 1
+20181208 18:05:33 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 18:05:35 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 18:05:37 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 18:05:39 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 18:05:40 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 18:05:48 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 1
+20181208 18:05:50 Obtención incorrecta ObtenFiltros Tipo:CM Tipohijo Aplicacion 2
+20181208 18:05:52 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 18:05:53 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 1
+20181208 18:05:55 Obtención correcta ObtenFiltros Tipo:CM Lenguajeapp Aplicacion 1
+20181208 18:05:56 Obtención correcta ObtenFiltros Tipo:CM NumeroLinea Aplicacion 1
+20181208 18:06:03 BaseDatos.GetResultStoredSQLReader Error number 9412 is invalid. The number must be from 13000 through 2147483647 and it cannot be 50000. 2732 sp_FiltrosDB 125 1
+20181208 18:06:03 Aplicacion.ObtenFiltrosBD Object reference not set to an instance of an object.
+20181208 18:06:04 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 18:06:07 Obtención incorrecta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 18:06:11 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 18:06:12 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 18:06:13 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 18:06:19 Obtención correcta areas usuario:1
+20181208 18:06:20 Consulta correcta usuario 1
+20181208 18:06:20 Consulta correcta usuario 1
+20181208 18:12:18 Acceso correcto usuario info
+20181208 18:12:18 Obtención correcta areas usuario:1
+20181208 18:12:18 Avance correcto proceso 0
+20181208 18:12:22 Obtención correcta areas usuario:1
+20181208 18:12:43 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@basedatos', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181208 18:12:45 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181208 18:20:19 Acceso correcto usuario info
+20181208 18:20:19 Obtención correcta areas usuario:1
+20181208 18:20:19 Avance correcto proceso 0
+20181208 18:20:23 Obtención correcta areas usuario:1
+20181208 18:20:48 Consulta correcta aplicacion 0
+20181208 18:34:14 Acceso correcto usuario info
+20181208 18:34:14 Obtención correcta areas usuario:1
+20181208 18:34:14 Avance correcto proceso 0
+20181208 18:34:19 Obtención correcta areas usuario:1
+20181208 18:34:30 Consulta correcta aplicacion 0
+20181208 18:34:37 Obtención correcta aplicaciones usuario:1 area 1
+20181208 18:34:38 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 18:34:40 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 18:35:34 Obtención correcta areas usuario:1
+20181208 18:35:50 Consulta correcta aplicacion 0
+20181208 18:35:58 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@basedatos', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181208 18:35:59 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181208 18:37:17 Acceso correcto usuario info
+20181208 18:37:17 Obtención correcta areas usuario:1
+20181208 18:37:17 Avance correcto proceso 0
+20181208 18:37:21 Obtención correcta areas usuario:1
+20181208 18:37:26 Consulta correcta aplicacion 0
+20181208 18:37:34 Obtención correcta aplicaciones usuario:1 area 1
+20181208 18:37:35 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 18:37:38 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 18:38:46 Obtención correcta areas usuario:1
+20181208 18:38:51 Consulta correcta aplicacion 0
+20181208 18:38:57 Obtención correcta areas usuario:1
+20181208 18:38:57 Consulta correcta aplicacion 0
+20181208 18:38:57 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@basedatos', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181208 18:38:57 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181208 18:39:00 Obtención correcta areas usuario:1
+20181208 18:39:04 Consulta correcta aplicacion 0
+20181208 18:39:21 Obtención correcta aplicaciones usuario:1 area 1
+20181208 18:39:39 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 18:39:45 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 18:39:47 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 18:39:49 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 18:39:55 Obtención incorrecta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 18:39:58 Obtención correcta ObtenFiltros Tipo:BD NumeroLinea Aplicacion 1
+20181208 18:40:41 Obtención correcta areas usuario:1
+20181208 18:40:42 Consulta correcta aplicacion 0
+20181208 18:40:42 BaseDatos.GetResultStoredSQLReader Procedure or function 'Sp_ConsultaDependenciaBD' expects parameter '@basedatos', which was not supplied. 201 Sp_ConsultaDependenciaBD 0 4
+20181208 18:40:42 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181208 19:00:47 Acceso correcto usuario info
+20181208 19:00:47 Obtención correcta areas usuario:1
+20181208 19:00:47 Avance correcto proceso 0
+20181208 19:00:53 Obtención correcta areas usuario:1
+20181208 19:00:56 Consulta correcta aplicacion 0
+20181208 19:01:30 Obtención correcta aplicaciones usuario:1 area 1
+20181208 19:01:32 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 21:06:13 Acceso correcto usuario info
+20181208 21:06:13 Obtención correcta areas usuario:1
+20181208 21:06:13 Avance correcto proceso 0
+20181208 21:06:19 Obtención correcta areas usuario:1
+20181208 21:06:22 Consulta correcta aplicacion 0
+20181208 21:06:32 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:06:34 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 21:06:45 Obtención correcta areas usuario:1
+20181208 21:06:54 Consulta correcta aplicacion 0
+20181208 21:09:02 BaseDatos.GetResultStoredSQLReader Procedure or function Sp_ConsultaDependenciaBD has too many arguments specified. 8144 Sp_ConsultaDependenciaBD 0 2
+20181208 21:09:59 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181208 21:11:07 Acceso correcto usuario info
+20181208 21:11:08 Obtención correcta areas usuario:1
+20181208 21:11:08 Avance correcto proceso 0
+20181208 21:11:25 Obtención correcta areas usuario:1
+20181208 21:11:37 Consulta correcta aplicacion 0
+20181208 21:11:46 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:11:47 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 21:11:49 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 21:12:38 Obtención correcta areas usuario:1
+20181208 21:12:43 Consulta correcta aplicacion 0
+20181208 21:12:43 BaseDatos.GetResultStoredSQLReader Procedure or function Sp_ConsultaDependenciaBD has too many arguments specified. 8144 Sp_ConsultaDependenciaBD 0 2
+20181208 21:12:43 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181208 21:12:56 Obtención correcta areas usuario:1
+20181208 21:12:58 Consulta correcta aplicacion 0
+20181208 21:14:10 BaseDatos.GetResultStoredSQLReader Procedure or function Sp_ConsultaDependenciaBD has too many arguments specified. 8144 Sp_ConsultaDependenciaBD 0 2
+20181208 21:14:10 ConsultaDep.ConsultaDependencia Object reference not set to an instance of an object.
+20181208 21:14:21 Obtención correcta areas usuario:1
+20181208 21:14:23 Consulta correcta aplicacion 0
+20181208 21:14:42 Consulta correcta apliación: BD 1
+20181208 21:15:02 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 21:15:05 Obtención correcta areas usuario:1
+20181208 21:15:07 Consulta correcta aplicacion 0
+20181208 21:15:15 Consulta incorrecta aplicación: BD 1
+20181208 21:18:07 Obtención correcta areas usuario:1
+20181208 21:18:09 Consulta correcta aplicacion 0
+20181208 21:18:15 Consulta incorrecta aplicación: BD 1
+20181208 21:19:28 Obtención correcta areas usuario:1
+20181208 21:19:29 Consulta correcta aplicacion 0
+20181208 21:19:47 Obtención correcta areas usuario:1
+20181208 21:19:48 Consulta correcta aplicacion 0
+20181208 21:19:49 Consulta incorrecta aplicación: BD 1
+20181208 21:26:40 Acceso correcto usuario info
+20181208 21:26:40 Obtención correcta areas usuario:1
+20181208 21:26:40 Avance correcto proceso 0
+20181208 21:26:51 Obtención correcta areas usuario:1
+20181208 21:27:22 Consulta correcta aplicacion 0
+20181208 21:28:10 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:28:11 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 21:28:13 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 21:28:36 Obtención correcta areas usuario:1
+20181208 21:28:45 Consulta correcta aplicacion 0
+20181208 21:29:28 ConsultaDep.ConsultaDependencia Failed to convert parameter value from a String to a Int32.
+20181208 21:30:49 Obtención correcta areas usuario:1
+20181208 21:30:52 Consulta correcta aplicacion 0
+20181208 21:33:05 ConsultaDep.ConsultaDependencia Input string was not in a correct format.
+20181208 21:33:15 Obtención correcta areas usuario:1
+20181208 21:33:17 Consulta correcta aplicacion 0
+20181208 21:33:44 ConsultaDep.ConsultaDependencia Input string was not in a correct format.
+20181208 21:33:53 Obtención correcta areas usuario:1
+20181208 21:33:54 Consulta correcta aplicacion 0
+20181208 21:34:48 ConsultaDep.ConsultaDependencia Input string was not in a correct format.
+20181208 21:34:56 Obtención correcta areas usuario:1
+20181208 21:34:58 Consulta correcta aplicacion 0
+20181208 21:35:07 Consulta correcta apliación: BD 1
+20181208 21:35:38 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 21:36:13 Obtención correcta areas usuario:1
+20181208 21:36:15 Consulta correcta aplicacion 0
+20181208 21:36:17 Consulta correcta apliación: BD 1
+20181208 21:38:26 Acceso correcto usuario info
+20181208 21:38:26 Obtención correcta areas usuario:1
+20181208 21:38:26 Avance correcto proceso 0
+20181208 21:38:35 Obtención correcta areas usuario:1
+20181208 21:38:38 Consulta correcta aplicacion 0
+20181208 21:38:47 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:38:49 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 21:38:52 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 21:38:53 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 21:38:56 Obtención correcta areas usuario:1
+20181208 21:38:57 Consulta correcta aplicacion 0
+20181208 21:38:57 Consulta correcta apliación: BD 1
+20181208 21:42:41 Obtención correcta areas usuario:1
+20181208 21:42:56 Consulta correcta aplicacion 0
+20181208 21:43:04 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:43:06 Obtención correcta ObtenFiltros Tipo:BD BaseDatos Aplicacion 1
+20181208 21:43:07 Obtención correcta areas usuario:1
+20181208 21:43:07 Consulta correcta aplicacion 0
+20181208 21:43:07 Consulta correcta apliación: BD 1
+20181208 21:43:11 Obtención correcta ObtenFiltros Tipo:BD ObjetosBD Aplicacion 1
+20181208 21:43:12 Obtención correcta ObtenFiltros Tipo:BD Archivo Aplicacion 1
+20181208 21:43:13 Obtención correcta areas usuario:1
+20181208 21:43:13 Consulta correcta aplicacion 0
+20181208 21:43:13 Consulta correcta apliación: BD 1
+20181208 21:43:13 Obtención correcta areas usuario:1
+20181208 21:43:13 Consulta correcta aplicacion 0
+20181208 21:43:13 Consulta correcta apliación: BD 1
+20181208 21:43:14 Obtención correcta areas usuario:1
+20181208 21:43:14 Consulta correcta aplicacion 0
+20181208 21:43:14 Consulta correcta apliación: BD 1
+20181208 21:43:14 Obtención correcta areas usuario:1
+20181208 21:43:14 Consulta correcta aplicacion 0
+20181208 21:43:14 Consulta correcta apliación: BD 1
+20181208 21:43:14 Obtención correcta areas usuario:1
+20181208 21:43:14 Consulta correcta aplicacion 0
+20181208 21:43:14 Consulta correcta apliación: BD 1
+20181208 21:43:14 Obtención correcta areas usuario:1
+20181208 21:43:14 Consulta correcta aplicacion 0
+20181208 21:43:14 Consulta correcta apliación: BD 1
+20181208 21:43:15 Obtención correcta areas usuario:1
+20181208 21:43:15 Consulta correcta aplicacion 0
+20181208 21:43:15 Consulta correcta apliación: BD 1
+20181208 21:43:15 Obtención correcta areas usuario:1
+20181208 21:43:15 Consulta correcta aplicacion 0
+20181208 21:43:15 Consulta correcta apliación: BD 1
+20181208 21:52:40 Acceso correcto usuario info
+20181208 21:52:40 Obtención correcta areas usuario:1
+20181208 21:52:40 Avance correcto proceso 0
+20181208 21:52:47 Obtención correcta areas usuario:1
+20181208 21:52:47 Consulta correcta aplicacion 0
+20181208 21:53:02 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:53:03 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 21:53:06 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 4
+20181208 21:53:08 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 4
+20181208 21:53:13 Obtención correcta ObtenFiltros Tipo:CM Lenguajeapp Aplicacion 4
+20181208 21:53:16 Obtención correcta areas usuario:1
+20181208 21:53:16 Consulta correcta aplicacion 0
+20181208 21:53:47 Consulta correcta apliación: CM 4
+20181208 21:56:21 Obtención correcta areas usuario:1
+20181208 21:56:21 Consulta correcta aplicacion 0
+20181208 21:56:27 Consulta correcta apliación: CM 4
+20181208 21:56:40 Obtención correcta areas usuario:1
+20181208 21:56:40 Consulta correcta aplicacion 0
+20181208 21:56:48 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:56:49 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 1
+20181208 21:56:51 Obtención correcta ObtenFiltros Tipo:CM Tipohijo Aplicacion 4
+20181208 21:56:53 Obtención correcta ObtenFiltros Tipo:CM Archivo Aplicacion 4
+20181208 21:56:56 Obtención correcta ObtenFiltros Tipo:CM Lenguajeapp Aplicacion 4
+20181208 21:57:29 Obtención correcta areas usuario:1
+20181208 21:57:29 Consulta correcta aplicacion 0
+20181208 21:57:31 Consulta correcta apliación: CM 4
+20181208 21:57:42 Obtención correcta ObtenFiltros Tipo:WS Tipohijo Aplicacion 1
+20181208 21:57:44 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 21:57:46 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 21:57:48 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 21:57:52 Obtención correcta areas usuario:1
+20181208 21:57:52 Consulta correcta aplicacion 0
+20181208 21:58:45 ConsultaDep.ConsultaDependencia Failed to convert parameter value from a String to a Int32.
+20181208 21:58:52 Obtención correcta areas usuario:1
+20181208 21:58:52 Consulta correcta aplicacion 0
+20181208 21:59:01 Obtención correcta aplicaciones usuario:1 area 1
+20181208 21:59:03 Obtención correcta ObtenFiltros Tipo:WS Tipohijo Aplicacion 1
+20181208 21:59:04 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 21:59:05 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 21:59:06 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 21:59:09 Obtención correcta areas usuario:1
+20181208 21:59:09 Consulta correcta aplicacion 0
+20181208 21:59:17 Consulta incorrecta aplicación: WS 1
+20181208 21:59:34 Obtención correcta areas usuario:1
+20181208 21:59:34 Consulta correcta aplicacion 0
+20181208 21:59:37 Consulta incorrecta aplicación: WS 1
+20181208 21:59:41 Obtención correcta areas usuario:1
+20181208 21:59:41 Consulta correcta aplicacion 0
+20181208 22:00:12 Consulta incorrecta aplicación: WS 1
+20181208 22:00:15 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 22:00:20 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 22:00:22 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 22:00:24 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 22:00:29 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 22:02:26 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 22:02:30 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 22:02:46 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 22:03:05 Obtención correcta areas usuario:1
+20181208 22:03:05 Consulta correcta aplicacion 0
+20181208 22:03:15 Consulta correcta apliación: WS 1
+20181208 22:03:59 Obtención correcta areas usuario:1
+20181208 22:03:59 Consulta correcta aplicacion 0
+20181208 22:04:05 Obtención correcta aplicaciones usuario:1 area 1
+20181208 22:04:07 Obtención incorrecta ObtenFiltros Tipo:WS Tipohijo Aplicacion 4
+20181208 22:04:11 Obtención correcta ObtenFiltros Tipo:WS Tipohijo Aplicacion 1
+20181208 22:04:15 Obtención correcta ObtenFiltros Tipo:WS Middleware Aplicacion 1
+20181208 22:04:22 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 22:04:27 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 22:04:29 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 22:04:30 Obtención correcta ObtenFiltros Tipo:WS URL Aplicacion 1
+20181208 22:04:40 Obtención correcta ObtenFiltros Tipo:WS Archivo Aplicacion 1
+20181208 22:04:44 Obtención correcta areas usuario:1
+20181208 22:04:44 Consulta correcta aplicacion 0
+20181208 22:04:55 Consulta correcta apliación: WS 1

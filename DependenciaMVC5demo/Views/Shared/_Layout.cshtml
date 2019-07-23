@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Dependencias</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    @{
+        string controlador = HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString();
+    }
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        @if (controlador != "Login")
+        {
+            @:<button type="button" class="navbar-toggle" onclick="openNav()">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            }
+    </button>
+
+    <div class="container">
+        <div class="navbar-header">
+            @Html.Label("Label", "Herramienta Análisis de Dependencias", new { @class = "navbar-brand barratitulo" })
+            
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav"></ul>
+        </div>
+    </div>
+</div>
+<div id="divUsuPerfil">
+    @if (TempData["usuname"] != null)
+    {
+        <label id="lblusuario" class="lblcombos">@TempData["usuname"]</label>
+    }
+    @{ TempData.Keep("usuname");}
+</div>
+@if (controlador != "Login")
+{
+
+    @:<div class="container body-content">
+        <div id="sidebar-menu" class="sidenav">
+            <ul>
+                @{
+                    
+                    string grupo;
+                    string nombre;
+                    string grupocorrecto;
+                    string ruta;
+
+                    grupocorrecto = "";
+
+                    foreach (System.Xml.XmlNode proc in ViewBag.XMLMenu.DocumentElement.SelectSingleNode("Menu").SelectNodes("row"))
+                    {
+
+                        grupo = proc.Attributes["Grupo"].Value.ToString();
+                        nombre = proc.Attributes["Ruta"].Value.ToString();
+                        ruta = proc.Attributes["Nombre"].Value.ToString();
+
+                        if (grupocorrecto != grupo)
+                        {
+
+                            grupocorrecto = grupo;
+
+                            <li>@grupo</li>
+                        }
+                        <ul><li><a href="@nombre">@ruta</a></li></ul>
+                    }
+                }
+                <li><a href="/Login">Salir</a></li>
+                <li><a href="#" onclick="closeNav()">Ocultar</a></li>
+            </ul>
+        </div>
+
+        <br />
+    }
+@RenderBody()
+
+</div>
+
+<div id="divmensaje">
+    <table style="width:100%;height:100%;">
+        <tr class="lbltitmsj"><td style="width:85px;"></td><td><label id="lbltitmensaje" style="float:left;">AVISO</label></td></tr>
+        <tr><td><img src="../imagenes/aviso.png" " height="52" width="52"></td><td><label id="lblmensaje"></label></td></tr>
+        <tr><td></td><td><input type="button" class="boton curvas aright" id="btnmensaje" onclick="cierraMensaje() " value="Aceptar" /></td></tr>
+    </table>
+
+</div>
+
+<script src="/Scripts/jquery-1.10.2.min.js"></script>
+<script src="/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+<script>
+    function openNav() {
+        document.getElementById("sidebar-menu").style.width = "250px";
+    }
+
+    function cierraMensaje() {
+        document.getElementById("divmensaje").style.display = "none";
+    }
+
+    function closeNav() {
+        document.getElementById("sidebar-menu").style.width = "0";
+    }
+</script>

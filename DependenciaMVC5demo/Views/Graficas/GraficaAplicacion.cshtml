@@ -1,0 +1,15 @@
+﻿@model DependenciaMVC5demo.Models.GraficasModel
+<h4 id="titgrafica">@Model.NombreApp</h4>
+<div style="width:@((Request.Browser.ScreenPixelsWidth*2.1)+"px"); height:@(Request.Browser.ScreenPixelsHeight+"px"); overflow-y: scroll;">
+    <table cellspacing="0" style="width: 100%; border-collapse: collapse;" border="1">
+        <tr class="alineacion">
+            <td><img src="@Url.Action("GraficaDB", new { appid = Model.AplicacionID})" alt="SimpleChart" /></td>
+            <td><img src="@Url.Action("GraficaCM", new { appid = Model.AplicacionID})" alt="SimpleChart" /></td>
+        </tr>
+        <tr>
+            <td><img src="@Url.Action("GraficaDB_Detalle2", new { appid = Model.AplicacionID})" alt="SimpleChart" /></td>
+            <td><img src="@Url.Action("GraficaWS", new { appid = Model.AplicacionID})" alt="SimpleChart" /></td>
+        </tr>
+    </table>
+</div>
+
